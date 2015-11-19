@@ -1,0 +1,21 @@
+- content_for :proposition
+  = link_to 'UK Trade & Investment', '/', class: 'proposition-name'
+
+- content_for :global_subheader
+  .subheader-item.phase-banner
+    .phase-tag.phase-tag-alpha ALPHA
+    .phase-banner-message This is a new service – your #{link_to 'feedback', '#'} will help us to improve it.
+
+- content_for :support_links
+  h2.u-vh Support links
+  ul
+    li= link_to 'Privacy Policy', '/privacy'
+    li= link_to 'Cookies', 'cookies'
+    li= link_to 'Feedback', '/feedback'
+    li Built by <a href="https://digitaltrade.blog.gov.uk/"><abbr title="UK Trade & Investment">UKTI</abbr> Digital</a>
+  .open-government-licence
+    = link_to 'Open Government Licence', 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/', class: 'ogl-logo'
+    ' All content is available under the #{link_to 'Open Government License v3.0', 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'} except where otherwise stated
+
+= wrap_layout :base
+  = yield
