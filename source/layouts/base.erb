@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js <%= content_for?(:template_type) ? ((defined? yield_content) ? yield_content(:template_type) : yield(:template_type)) : 'external' %>">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>
+      <% if content_for? :page_title %>
+        <%= (defined? yield_content) ? yield_content(:page_title) : yield(:page_title) %>
+      <% else %>
+        GOV.UK - The best place to find government services and information
+      <% end %>
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>(function(d){d.className=d.className.replace(/\bno-js\b/,'js-enabled')})(document.documentElement);</script>
+    <% if content_for? :stylesheet %>
+      <%= (defined? yield_content) ? yield_content(:stylesheet) : yield(:stylesheet) %>
+    <% else %>
+      <%= stylesheet_link_tag 'application', media: 'all' %>
+    <% end %>
+    <%= csrf_meta_tags %>
+    <!--[if lt IE 9]>
+      <%= javascript_include_tag 'polyfills.bundle' %>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <div id="global-cookie-message">
+        <div class="container">
+          <p>
+            GOV.UK uses cookies to make the site simpler.
+            <a href="https://www.gov.uk/help/cookies">Find out more about cookies</a>
+          </p>
+        </div>
+      </div>
+      <div class="global-header">
+        <div class="container">
+          <div class="skip-link">
+            <a href="#content">Skip to main content</a>
+          </div>
+          <% if content_for? :govuk_logo %>
+            <%= (defined? yield_content) ? yield_content(:govuk_logo) : yield(:govuk_logo) %>
+          <% else %>
+            <div class="header-branding">
+              <a href="https://www.gov.uk" title="Go to the GOV.UK homepage" class="header-logo">
+                <%= image_tag('crown-logo-black-2x.png') %>
+                <span>GOV.UK</span>
+              </a>
+            </div>
+          <% end %>
+          <% if content_for? :proposition %>
+            <a href="#proposition-links" class="header-menu-toggle"></a>
+            <div class="header-proposition">
+              <% if defined? yield_content %>
+                <%= yield_content :proposition %>
+              <% else %>
+                <%= yield :proposition %>
+              <% end %>
+            </div>
+          <% end %>
+          <div class="header-bar"></div>
+        </div>
+      </div>
+      <% if content_for? :global_subheader %>
+        <div class="global-subheader">
+          <div class="container">
+            <% if defined? yield_content %>
+              <%= yield_content :global_subheader %>
+            <% else %>
+              <%= yield :global_subheader %>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
+     </header>
+
+    <main id="content" class="main-content" role="main">
+      <div class="container">
+        <% if content_for?(:content) %>
+          <% if defined? yield_content %>
+            <%= yield_content :content %>
+          <% else %>
+            <%= yield :content %>
+          <% end %>
+        <% else %>
+          <%= yield %>
+        <% end %>
+      </div>
+    </main>
+
+    <footer class="global-footer">
+      <div class="container">
+        <div class="support-links">
+          <% if content_for? :support_links %>
+            <%= (defined? yield_content) ? yield_content(:support_links) : yield(:support_links) %>
+          <% else %>
+            <h2 class="u-vh">Support links</h2>
+            <ul>
+              <% if content_for? :support_links_items %>
+                <%= (defined? yield_content) ? yield_content(:support_links) : yield(:support_links) %>
+              <% else %>
+                <li><a href="/privacy">Privacy Policy</a></li>
+                <li><a href="/cookies">Cookies</a></li>
+                <li><a href="/feedback">Feedback</a></li>
+              <% end %>
+              <li>
+                Built by
+                <a href="https://mojdigital.blog.gov.uk/">
+                  <abbr title="Ministry of Justice">MOJ</abbr> Digital
+                </a>
+              </li>
+            </ul>
+            <div class="open-government-licence">
+              <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" class="ogl-logo">
+                Open Government Licence
+              </a>
+              All content is available under the
+              <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>
+              except where otherwise stated
+            </div>
+          <% end %>
+        </div>
+        <div class="copyright">
+          <a href="https://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm">© Crown copyright</a>
+        </div>
+      </div>
+    </footer>
+
+    <%= javascript_include_tag 'app.bundle' %>
+    <% if content_for? :include_js %>
+      <% if defined? yield_content %>
+        <%= javascript_include_tag(yield_content :include_js) %>
+      <% else %>
+        <%= javascript_include_tag(yield :include_js) %>
+      <% end %>
+    <% end %>
+  </body>
+</html>
