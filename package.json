@@ -1,0 +1,23 @@
+{
+  "name": "export-prototype",
+  "version": "0.1.0",
+  "description": "== README",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mojular": "mojular/mojular",
+    "mojular-govuk-elements": "mojular/govuk-elements",
+    "mojular-moj-elements": "mojular/moj-elements",
+    "mojular-templates": "mojular/templates"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
