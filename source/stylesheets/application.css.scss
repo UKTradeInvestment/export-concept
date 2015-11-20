@@ -1,6 +1,13 @@
 // All components
 @import 'govuk';
 
+@import '$variables';
+@import '$colours';
+
+@import 'global-header';
+@import 'proposition-menu';
+@import 'categories-list';
+
 // Individual components
 // @import 'govuk/fonts';
 // @import 'govuk/base';
