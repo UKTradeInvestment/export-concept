@@ -1,0 +1,32 @@
+.categories-lists {
+  @include clearfix;
+  padding: 20px 0 0;
+}
+
+.categories-list {
+  margin: 0;
+  padding: 0;
+  @include media('>tablet') {
+    @include span(33.33%);
+  }
+
+  li {
+    list-style: none;
+    padding: 0 0 15px;
+  }
+
+  h3 {
+    font-size: em(19);
+    margin: 0;
+  }
+
+  p {
+    font-size: em(16);
+    margin: 0;
+    min-height: 40px;
+
+    @include media('>tablet') {
+      min-height: auto;
+    }
+  }
+}
