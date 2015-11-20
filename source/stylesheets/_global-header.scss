@@ -1,0 +1,13 @@
+.global-header {
+  .header-proposition {
+    clear: left;
+    float: none;
+    padding-top: 15px;
+
+    @include media('>=desktop') {
+      @include span(66.66% no-gutters);
+      clear: none;
+      padding-top: 0;
+    }
+  }
+}
