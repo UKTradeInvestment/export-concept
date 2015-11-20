@@ -1,5 +1,15 @@
 - content_for :proposition
   = link_to 'UK Trade & Investment', '/', class: 'proposition-name'
+  nav.proposition-menu
+    ul#proposition-links
+      li= link_to 'Getting started', '/getting-started.html', class: current_page.data.section == 'started' ? 'active' : nil
+      li= link_to 'Markets', '/markets.html', class: current_page.data.section == 'markets' ? 'active' : nil
+      li= link_to 'Opportunities', '/opportunities.html', class: current_page.data.section == 'opps' ? 'active' : nil
+      li= link_to 'Events', '/events.html', class: current_page.data.section == 'events' ? 'active' : nil
+      li.clear-child= link_to 'Contacts', '/contacts.html', class: current_page.data.section == 'contacts' ? 'active' : nil
+      li= link_to 'Learning', '/learning.html', class: current_page.data.section == 'learning' ? 'active' : nil
+      li= link_to 'Alerts', '/alerts.html', class: current_page.data.section == 'alerts' ? 'active' : nil
+      li= link_to 'UKTI Partners', '/ukti-partners.html', class: current_page.data.section == 'partners' ? 'active' : nil
 
 - content_for :global_subheader
   .subheader-item.phase-banner

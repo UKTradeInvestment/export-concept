@@ -29,7 +29,7 @@ set :layout, 'ukti'
 
 # Reload the browser automatically whenever files change
 configure :development do
-  activate :livereload
+  activate :livereload, ignore: [/source\/images\//]
 end
 
 # Methods defined in the helpers block are available in templates
@@ -55,8 +55,17 @@ end
 # Copy layouts
 `mkdir -p source/layouts && cp #{root}/node_modules/mojular-templates/layouts/erb/* source/layouts`
 
+set :css_dir, 'stylesheets'
+set :js_dir, 'javascripts'
+set :images_dir, 'images'
+
 # Build-specific configuration
 configure :build do
+  set :relative_links, true
+
+  # Use relative URLs
+  activate :relative_assets
+
   # Minify CSS on build
   # activate :minify_css
 
