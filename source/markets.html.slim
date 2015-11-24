@@ -1,0 +1,27 @@
+---
+section: markets
+---
+
+header.page-header
+  h1.title Markets
+  form.js-filter-form
+    label.label for="what-is-uk-government-doing-in"
+      | I am interested in
+      br
+      | exporting to
+      div
+        input name="export-to" placeholder="Example: France"
+        |  ?
+section.live-filter.grid-row
+  header.type-heading
+    h1 World location
+    p 
+      span= get_countries().count
+      span.u-hidden locations
+  .type-content
+    - get_countries_by_letter().each do |l|
+      h2.letter= l[0]
+      ul.list-block
+        - l[1].each do |c|
+          li
+            a href="/markets/#{c.downcase.gsub(' ', '-')}.html"= c

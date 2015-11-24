@@ -27,6 +27,28 @@ set :layout, 'ukti'
 # Helpers
 ###
 
+## Methods defined in the helpers block are available in templates
+helpers do
+  def get_countries()
+    continents = data.countries_by_continent
+    countries = []
+
+    continents.each do |c|
+      c.countries.each do |country|
+        countries.push(country)
+      end
+    end
+
+    countries.sort
+  end
+
+  def get_countries_by_letter()
+    countries = get_countries()
+
+    countries.group_by {|word| word[0].upcase }
+  end
+end
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
