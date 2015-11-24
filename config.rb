@@ -29,7 +29,7 @@ set :layout, 'ukti'
 
 # Reload the browser automatically whenever files change
 configure :development do
-  activate :livereload, ignore: [/source\/images\//]
+  activate :livereload
 end
 
 # Methods defined in the helpers block are available in templates
@@ -39,33 +39,19 @@ end
 #   end
 # end
 
-# Load sass paths
-%w(mojular-govuk-elements).map do |i|
-  meta = JSON.parse(IO.read("node_modules/#{i}/package.json"))
-  begin
-    meta['sassPaths'].each do |path|
-      Sass.load_paths << (File.directory?(path) ? path : File.expand_path("node_modules/#{meta['name']}/#{p}"))
-    end
-  rescue
-    p 'ERROR: Sass paths not found'
-  end
-  # Copy images
-  `mkdir -p source/images && cp node_modules/#{i}/images/* source/images`
+# Load Sass paths and copy images & layouts
+require 'find'
+`mkdir -p "#{config.source}/#{config.images_dir}" "#{config.source}/#{config.layouts_dir}"`
+Find.find('node_modules').grep(/mojular[a-z-]+\/package\.json/).map do |package|
+  sassPaths = JSON.parse(IO.read(package))['sassPaths']
+  dirname = File.dirname(package)
+  sassPaths.map { |path| Sass.load_paths << File.expand_path(path, File.directory?(path) ? '' : dirname) } if sassPaths
+  FileUtils.cp_r Find.find(dirname).grep(/images\//), "#{config.source}/#{config.images_dir}"
+  FileUtils.cp_r Find.find(dirname).grep(/layouts\/erb\//), "#{config.source}/#{config.layouts_dir}"
 end
-# Copy layouts
-`mkdir -p source/layouts && cp #{root}/node_modules/mojular-templates/layouts/erb/* source/layouts`
-
-set :css_dir, 'stylesheets'
-set :js_dir, 'javascripts'
-set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
-  set :relative_links, true
-
-  # Use relative URLs
-  activate :relative_assets
-
   # Minify CSS on build
   # activate :minify_css
 
