@@ -1,0 +1,6 @@
+.type-content
+  div ng-repeat="(letter, group) in countries"
+    h2.letter ng-if="group.length > 0" {{ letter }}
+    ul.list-block
+      li ng-repeat="country in group"
+        a href="/markets/{{ country|cleanUrl }}.html" {{ country }}
