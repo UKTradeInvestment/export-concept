@@ -17,6 +17,11 @@ page '/partials/*', layout: false
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
+data.countries.each do |country|
+  file_url = country.name.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
+  proxy "/markets/#{file_url}.html", "/market.html", :locals => { :country => country }
+end
+
 Slim::Engine.disable_option_validator!
 Slim::Engine.set_options pretty: true
 Slim::Engine.set_options attr_list_delims: { '(' => ')', '[' => ']' }
@@ -30,23 +35,12 @@ set :layout, 'ukti'
 
 ## Methods defined in the helpers block are available in templates
 helpers do
-  def get_countries()
-    continents = data.countries_by_continent
-    countries = []
-
-    continents.each do |c|
-      c.countries.each do |country|
-        countries.push(country)
-      end
+  def get_countries_by_letter()
+    countries = data.countries.map do |c|
+      c.name
     end
 
-    countries.sort
-  end
-
-  def get_countries_by_letter()
-    countries = get_countries()
-
-    countries.group_by {|word| word[0].upcase }
+    countries.sort.group_by {|word| word[0].upcase }
   end
 end
 
