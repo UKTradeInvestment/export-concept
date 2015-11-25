@@ -1,0 +1,309 @@
+- 
+  name: Algeria
+  area: Africa
+- 
+  name: Angola
+  area: Africa
+- 
+  name: Cameroon
+  area: Africa
+- 
+  name: Cote d’Ivoire
+  area: Africa
+- 
+  name: Egypt
+  area: Africa
+- 
+  name: Ethiopia
+  area: Africa
+- 
+  name: Ghana
+  area: Africa
+- 
+  name: Kenya
+  area: Africa
+- 
+  name: Libya
+  area: Africa
+- 
+  name: Nigeria
+  area: Africa
+- 
+  name: Morocco
+  area: Africa
+- 
+  name: Rwanda
+  area: Africa
+- 
+  name: South Africa
+  area: Africa
+- 
+  name: Tanzania
+  area: Africa
+- 
+  name: Tunisia
+  area: Africa
+- 
+  name: Uganda
+  area: Africa
+- 
+  name: Argentina
+  area: Americas
+- 
+  name: Barbados
+  area: Americas
+- 
+  name: Brazil
+  area: Americas
+- 
+  name: Canada
+  area: Americas
+- 
+  name: Chile
+  area: Americas
+- 
+  name: Colombia
+  area: Americas
+- 
+  name: Costa Rica
+  area: Americas
+- 
+  name: Cuba
+  area: Americas
+- 
+  name: Dominican Republic, the
+  area: Americas
+- 
+  name: Ecuador
+  area: Americas
+- 
+  name: Jamaica
+  area: Americas
+- 
+  name: Mexico
+  area: Americas
+- 
+  name: Panama
+  area: Americas
+- 
+  name: Peru
+  area: Americas
+- 
+  name: Trinidad and Tobago
+  area: Americas
+- 
+  name: USA, the
+  area: Americas
+- 
+  name: Venezuela
+  area: Americas
+- 
+  name: Afghanistan
+  area: Asia
+- 
+  name: Bangladesh
+  area: Asia
+- 
+  name: Brunei
+  area: Asia
+- 
+  name: Burma (also known as Myanmar)
+  area: Asia
+- 
+  name: China
+  area: Asia
+- 
+  name: Hong Kong
+  area: Asia
+- 
+  name: India
+  area: Asia
+- 
+  name: Indonesia
+  area: Asia
+- 
+  name: Japan
+  area: Asia
+- 
+  name: South Korea
+  area: Asia
+- 
+  name: Kazakhstan
+  area: Asia
+- 
+  name: Macao
+  area: Asia
+- 
+  name: Malaysia
+  area: Asia
+- 
+  name: Mongolia
+  area: Asia
+- 
+  name: Pakistan
+  area: Asia
+- 
+  name: Philippines, the
+  area: Asia
+- 
+  name: Singapore
+  area: Asia
+- 
+  name: Sri Lanka
+  area: Asia
+- 
+  name: Taiwan
+  area: Asia
+- 
+  name: Thailand
+  area: Asia
+- 
+  name: Vietnam
+  area: Asia
+-
+  name: Austria
+  area: Europe
+-
+  name: Azerbaijan
+  area: Europe
+-
+  name: Belgium
+  area: Europe
+-
+  name: Bosnia and Herzegovina
+  area: Europe
+-
+  name: Bulgaria
+  area: Europe
+-
+  name: Croatia
+  area: Europe
+-
+  name: Cyprus
+  area: Europe
+-
+  name: Czech Republic
+  area: Europe
+-
+  name: Denmark
+  area: Europe
+-
+  name: Estonia
+  area: Europe
+-
+  name: Finland
+  area: Europe
+-
+  name: France
+  area: Europe
+-
+  name: Germany
+  area: Europe
+-
+  name: Greece
+  area: Europe
+-
+  name: Hungary
+  area: Europe
+-
+  name: Iceland
+  area: Europe
+-
+  name: Ireland
+  area: Europe
+-
+  name: Italy
+  area: Europe
+-
+  name: Latvia
+  area: Europe
+-
+  name: Lithuania
+  area: Europe
+-
+  name: Luxembourg
+  area: Europe
+-
+  name: Netherlands, the
+  area: Europe
+-
+  name: Norway
+  area: Europe
+-
+  name: Poland
+  area: Europe
+-
+  name: Portugal
+  area: Europe
+-
+  name: Romania
+  area: Europe
+-
+  name: Russia
+  area: Europe
+-
+  name: Serbia
+  area: Europe
+-
+  name: Slovakia
+  area: Europe
+-
+  name: Slovenia
+  area: Europe
+-
+  name: Spain
+  area: Europe
+-
+  name: Sweden
+  area: Europe
+-
+  name: Switzerland
+  area: Europe
+-
+  name: Turkey
+  area: Europe
+-
+  name: Ukraine
+  area: Europe
+-
+  name: Bahrain
+  area: Middle east
+-
+  name: Iraq (including the Iraqi Kurdistan region)
+  area: Middle east
+-
+  name: Iran
+  area: Middle east
+-
+  name: Israel
+  area: Middle east
+-
+  name: Jordan
+  area: Middle east
+-
+  name: Kuwait
+  area: Middle east
+-
+  name: Lebanon
+  area: Middle east
+-
+  name: Oman
+  area: Middle east
+-
+  name: Palestinian Territories, the
+  area: Middle east
+-
+  name: Qatar
+  area: Middle east
+-
+  name: Saudi Arabia
+  area: Middle east
+-
+  name: United Arab Emirates, the
+  area: Middle east
+- 
+  name: Australia
+  area: Oceania
+- 
+  name: New Zealand
+  area: Oceania

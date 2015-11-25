@@ -1,0 +1,21 @@
+---
+section: markets
+---
+
+div ng-controller="ListFilterCtrl"
+  header.page-header
+    h1.title Markets
+    form.js-filter-form
+      label.label for="what-is-uk-government-doing-in"
+        | I am interested in
+        br
+        | exporting to
+        div
+          input name="export-to" placeholder="Example: France" ng-model="search" ng-change="filter(search)"
+  section.live-filter.grid-row
+    header.type-heading
+      h1 World location
+      p 
+        span {{ getCount() }}
+        span.u-hidden locations
+    countries data="countries"

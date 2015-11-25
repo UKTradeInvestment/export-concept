@@ -29,3 +29,6 @@
 
 = wrap_layout :base
   = yield
+  
+  javascript:
+    window.BASE_PATH = "#{url_for('/index.html')}";
