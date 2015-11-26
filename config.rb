@@ -19,8 +19,10 @@ page '/partials/*', layout: false
 
 data.countries.each do |country|
   file_url = country.name.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
-  proxy "/markets/#{file_url}.html", "/market.html", :locals => { :country => country }
+  proxy "/markets/#{file_url}.html", "/market.html", :locals => { :country => country }, :ignore => true
 end
+
+ignore "/market.html"
 
 Slim::Engine.disable_option_validator!
 Slim::Engine.set_options pretty: true
