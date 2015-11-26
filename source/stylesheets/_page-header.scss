@@ -2,8 +2,27 @@
   padding: 15px 0 20px;
 
   @include media('>tablet') {
-    padding: 45px 0 40px;
+    padding: 35px 0 45px;
     width: 80%;
+
+    // &.with-extra {
+    //   width: auto;
+    // }
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  .type {
+    font-size: 24px;
+    font-weight: 400;
+    color: $grey-1;
+    margin: 0;
+
+    @include media('>tablet') {
+      font-size: em(27);
+    }
   }
 
   .title {
@@ -16,6 +35,11 @@
     @include media('>tablet') {
       font-size: em(36);
     }
+  }
+
+  .lede {
+    font-size: em(19);
+    margin: 20px 0 0;
   }
 
   .label {
@@ -54,4 +78,21 @@
       }
     }
   }
+
+  &.with-extra {
+    width: auto;
+
+    .heading {
+      @include media('>tablet') {
+        @include span(66.66%);
+      }
+    }
+    
+    aside {
+      @include media('>tablet') {
+        @include span(33.33%);
+      }
+    }
+  }
+
 }

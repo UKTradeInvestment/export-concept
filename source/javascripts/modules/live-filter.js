@@ -13,7 +13,7 @@ exports.LiveFilter = {
 
     app.factory('countriesFactory', countriesFactory);
 
-    app.controller('ListFilterCtrl', LiveFilterController);
+    app.controller('LiveFilterCtrl', LiveFilterController);
 
     app.directive('countries', countriesDirective);
 

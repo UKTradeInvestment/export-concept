@@ -1,0 +1,15 @@
+.u-keyline-heading {
+  font-size: em(36);
+  font-weight: 400;
+  border-bottom: 5px solid $black;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  @include media('>tablet') {
+    padding-top: 6px;
+    padding-bottom: 9px;
+
+  }
+}
