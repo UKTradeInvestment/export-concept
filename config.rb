@@ -42,6 +42,10 @@ helpers do
 
     countries.sort.group_by {|word| word[0].upcase }
   end
+
+  def str_to_url(str)
+    str.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
+  end
 end
 
 # Reload the browser automatically whenever files change
