@@ -3,46 +3,46 @@ section: opportunities
 ---
 
 h1 Opportunities
-.grid-row
+.ng-filtering.grid-row ng-controller="FilteringCtrl"
   form.filter-form
     .filter
       label.form-label Search
-      input.form-control type="text" name="search"
+      input.form-control type="text" name="search" ng-model="search"
     .option-select
-      button.option-select-head
+      button.option-select-head ng-click="show_country=!show_country" ng-init="show_country=true"
         span.option-select-label Country of interest
-        span.option-selected-count
-      .options-container
+        span.option-selected-count ng-if="checkedCount(formData.market) > 0" {{ checkedCount(formData.market) }} selected
+      .options-container ng-show="show_country"
         - sort_countries().each do |country|
           label
-            input type="checkbox" name="market"
+            input type="checkbox" name="market" ng-model="formData.market['#{country}']"
             = country
     .option-select
-      button.option-select-head
+      button.option-select-head ng-click="show_sector=!show_sector"
         span.option-select-label Industry
-        span.option-selected-count
-      .options-container
+        span.option-selected-count ng-if="checkedCount(formData.sector) > 0" {{ checkedCount(formData.sector) }} selected
+      .options-container ng-show="show_sector"
         - data.sectors.each do |sector|
           label
-            input type="checkbox" name="sector"
+            input type="checkbox" name="sector" ng-model="formData.sector['#{sector.name}']"
             = sector.name
     .option-select
-      button.option-select-head
+      button.option-select-head ng-click="show_type=!show_type"
         span.option-select-label Contract sector
-        span.option-selected-count
-      .options-container
+        span.option-selected-count ng-if="checkedCount(formData.type) > 0" {{ checkedCount(formData.type) }} selected
+      .options-container ng-show="show_type"
         - ["Aid Funded Business", "Private Sector", "Public Sector"].each do |i|
           label
-            input type="checkbox" name="type"
+            input type="checkbox" name="type" ng-model="formData.type['#{i}']"
             = i
     .option-select
-      button.option-select-head
+      button.option-select-head ng-click="show_value=!show_value"
         span.option-select-label Contract value
-        span.option-selected-count
-      .options-container
+        span.option-selected-count ng-if="checkedCount(formData.value) > 0" {{ checkedCount(formData.value) }} selected
+      .options-container ng-show="show_value"
         - ["More than £100k", "Less than £100k", "Unknown"].each do |i|
           label
-            input type="checkbox" name="value"
+            input type="checkbox" name="value" ng-model="formData.value['#{i}']"
             = i
     .filter.text-filter
       label.form-label Response date after
@@ -52,19 +52,20 @@ h1 Opportunities
       span.help-text For example, 2005 or 21/11/2014
     .filter.text-filter
   .filter-results
-    div
+    p ng-show="loading" Loading...
+    div ng-hide="loading"
       p.result-info
-        span.result-count 100
+        span.result-count {{ filtered.length }}
         |  opportunities
       p.feeds
         span Get updates to this list
         a.email href="#" email
         a.feed href="#" feed
       ul
-        li
+        li ng-repeat="opp in filtered = (opportunities | filter:search | multiFilter:formData)"
           h3
-            a href="#"= lorem.sentence
-          p= lorem.sentence
+            a href="#" {{ opp.title }}
+          p {{ opp.summary }}
           dl
-            dt Meta item:
-            dd meta value
+            dt class="{{ k }}" ng-repeat-start="(k, v) in opp.meta" {{ k | capitalize }}:
+            dd ng-repeat-end="" {{ v }}

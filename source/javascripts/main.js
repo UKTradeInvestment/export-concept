@@ -10,7 +10,8 @@ Mojular
     require('mojular-govuk-elements'),
     require('mojular-moj-elements'),
     require('./modules/header-toggle'),
-    require('./modules/live-filter')
+    require('./modules/live-filter'),
+    require('./modules/filtering')
   ])
   .init();
 
