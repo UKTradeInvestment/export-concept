@@ -4,6 +4,7 @@ var angular = require('angular');
 var $ = require('jquery');
 var each = require('lodash/collection/each');
 var filter = require('lodash/collection/filter');
+var map = require('lodash/collection/map');
 var includes = require('lodash/collection/includes');
 
 exports.Filtering = {
@@ -36,6 +37,18 @@ function opportunitiesFactory ($http) {
 
 function FilteringCtrl ($scope, opportunitiesFactory) {
   $scope.loading = true;
+  $scope.formData = {};
+
+  // set from query string
+  var params = getQueryParameters();
+  each(params, function (v, param) {
+    var values = v.split(',');
+    $scope.formData[param] = $scope.formData[param] || {};
+
+    each(values, function (value) {
+      $scope.formData[param][decodeURIComponent(value)] = true;
+    });
+  });
 
   opportunitiesFactory().then(function(res) {
     $scope.opportunities = res.data;
@@ -48,19 +61,47 @@ function FilteringCtrl ($scope, opportunitiesFactory) {
     }).length;
   };
 
-  $scope.selectedOptions = function (filter) {
-    var options = [];
+  $scope.selectedOptions = getSelectedOptions;
 
-    if (filter) {
-      each(filter, function (v, k) {
-        if (v) {
-          options.push(k);
-        }
-      });
+  // update url with filter changes
+  $scope.$watch('formData', function (newVal, oldVal) {
+    if (newVal === oldVal) {
+      return;
     }
-    
-    return options;
-  };
+
+    var query = {};
+    each(newVal, function (values, key) {
+      var filteredValues = getSelectedOptions(values);
+
+      filteredValues = map(filteredValues, function (value) {
+        return encodeURIComponent(value);
+      });
+
+      if (filteredValues.length) {
+        query[key] = filteredValues.join();
+      }
+    });
+
+    var queryStr = map(query, function (v, k) {
+      return k + "=" + v;
+    }).join("&");
+
+    window.history.pushState(null, null, '?' + queryStr);
+  }, true);
+}
+
+function getSelectedOptions (filter) {
+  var options = [];
+
+  if (filter) {
+    each(filter, function (v, k) {
+      if (v) {
+        options.push(k);
+      }
+    });
+  }
+  
+  return options;
 }
 
 function capitalize () {
@@ -105,4 +146,16 @@ function multiFilter () {
 
     return filtered;
   };
+}
+
+function getQueryParameters () {
+  var search = location.search.substring(1);
+
+  if (!search) {
+    return {};
+  }
+
+  return JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) {
+    return key === '' ? value : decodeURIComponent(value);
+  });
 }
