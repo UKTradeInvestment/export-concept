@@ -52,6 +52,14 @@ helpers do
     countries.sort.group_by {|word| word[0].upcase }
   end
 
+  def sort_countries()
+    countries = data.countries.map do |c|
+      c.name
+    end
+
+    countries.sort
+  end
+
   def str_to_url(str)
     str.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
   end
