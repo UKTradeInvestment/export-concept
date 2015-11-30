@@ -47,6 +47,20 @@ function FilteringCtrl ($scope, opportunitiesFactory) {
       return item;
     }).length;
   };
+
+  $scope.selectedOptions = function (filter) {
+    var options = [];
+
+    if (filter) {
+      each(filter, function (v, k) {
+        if (v) {
+          options.push(k);
+        }
+      });
+    }
+    
+    return options;
+  };
 }
 
 function capitalize () {

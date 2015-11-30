@@ -56,7 +56,30 @@ h1 Opportunities
     div ng-hide="loading"
       p.result-info
         span.result-count {{ filtered.length }}
-        |  opportunities
+        |  {{ filtered.length == 1 ? 'opportunity' : 'opportunities' }}
+        span ng-if="search"
+          |  containing
+          strong  {{ search }}
+        span ng-if="selectedOptions(formData.market).length"
+          |  in
+          span ng-repeat="market in selectedOptions(formData.market)"
+            span {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ market }}
+        span ng-if="selectedOptions(formData.sector).length"
+          | {{ selectedOptions(formData.market).length ? ' and ' : '' }} in
+          span ng-repeat="sector in selectedOptions(formData.sector)"
+            span {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ sector }}
+        span ng-if="selectedOptions(formData.type).length"
+          |  for
+          span ng-repeat="type in selectedOptions(formData.type)"
+            span {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ type }}
+        span ng-if="selectedOptions(formData.value).length"
+          |  with a value of
+          span ng-repeat="value in selectedOptions(formData.value)"
+            span {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ value }}
       p.feeds
         span Get updates to this list
         a.email href="#" email
