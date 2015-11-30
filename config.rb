@@ -22,7 +22,14 @@ data.countries.each do |country|
   proxy "/markets/#{file_url}.html", "/market.html", :locals => { :country => country }, :ignore => true
 end
 
+# proxy data to json files
+["countries", "sectors", "opportunities"].each do |source|
+  proxy "/data/#{source}.json", "/data.json", :locals => { :source => source }, :ignore => true
+end
+
+# ignore proxy templates
 ignore "/market.html"
+ignore "/data.json"
 
 Slim::Engine.disable_option_validator!
 Slim::Engine.set_options pretty: true

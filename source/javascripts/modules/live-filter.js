@@ -29,7 +29,7 @@ exports.LiveFilter = {
 function countriesFactory ($http) {
   return function() {
     return $http({
-      url: window.BASE_PATH + 'countries_by_letter.json'
+      url: window.BASE_PATH + 'data/countries_by_letter.json'
     });
   };
 }
