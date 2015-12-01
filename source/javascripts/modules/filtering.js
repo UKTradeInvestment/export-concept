@@ -155,7 +155,7 @@ function multiFilter () {
           }
         });
 
-        if(filteredValues.length > 0 && !includes(filteredValues, itemProperties[key].toLowerCase())) {
+        if(itemProperties[key] && filteredValues.length > 0 && !includes(filteredValues, itemProperties[key].toLowerCase())) {
           include = false;
         }
       });

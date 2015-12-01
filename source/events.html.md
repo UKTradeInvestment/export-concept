@@ -1,5 +1,0 @@
----
-section: events
----
-
-# Events

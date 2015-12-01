@@ -50,7 +50,8 @@
         dt {
           display: none;
 
-          &.response_date {
+          &.response_date,
+          &.event_start_date {
             display: inline-block;
           }
         }
