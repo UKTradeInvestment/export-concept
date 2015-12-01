@@ -1,0 +1,9 @@
+.option-select
+  button.option-select-head ng-click="show_#{ locals[:field_name] }=!show_#{ locals[:field_name] }" ng-init=("show_#{ locals[:field_name] }=true" if locals[:expanded])
+    span.option-select-label= locals[:label]
+    span.option-selected-count ng-if="checkedCount(formData.#{ locals[:field_name] }) > 0" {{ checkedCount(formData.#{ locals[:field_name] }) }} selected
+  .options-container ng-show="show_#{ locals[:field_name] }"
+    - locals[:items].each do |i|
+      label
+        input type="checkbox" name="#{ locals[:field_name] }" ng-model="formData.#{ locals[:field_name] }['#{i}']"
+        = i

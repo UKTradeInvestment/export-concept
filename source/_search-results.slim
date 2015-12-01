@@ -1,0 +1,8 @@
+ul
+  li ng-repeat="result in filtered = (results | filter:search | multiFilter:formData)"
+    h3
+      a href="#{ locals[:url] }{{ result.title|cleanUrl }}.html" {{ result.title }}
+    p {{ result.summary }}
+    dl
+      dt class="{{ k }}" ng-repeat-start="(k, v) in result.meta" {{ k | capitalize }}:
+      dd ng-repeat-end="" {{ v | dateFormat }}
