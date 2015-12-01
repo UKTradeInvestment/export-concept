@@ -1,0 +1,46 @@
+---
+section: 
+---
+
+header.document-header
+  .grid-row
+    .column-two-thirds
+      h2.context
+        a href="/#{parent.downcase}.html"= parent
+      h1= document.title
+  dl.document-meta-data
+    dt From:
+    dd 
+      a href="https://www.gov.uk/government/organisations/uk-trade-investment" UK Trade & Investment
+    dt Published:
+    dd= date_format(document.published_date)
+    - document.meta.each do |v, k|
+      dt #{v.capitalize.gsub('_', ' ')}:
+      - if v.include? "date"
+        dd= date_format(k)
+      - else
+        dd= link_to k, "/#{parent.downcase}.html?#{v}=#{url_encode(k)}"
+  p.summary= document.summary
+.grid-row
+  .column-third
+    nav.document-nav
+      ol
+        li= link_to "Overview", "#doc-content"
+  #doc-content.column-two-thirds.document-content
+    == markdown document.content
+footer.document-footer
+  h2.u-hidden Information
+  .grid-row
+    .column-third.document-change-notes
+      p 
+        ' Published:
+        time.timestamp datetime=""= document.published_date
+    .column-two-thirds.document-related-information
+      - document.meta.each do |v, k|
+        p
+          ' #{v.capitalize.gsub('_', ' ')}:
+          span.definition
+            - if v.include? "date"
+              = date_format(k)
+            - else
+              = link_to k, "/#{parent.downcase}.html?#{v}=#{url_encode(k)}"

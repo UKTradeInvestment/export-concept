@@ -32,6 +32,7 @@ node_modules
 # Ignore the build directory
 /build
 *.bundle.js
+*.bundle.js.map
 
 # Ignore cache
 /.sass-cache

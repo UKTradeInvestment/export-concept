@@ -1,6 +1,10 @@
 - content_for :proposition
   = link_to 'UK Trade & Investment', '/', class: 'proposition-name'
-
+  nav.proposition-menu
+    ul#proposition-links
+      - data.sections.each do |section|
+        li= link_to section.title, section.url, class: current_page.data.section == section.name ? 'active' : nil
+        
 - content_for :global_subheader
   .subheader-item.phase-banner
     .phase-tag.phase-tag-alpha ALPHA
@@ -19,3 +23,6 @@
 
 = wrap_layout :base
   = yield
+  
+  javascript:
+    window.BASE_PATH = "#{url_for('/index.html')}";

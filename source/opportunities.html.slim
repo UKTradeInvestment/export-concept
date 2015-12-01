@@ -1,0 +1,51 @@
+---
+section: opportunities
+---
+
+h1 Opportunities
+.ng-filtering.grid-row ng-controller="FilteringCtrl"
+  form.filter-form
+    = partial 'filter--search'
+    = partial 'filter--option-select',
+      locals: { field_name: 'market', label: 'Country of interest', items: sort_countries(), expanded: true }
+    = partial 'filter--option-select',
+      locals: { field_name: 'sector', label: 'Industry', items: data.sectors }
+    = partial 'filter--option-select',
+      locals: { field_name: 'type', label: 'Contract sector', items: ["Aid Funded Business", "Private Sector", "Public Sector"] }
+    = partial 'filter--option-select',
+      locals: { field_name: 'value', label: 'Contract value', items: ["More than £100k", "Less than £100k", "Unknown"] }
+    = partial 'filter--date'
+  .filter-results
+    p ng-show="loading" Loading...
+    div ng-hide="loading"
+      p.result-info
+        span.result-count {{ filtered.length }}
+        |  {{ filtered.length == 1 ? 'opportunity' : 'opportunities' }}
+        span ng-if="search"
+          |  containing
+          strong  {{ search }}
+        span ng-if="selectedOptions(formData.market).length"
+          |  in
+          span ng-repeat="market in selectedOptions(formData.market)"
+            | {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ market }}
+        span ng-if="selectedOptions(formData.sector).length"
+          | {{ selectedOptions(formData.market).length ? ' and ' : '' }} in
+          span ng-repeat="sector in selectedOptions(formData.sector)"
+            | {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ sector }}
+        span ng-if="selectedOptions(formData.type).length"
+          |  for
+          span ng-repeat="type in selectedOptions(formData.type)"
+            | {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ type }}
+        span ng-if="selectedOptions(formData.value).length"
+          |  with a value of
+          span ng-repeat="value in selectedOptions(formData.value)"
+            | {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ value }}
+      = partial 'search-feeds'
+      = partial 'search-results',
+        locals: { url: '/opportunities/' }
+javascript:
+  window.SEARCH_DATA = 'opportunities';

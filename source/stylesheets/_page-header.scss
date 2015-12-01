@@ -1,0 +1,94 @@
+.page-header {
+  padding: 15px 0 20px;
+
+  @include media('>tablet') {
+    padding: 35px 0 45px;
+    width: 80%;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  .type {
+    font-size: 24px;
+    font-weight: 400;
+    color: $grey-1;
+    margin: 0;
+
+    @include media('>tablet') {
+      font-size: em(27);
+    }
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: 400;
+    color: $grey-1;
+    margin: 0;
+  
+    
+    @include media('>tablet') {
+      font-size: em(36);
+    }
+  }
+
+  .lede {
+    font-size: em(19);
+    margin: 20px 0 0;
+  }
+
+  .label {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+  
+    
+    @include media('>tablet') {
+      font-size: em(48);
+    }
+
+    div {
+      margin-top: 5px;
+
+      @include media('>tablet') {
+        display: inline;
+        margin-top: 0;
+      }
+    }
+
+    input {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.25;
+      padding: 5px;
+      margin: 0 10px 0 0;
+      position: relative;
+      top: -3px;
+      width: 50%;
+
+      @include media('>tablet') {
+        margin-left: 15px;
+        width: 30%;
+        top: -10px;
+      }
+    }
+  }
+
+  &.with-extra {
+    width: auto;
+
+    .heading {
+      @include media('>tablet') {
+        @include span(66.66%);
+      }
+    }
+    
+    aside {
+      @include media('>tablet') {
+        @include span(33.33%);
+      }
+    }
+  }
+
+}

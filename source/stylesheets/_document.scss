@@ -1,0 +1,166 @@
+.document-header {
+  margin: 15px 0;
+
+  @include media('>tablet') {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    font-size: em(36);
+    line-height: 1.1;
+    margin: 0;
+  }
+
+  .context {
+    font-size: em(24);
+    font-weight: 400;
+    line-height: 1.25;
+    margin: 0;
+  }
+
+  .summary {
+    font-size: em(24);
+    margin: 15px 0 0;
+
+    @include media('>tablet') {
+      margin-top: 60px;
+    }
+  }
+}
+
+.document-meta-data {
+  @include clearfix;
+  margin: 15px 0 0;
+  padding: 0;
+  font-size: em(14);
+
+  @include media('>tablet') {
+    margin-top: 30px;
+  }
+
+  dt {
+    float: left;
+    clear: left;
+    width: auto;
+    min-width: 135px;
+
+    @include media('>tablet') {
+      padding-right: 10px;
+    }
+  }
+
+  dd {
+    margin: 0;
+    float: left;
+    width: 70%;
+  }
+}
+
+.document-nav {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  ol {
+    margin: 0;
+    padding: 0 0 30px;
+    font-size: em(16);
+    list-style: none;
+
+    li {
+      padding-top: 10px;
+      font-weight: 700;
+
+      ol {
+        font-size: 1em;
+        padding-bottom: 0;
+
+        li {
+          font-weight: 400;
+          margin-left: 15px;
+          padding-right: 15px;
+          padding-top: 5px;
+
+          &:before {
+            content: "-";
+            position: relative;
+            float: left;
+            width: 15px;
+            margin-left: -15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.document-content {
+  h2 {
+    font-size: em(27);
+    margin-top: 15px;
+
+    @include media('>tablet') {
+      margin-top: 45px;
+    }
+  }
+
+  h3, h4, h5 {
+    font-size: em(19px);
+    margin: 35px 0 0;
+  }
+
+  ul, ol {
+    padding-left: 1.5em;
+  }
+
+  >:first-child {
+    margin-top: 0;
+  }
+}
+
+.document-footer {
+  padding-top: 45px;
+  font-size: em(16);
+}
+
+.document-change-notes {
+  p {
+    margin: 0 0 10px;
+
+    @include media('>tablet') {
+      margin-bottom: 20px;
+    }
+
+    .timestamp {
+      display: block;
+      font-size: em(24, 16);
+      font-weight: 700;
+    }
+  }
+}
+
+.document-related-information {
+  p {
+    margin-bottom: 10px;
+
+    @include media('>tablet') {
+      margin-bottom: 20px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .definition {
+    display: block;
+    margin-top: 5px;
+    font-size: em(24, 16);
+    font-weight: 700;
+  }
+}
