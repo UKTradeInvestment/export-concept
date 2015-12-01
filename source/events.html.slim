@@ -1,0 +1,45 @@
+---
+section: events
+---
+
+h1 Events
+.ng-filtering.grid-row ng-controller="FilteringCtrl"
+  form.filter-form
+    = partial 'filter--search'
+    = partial 'filter--option-select',
+      locals: { field_name: 'market', label: 'Country of interest', items: sort_countries(), expanded: true }
+    = partial 'filter--option-select',
+      locals: { field_name: 'sector', label: 'Industry', items: data.sectors }
+    = partial 'filter--option-select',
+      locals: { field_name: 'region', label: 'UK Region', items: data.regions }
+    = partial 'filter--date'
+  .filter-results
+    p ng-show="loading" Loading...
+    div ng-hide="loading"
+      p.result-info
+        span.result-count {{ filtered.length }}
+        | {{ filtered.length == 1 ? ' event' : ' events' }}
+        span ng-if="search"
+          |  containing
+          strong  {{ search }}
+        span ng-if="selectedOptions(formData.market).length"
+          |  about
+          span ng-repeat="market in selectedOptions(formData.market)"
+            | {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ market }}
+        span ng-if="selectedOptions(formData.sector).length"
+          | {{ selectedOptions(formData.market).length ? ' and ' : '' }} in
+          span ng-repeat="sector in selectedOptions(formData.sector)"
+            | {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ sector }}
+        span ng-if="selectedOptions(formData.region).length"
+          | {{ selectedOptions(formData.market).length || selectedOptions(formData.sector).length ? ' and ' : '' }} in the
+          span ng-repeat="region in selectedOptions(formData.region)"
+            | {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ region }}
+          | {{ selectedOptions(formData.region).length == 1 ? ' region' : ' regions' }}
+      = partial 'search-feeds'
+      = partial 'search-results',
+        locals: { url: '/events/' }
+javascript:
+  window.SEARCH_DATA = 'events';
