@@ -20,6 +20,7 @@ exports.Filtering = {
     app.filter('capitalize', capitalize);
     app.filter('multiFilter', multiFilter);
     app.filter('cleanUrl', cleanUrl);
+    app.filter('dateFormat', dateFormat);
 
     angular.bootstrap($(this.el), ['filtering']);
   },
@@ -126,6 +127,16 @@ function cleanUrl () {
   };
 }
 
+function dateFormat ($filter) {
+  return function (input) {
+    if (!isDate(input)) {
+      return input;
+    }
+
+    return $filter('date')(Date.parse(input), 'd MMMM yyyy');
+  };
+}
+
 function multiFilter () {
   return function (items, filters) {
     var filtered = [];
@@ -168,4 +179,8 @@ function getQueryParameters () {
   return JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) {
     return key === '' ? value : decodeURIComponent(value);
   });
+}
+
+function isDate (date) {
+  return ( (new Date(date) !== "Invalid Date" && !isNaN(new Date(date)) ));
 }

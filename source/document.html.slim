@@ -13,9 +13,9 @@ header.document-header
     dd 
       a href="https://www.gov.uk/government/organisations/uk-trade-investment" UK Trade & Investment
     dt Published:
-    dd= opportunity.published_date
+    dd= date_format(opportunity.published_date)
     dt Response date:
-    dd= opportunity.meta.response_date
+    dd= date_format(opportunity.meta.response_date)
     - opportunity.meta.except(:response_date).each do |v, k|
       dt #{v.capitalize}:
       dd= link_to k, "/opportunities.html?#{v}=#{url_encode(k)}"
@@ -40,6 +40,6 @@ footer.document-footer
           ' #{v.capitalize.gsub('_', ' ')}:
           span.definition
             - if v.include? "date"
-              = k
+              = date_format(k)
             - else
               = link_to k, "/opportunities.html?#{v}=#{url_encode(k)}"

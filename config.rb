@@ -80,6 +80,10 @@ helpers do
   def markdown(content)
     Tilt['markdown'].new { content }.render(scope=self)
   end
+
+  def date_format(dateStr)
+    Date.parse(dateStr.to_s).strftime('%-d %B %Y')
+  end
 end
 
 # Reload the browser automatically whenever files change

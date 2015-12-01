@@ -91,4 +91,4 @@ h1 Opportunities
           p {{ opp.summary }}
           dl
             dt class="{{ k }}" ng-repeat-start="(k, v) in opp.meta" {{ k | capitalize }}:
-            dd ng-repeat-end="" {{ v }}
+            dd ng-repeat-end="" {{ v | dateFormat }}
