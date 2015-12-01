@@ -31,7 +31,7 @@ data.opportunities.each do |opportunity|
 end
 
 # proxy data to json files
-["countries", "sectors", "opportunities"].each do |source|
+["countries", "sectors", "regions", "opportunities", "events"].each do |source|
   proxy "/data/#{source}.json", "/data.json", :locals => { :source => source }, :ignore => true
 end
 
