@@ -1,3 +1,5 @@
+require 'cgi'
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -22,7 +24,21 @@ data.countries.each do |country|
   proxy "/markets/#{file_url}.html", "/market.html", :locals => { :country => country }, :ignore => true
 end
 
+# opportunities
+data.opportunities.each do |opportunity|
+  file_url = opportunity.title.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
+  proxy "/opportunities/#{file_url}.html", "/document.html", :locals => { :opportunity => opportunity }, :ignore => true
+end
+
+# proxy data to json files
+["countries", "sectors", "opportunities"].each do |source|
+  proxy "/data/#{source}.json", "/data.json", :locals => { :source => source }, :ignore => true
+end
+
+# ignore proxy templates
 ignore "/market.html"
+ignore "/document.html"
+ignore "/data.json"
 
 Slim::Engine.disable_option_validator!
 Slim::Engine.set_options pretty: true
@@ -45,8 +61,28 @@ helpers do
     countries.sort.group_by {|word| word[0].upcase }
   end
 
+  def sort_countries()
+    countries = data.countries.map do |c|
+      c.name
+    end
+
+    countries.sort
+  end
+
   def str_to_url(str)
     str.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
+  end
+
+  def url_encode(str)
+    CGI.escape(str).gsub('+', '%20')
+  end
+
+  def markdown(content)
+    Tilt['markdown'].new { content }.render(scope=self)
+  end
+
+  def date_format(dateStr)
+    Date.parse(dateStr.to_s).strftime('%-d %B %Y')
   end
 end
 

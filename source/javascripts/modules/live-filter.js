@@ -8,8 +8,10 @@ var filter = require('lodash/collection/filter');
 var flatten = require('lodash/array/flatten');
 
 exports.LiveFilter = {
+  el: '.ng-live-filter',
+
   init: function() {
-    var app = angular.module('ukti', []);
+    var app = angular.module('live-filter', []);
 
     app.factory('countriesFactory', countriesFactory);
 
@@ -19,7 +21,7 @@ exports.LiveFilter = {
 
     app.filter('cleanUrl', cleanUrl);
 
-    angular.bootstrap(document.body, ['ukti']);
+    angular.bootstrap($(this.el), ['live-filter']);
   },
 
 };
@@ -29,7 +31,7 @@ exports.LiveFilter = {
 function countriesFactory ($http) {
   return function() {
     return $http({
-      url: window.BASE_PATH + 'countries_by_letter.json'
+      url: window.BASE_PATH + 'data/countries_by_letter.json'
     });
   };
 }
