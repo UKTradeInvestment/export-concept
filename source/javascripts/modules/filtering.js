@@ -13,7 +13,7 @@ exports.Filtering = {
   init: function() {
     var app = angular.module('filtering', []);
 
-    app.factory('opportunitiesFactory', opportunitiesFactory);
+    app.factory('searchDataFactory', searchDataFactory);
 
     app.controller('FilteringCtrl', FilteringCtrl);
 
@@ -29,15 +29,15 @@ exports.Filtering = {
 
 /////////////////////////////
 
-function opportunitiesFactory ($http) {
-  return function() {
+function searchDataFactory ($http, $window) {
+  return function(type) {
     return $http({
-      url: window.BASE_PATH + 'data/opportunities.json'
+      url: $window.BASE_PATH + 'data/' + type + '.json'
     });
   };
 }
 
-function FilteringCtrl ($scope, opportunitiesFactory) {
+function FilteringCtrl ($scope, $window, searchDataFactory) {
   $scope.loading = true;
   $scope.formData = {};
 
@@ -52,8 +52,8 @@ function FilteringCtrl ($scope, opportunitiesFactory) {
     });
   });
 
-  opportunitiesFactory().then(function(res) {
-    $scope.opportunities = res.data;
+  searchDataFactory($window.SEARCH_DATA).then(function(res) {
+    $scope.results = res.data;
     $scope.loading = false;
   });
 
