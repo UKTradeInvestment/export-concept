@@ -87,7 +87,7 @@ h1 Opportunities
       ul
         li ng-repeat="opp in filtered = (opportunities | filter:search | multiFilter:formData)"
           h3
-            a href="#" {{ opp.title }}
+            a href="/opportunities/{{ opp.title|cleanUrl }}.html" {{ opp.title }}
           p {{ opp.summary }}
           dl
             dt class="{{ k }}" ng-repeat-start="(k, v) in opp.meta" {{ k | capitalize }}:

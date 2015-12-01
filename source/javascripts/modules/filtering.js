@@ -19,6 +19,7 @@ exports.Filtering = {
 
     app.filter('capitalize', capitalize);
     app.filter('multiFilter', multiFilter);
+    app.filter('cleanUrl', cleanUrl);
 
     angular.bootstrap($(this.el), ['filtering']);
   },
@@ -113,6 +114,15 @@ function capitalize () {
 
       return input.substring(0, 1).toUpperCase() + input.substring(1);
     }
+  };
+}
+
+function cleanUrl () {
+  return function (input) {
+    return input
+            .toLowerCase()
+            .replace(/\s/g, '-')
+            .replace(/[^a-z0-9-]/ig,'');
   };
 }
 
