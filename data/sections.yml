@@ -1,0 +1,29 @@
+-
+  title: Getting started
+  url: /getting-started.html
+  name: started
+-
+  title: Markets
+  url: /markets.html
+  name: markets
+-
+  title: Opportunities
+  url: /opportunities.html
+  name: opportunities
+-
+  title: Events
+  url: /events.html
+  name: events
+-
+  title: Contacts
+  url: /contacts.html
+  name: contacts
+  classes: clear-child
+-
+  title: Alerts
+  url: /alerts.html
+  name: alerts
+-
+  title: UKTI partners
+  url: /ukti-partners.html
+  name: partners

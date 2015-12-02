@@ -7,16 +7,18 @@
     "test": "test"
   },
   "dependencies": {
+    "angular": "^1.4.8",
+    "webpack": "^1.12.2",
     "mojular": "mojular/mojular",
     "mojular-govuk-elements": "mojular/govuk-elements",
     "mojular-moj-elements": "mojular/moj-elements",
     "mojular-templates": "mojular/templates"
   },
   "devDependencies": {
-    "webpack": "^1.12.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node_modules/.bin/webpack -d"
   },
   "author": "",
   "license": "MIT"

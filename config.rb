@@ -1,3 +1,5 @@
+require 'cgi'
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -8,6 +10,7 @@
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+page '/partials/*', layout: false
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
@@ -15,6 +18,27 @@ page '/*.txt', layout: false
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
+
+data.countries.each do |country|
+  file_url = country.name.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
+  proxy "/markets/#{file_url}.html", "/market.html", :locals => { :country => country }, :ignore => true
+end
+
+# opportunities
+data.opportunities.each do |opportunity|
+  file_url = opportunity.title.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
+  proxy "/opportunities/#{file_url}.html", "/document.html", :locals => { :opportunity => opportunity }, :ignore => true
+end
+
+# proxy data to json files
+["countries", "sectors", "opportunities"].each do |source|
+  proxy "/data/#{source}.json", "/data.json", :locals => { :source => source }, :ignore => true
+end
+
+# ignore proxy templates
+ignore "/market.html"
+ignore "/document.html"
+ignore "/data.json"
 
 Slim::Engine.disable_option_validator!
 Slim::Engine.set_options pretty: true
@@ -26,6 +50,41 @@ set :layout, 'ukti'
 ###
 # Helpers
 ###
+
+## Methods defined in the helpers block are available in templates
+helpers do
+  def get_countries_by_letter()
+    countries = data.countries.map do |c|
+      c.name
+    end
+
+    countries.sort.group_by {|word| word[0].upcase }
+  end
+
+  def sort_countries()
+    countries = data.countries.map do |c|
+      c.name
+    end
+
+    countries.sort
+  end
+
+  def str_to_url(str)
+    str.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
+  end
+
+  def url_encode(str)
+    CGI.escape(str).gsub('+', '%20')
+  end
+
+  def markdown(content)
+    Tilt['markdown'].new { content }.render(scope=self)
+  end
+
+  def date_format(dateStr)
+    Date.parse(dateStr.to_s).strftime('%-d %B %Y')
+  end
+end
 
 # Reload the browser automatically whenever files change
 configure :development do
@@ -39,21 +98,16 @@ end
 #   end
 # end
 
-# Load sass paths
-%w(mojular-govuk-elements).map do |i|
-  meta = JSON.parse(IO.read("node_modules/#{i}/package.json"))
-  begin
-    meta['sassPaths'].each do |path|
-      Sass.load_paths << (File.directory?(path) ? path : File.expand_path("node_modules/#{meta['name']}/#{p}"))
-    end
-  rescue
-    p 'ERROR: Sass paths not found'
-  end
-  # Copy images
-  `mkdir -p source/images && cp node_modules/#{i}/images/* source/images`
+# Load Sass paths and copy images & layouts
+require 'find'
+`mkdir -p "#{config.source}/#{config.images_dir}" "#{config.source}/#{config.layouts_dir}"`
+Find.find('node_modules').grep(/mojular[a-z-]+\/package\.json/).map do |package|
+  sassPaths = JSON.parse(IO.read(package))['sassPaths']
+  dirname = File.dirname(package)
+  sassPaths.map { |path| Sass.load_paths << File.expand_path(path, File.directory?(path) ? '' : dirname) } if sassPaths
+  FileUtils.cp_r Find.find(dirname).grep(/images\//), "#{config.source}/#{config.images_dir}"
+  FileUtils.cp_r Find.find(dirname).grep(/layouts\/erb\//), "#{config.source}/#{config.layouts_dir}"
 end
-# Copy layouts
-`mkdir -p source/layouts && cp #{root}/node_modules/mojular-templates/layouts/erb/* source/layouts`
 
 # Build-specific configuration
 configure :build do

@@ -1,0 +1,57 @@
+.live-filter {
+  
+  .type-heading {
+    margin-bottom: 30px;
+
+    @include media('>tablet') {
+      @include span(33.33%)
+    }
+
+    h1 {
+      font-size: em(19);
+      font-weight: 400;
+      margin: 0;
+    }
+
+    p {
+      font-size: em(80);
+      font-weight: 700;
+      line-height: 1;
+    }
+  }
+
+  .type-content {
+    @include media('>tablet') {
+      @include span(66.66%);
+      padding-top: 25px;
+    }
+  }
+
+  .letter {
+    font-size: em(80);
+    line-height: 1;
+    text-indent: -4px;
+    margin: 0;
+  }
+
+  .list-block {
+    padding: 0;
+    margin: 0 0 30px;
+
+    li {
+      padding: 0;
+      display: block;
+      border-bottom: 1px solid $grey-2;
+    }
+
+    a {
+      display: block;
+      padding: 5px 0;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.featured-links {
+  font-size: em(16);
+  font-weight: 700;
+  padding-left: 0;
+
+  li {
+    list-style: none;
+    padding: 2px 0;
+
+    @include media('>tablet') {
+      padding-bottom: 5px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,94 @@
+---
+section: opportunities
+---
+
+h1 Opportunities
+.ng-filtering.grid-row ng-controller="FilteringCtrl"
+  form.filter-form
+    .filter
+      label.form-label Search
+      input.form-control type="text" name="search" ng-model="search"
+    .option-select
+      button.option-select-head ng-click="show_country=!show_country" ng-init="show_country=true"
+        span.option-select-label Country of interest
+        span.option-selected-count ng-if="checkedCount(formData.market) > 0" {{ checkedCount(formData.market) }} selected
+      .options-container ng-show="show_country"
+        - sort_countries().each do |country|
+          label
+            input type="checkbox" name="market" ng-model="formData.market['#{country}']"
+            = country
+    .option-select
+      button.option-select-head ng-click="show_sector=!show_sector"
+        span.option-select-label Industry
+        span.option-selected-count ng-if="checkedCount(formData.sector) > 0" {{ checkedCount(formData.sector) }} selected
+      .options-container ng-show="show_sector"
+        - data.sectors.each do |sector|
+          label
+            input type="checkbox" name="sector" ng-model="formData.sector['#{sector.name}']"
+            = sector.name
+    .option-select
+      button.option-select-head ng-click="show_type=!show_type"
+        span.option-select-label Contract sector
+        span.option-selected-count ng-if="checkedCount(formData.type) > 0" {{ checkedCount(formData.type) }} selected
+      .options-container ng-show="show_type"
+        - ["Aid Funded Business", "Private Sector", "Public Sector"].each do |i|
+          label
+            input type="checkbox" name="type" ng-model="formData.type['#{i}']"
+            = i
+    .option-select
+      button.option-select-head ng-click="show_value=!show_value"
+        span.option-select-label Contract value
+        span.option-selected-count ng-if="checkedCount(formData.value) > 0" {{ checkedCount(formData.value) }} selected
+      .options-container ng-show="show_value"
+        - ["More than £100k", "Less than £100k", "Unknown"].each do |i|
+          label
+            input type="checkbox" name="value" ng-model="formData.value['#{i}']"
+            = i
+    .filter.text-filter
+      label.form-label Response date after
+      input.form-control type="text" name=""
+      label.form-label Response date before
+      input.form-control type="text" name=""
+      span.help-text For example, 2005 or 21/11/2014
+    .filter.text-filter
+  .filter-results
+    p ng-show="loading" Loading...
+    div ng-hide="loading"
+      p.result-info
+        span.result-count {{ filtered.length }}
+        |  {{ filtered.length == 1 ? 'opportunity' : 'opportunities' }}
+        span ng-if="search"
+          |  containing
+          strong  {{ search }}
+        span ng-if="selectedOptions(formData.market).length"
+          |  in
+          span ng-repeat="market in selectedOptions(formData.market)"
+            span {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ market }}
+        span ng-if="selectedOptions(formData.sector).length"
+          | {{ selectedOptions(formData.market).length ? ' and ' : '' }} in
+          span ng-repeat="sector in selectedOptions(formData.sector)"
+            span {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ sector }}
+        span ng-if="selectedOptions(formData.type).length"
+          |  for
+          span ng-repeat="type in selectedOptions(formData.type)"
+            span {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ type }}
+        span ng-if="selectedOptions(formData.value).length"
+          |  with a value of
+          span ng-repeat="value in selectedOptions(formData.value)"
+            span {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
+            strong  {{ value }}
+      p.feeds
+        span Get updates to this list
+        a.email href="#" email
+        a.feed href="#" feed
+      ul
+        li ng-repeat="opp in filtered = (opportunities | filter:search | multiFilter:formData)"
+          h3
+            a href="/opportunities/{{ opp.title|cleanUrl }}.html" {{ opp.title }}
+          p {{ opp.summary }}
+          dl
+            dt class="{{ k }}" ng-repeat-start="(k, v) in opp.meta" {{ k | capitalize }}:
+            dd ng-repeat-end="" {{ v | dateFormat }}

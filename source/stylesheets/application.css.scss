@@ -1,6 +1,20 @@
 // All components
 @import 'govuk';
 
+@import '$variables';
+@import '$colours';
+
+@import 'global-header';
+@import 'proposition-menu';
+@import 'page-header';
+@import 'categories-list';
+@import 'featured-links';
+@import 'live-filter';
+@import 'unit';
+@import 'filtering';
+@import 'document';
+@import 'utilities';
+
 // Individual components
 // @import 'govuk/fonts';
 // @import 'govuk/base';

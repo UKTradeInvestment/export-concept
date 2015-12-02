@@ -1,0 +1,186 @@
+.filter-form {
+  
+  @include media('>tablet') {
+    @include span(33.33%)
+  }
+}
+.filter-results {
+  
+  @include media('>tablet') {
+    @include span(66.66%)
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: block;
+      padding: 15px 0;
+      border-bottom: 1px solid $grey-2;
+
+      &:first-child {
+        padding-top: 0;
+      }
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      h3 {
+        font-size: em(19);
+        margin: 0;
+      }
+
+      p {
+        font-size: em(16);
+        line-height: 1.4;
+        margin: 3px 0;
+      }
+
+      dl {
+        font-size: em(14);
+        line-height: 1.5;
+        margin: 0;
+
+        dt {
+          display: none;
+
+          &.response_date {
+            display: inline-block;
+          }
+        }
+
+        dd {
+          display: inline-block;
+          margin: 0 15px 0 0;
+        }
+      }
+    }
+  }
+}
+.filter {
+  background-color: $grey-3;
+  padding: 0 10px;
+  margin-bottom: 30px;
+
+  .form-label {
+    font-weight: 700;
+    padding: 10px 0 0;
+  }
+
+  .form-control {
+    font-size: em(16);
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .help-text {
+    display: block;
+    font-size: em(14);
+    padding: 5px 0;
+  }
+}
+.option-select {
+  margin-bottom: 30px;
+}
+.option-select-head {
+  display: block;
+  width: 100%;
+  background: $grey-3;
+  padding: 5px 8px;
+  margin-bottom: -1px;
+  border: 0;
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+  text-align: left;
+
+
+  &:hover {
+    background-color: $grey-2;
+
+    + .options-container {
+      border-color: $grey-2;
+    }
+  }
+}
+.option-select-label {
+  display: block;
+  font-size: em(19);
+  font-weight: 700;
+  padding-top: 5px;
+  margin-right: 40px;
+}
+.option-selected-count {
+  display: block;
+  font-size: em(14);
+}
+.options-container {
+  border: 5px solid $grey-3;
+  max-height: 200px;
+  position: relative;
+  background-color: $white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  label {
+    display: inline-block;
+    font-size: em(16);
+    width: 100%;
+    cursor: pointer;
+    padding: 7px 0 7px 35px;
+    border-bottom: 1px solid $grey-2;
+
+    @include media('>desktop') {
+      width: 90%;
+    }
+  }
+
+  input[type="checkbox"] {
+    float: left;
+    margin: 2px 0 0 -27px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.result-info {
+  font-size: em(16);
+  line-height: 1;
+  margin: 0 0 15px;
+  padding: 0 0 15px;
+  vertical-align: baseline;
+  border-bottom: 1px solid $grey-2;
+}
+.result-count {
+  font-size: em(48, 16);
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.feeds {
+  font-size: em(14);
+  margin: 0 0 30px;
+
+  * {
+    padding-right: 10px;
+  }
+  a {
+    font-weight: 700;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
