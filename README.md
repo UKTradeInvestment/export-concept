@@ -47,9 +47,11 @@ This prototype is based on [middleman](https://middlemanapp.com/), a static site
 
 The app is currenlty deployed to [Heroku](http://heroku.com/) where it runs a [rack](http://rack.github.io/) application serving the static files.
 
-There is a [production environment](https://export-prototype.herokuapp.com/) which is automatically deployed on changes to the `master` branch and a [development environment](https://export-prototype-dev.herokuapp.com/) which is automatically deployed on changes to the `develop` branch.
+The [production environment](https://export-prototype.herokuapp.com/) is automatically deployed on changes to the `master` branch.
 
-Having two environments allows changes to be made to the development environment whilst the production environment might be being used for a user testing session.
+Heroku's [review apps beta](https://blog.heroku.com/archives/2015/5/19/heroku_review_apps_beta) is being used to create new instances for each [Pull Request](https://help.github.com/articles/using-pull-requests/) created.
+
+If a more stable environment is required, for example, for a lab testing session, a new heroku instance can be created on the fly and a specific branch can be deployed.
 
 The site may be protected by a username and password. If you have access to the heroku app these will be stored as environment variables.
 
