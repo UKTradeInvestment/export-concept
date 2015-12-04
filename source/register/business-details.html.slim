@@ -1,0 +1,8 @@
+h1 About your business
+form
+  = partial 'partials/form-field--text', locals: { name: 'company_name', id: 'company_name', label: 'Company name' }
+  = partial 'partials/form-field--text', locals: { name: 'postcode', id: 'postcode', label: 'Company postcode', help_text: 'Your registered business postcode' }
+  = partial 'partials/form-field--text', locals: { name: 'telephone', id: 'telephone', label: 'Telephone number' }
+  = partial 'partials/form-field--text', locals: { name: 'website', id: 'website', label: 'Website (optional)' }
+  .form-group
+    a.button href="/register/business-details.html" Register

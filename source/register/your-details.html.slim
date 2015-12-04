@@ -1,0 +1,6 @@
+h1 Enter your details
+form
+  = partial 'partials/form-field--text', locals: { name: 'name', id: 'name', label: 'Full name' }
+  = partial 'partials/form-field--text', locals: { name: 'email', id: 'email', label: 'Email address', type: 'email' }
+  .form-group
+    a.button href="/register/export-experience.html" Continue

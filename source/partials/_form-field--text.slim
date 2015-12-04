@@ -1,0 +1,7 @@
+- type = locals[:type] ? locals[:type] : 'text'
+fieldset.form-group
+  legend.form-label-bold 
+    label for=locals[:id] #{ locals[:label] }
+  - if locals[:help_text]
+    p= locals[:help_text]
+  input.form-control id=locals[:id] name=locals[:name] type=type

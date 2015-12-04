@@ -1,0 +1,23 @@
+h1 Your export experience
+form
+  fieldset.form-group.inline
+    legend.form-label-bold Have you previsouly exported?
+    details role="group"
+      summary aria-controls="details-content-0" aria-expanded="false" role="button" tabindex="0"
+        span class="summary" What is an exporter?
+      div aria-hidden="true" class="panel-indent" id="details-content-0"
+        p You are an exporter if:
+        ul
+          li you have sold goods or services from the UK to another country
+    label.block-label
+      input name="radio-inline-group" type="radio" value="Yes" Yes
+    label.block-label
+      input name="radio-inline-group" type="radio" value="No" No
+  fieldset.form-group
+    legend.form-label-bold 
+      label for="sector" Which industry do you do business in?
+    select#sector.form-control
+      - data.sectors.each do |sector|
+        option value=sector = sector
+  .form-group
+    a.button href="/register/business-choice.html" Continue
