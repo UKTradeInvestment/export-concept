@@ -1,111 +1,37 @@
--
-  name: Aerospace
-  value: aerospace
--
-  name: Agriculture, Horticulture & Fisheries
-  value: agriculture
--
-  name: Airports
-  value: airports
--
-  name: Automotive
-  value: automotive
--
-  name: Biotechnology & Pharmaceuticals
-  value: biotechnology
--
-  name: Business & Consumer Services
-  value: business
--
-  name: Chemicals
-  value: chemicals
--
-  name: Clothing, Footwear & Fashion
-  value: clothing
--
-  name: Communications
-  value: communications
--
-  name: Construction
-  value: construction
--
-  name: Creative & Media
-  value: creative
--
-  name: Defence
-  value: defence
--
-  name: Education & Training
-  value: education
--
-  name: Electronics & IT Hardware
-  value: electronics
--
-  name: Environment
-  value: environment
--
-  name: Financial & Professional Services
-  value: financial
--
-  name: Food & Drink
-  value: food
--
-  name: Giftware, Jewellery & Tableware
-  value: giftware
--
-  name: Global Sports Infrastructure
-  value: global
--
-  name: Healthcare & Medical
-  value: healthcare
--
-  name: Household Goods, Furniture & Furnishings
-  value: household
--
-  name: Leisure & Tourism
-  value: leisure
--
-  name: Marine
-  value: marine
--
-  name: Mechanical Electrical & Process Engineering
-  value: mechanical
--
-  name: Metallurgical Process Plant
-  value: metallurgical
--
-  name: Metals, Minerals & Materials
-  value: metals
--
-  name: Mining
-  value: mining
--
-  name: Oil & Gas
-  value: oil
--
-  name: Ports & Logistics
-  value: ports
--
-  name: Power
-  value: power
--
-  name: Railways
-  value: railways
--
-  name: Renewable Energy
-  value: renewable
--
-  name: Retail and Luxury
-  value: retail
--
-  name: Security
-  value: security
--
-  name: Software & Computer Services
-  value: software
--
-  name: Textiles, Interior Textiles & Carpets
-  value: textiles
--
-  name: Water
-  value: water
+- Aerospace
+- Agriculture, Horticulture & Fisheries
+- Airports
+- Automotive
+- Biotechnology & Pharmaceuticals
+- Business & Consumer Services
+- Chemicals
+- Clothing, Footwear & Fashion
+- Communications
+- Construction
+- Creative & Media
+- Defence
+- Education & Training
+- Electronics & IT Hardware
+- Environment
+- Financial & Professional Services
+- Food & Drink
+- Giftware, Jewellery & Tableware
+- Global Sports Infrastructure
+- Healthcare & Medical
+- Household Goods, Furniture & Furnishings
+- Leisure & Tourism
+- Marine
+- Mechanical Electrical & Process Engineering
+- Metallurgical Process Plant
+- Metals, Minerals & Materials
+- Mining
+- Oil & Gas
+- Ports & Logistics
+- Power
+- Railways
+- Renewable Energy
+- Retail and Luxury
+- Security
+- Software & Computer Services
+- Textiles, Interior Textiles & Carpets
+- Water
