@@ -1,4 +1,4 @@
-ul
+ul.document-list
   li ng-repeat="result in filtered = (results | filter:search | multiFilter:formData)"
     h3
       a href="#{ locals[:url] }{{ result.title|cleanUrl }}.html" {{ result.title }}

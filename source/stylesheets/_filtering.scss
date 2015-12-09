@@ -1,67 +1,11 @@
 .filter-form {
-  
   @include media('>tablet') {
     @include span(33.33%)
   }
 }
 .filter-results {
-  
   @include media('>tablet') {
     @include span(66.66%)
-  }
-
-  ul {
-    padding: 0;
-    list-style: none;
-
-    li {
-      display: block;
-      padding: 15px 0;
-      border-bottom: 1px solid $grey-2;
-
-      &:first-child {
-        padding-top: 0;
-      }
-
-      a {
-        text-decoration: none;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-
-      h3 {
-        font-size: em(19);
-        margin: 0;
-      }
-
-      p {
-        font-size: em(16);
-        line-height: 1.4;
-        margin: 3px 0;
-      }
-
-      dl {
-        font-size: em(14);
-        line-height: 1.5;
-        margin: 0;
-
-        dt {
-          display: none;
-
-          &.response_date,
-          &.event_start_date {
-            display: inline-block;
-          }
-        }
-
-        dd {
-          display: inline-block;
-          margin: 0 15px 0 0;
-        }
-      }
-    }
   }
 }
 .filter {
@@ -174,7 +118,7 @@
   a {
     font-weight: 700;
     text-decoration: none;
-    
+
     &:hover {
       text-decoration: underline;
     }
@@ -184,4 +128,3 @@
     }
   }
 }
-
