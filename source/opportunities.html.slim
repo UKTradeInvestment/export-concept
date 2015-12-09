@@ -2,7 +2,9 @@
 section: opportunities
 ---
 
-h1 Opportunities
+header.filter-header
+  h1 Opportunities
+  p.subscribe.subscribe--email= link_to "Subscribe to email alerts", "#"
 .ng-filtering.grid-row ng-controller="FilteringCtrl"
   form.filter-form
     = partial 'partials/filter--search'
