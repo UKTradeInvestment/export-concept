@@ -2,17 +2,19 @@
 section: events
 ---
 
-h1 Events
+header.filter-header
+  h1 Events
+  p.subscribe.subscribe--email= link_to "Subscribe to email alerts", "#"
 .ng-filtering.grid-row ng-controller="FilteringCtrl"
   form.filter-form
-    = partial 'filter--search'
-    = partial 'filter--option-select',
+    = partial 'partials/filter--search'
+    = partial 'partials/filter--option-select',
       locals: { field_name: 'market', label: 'Country of interest', items: sort_countries(), expanded: true }
-    = partial 'filter--option-select',
+    = partial 'partials/filter--option-select',
       locals: { field_name: 'sector', label: 'Industry', items: data.sectors }
-    = partial 'filter--option-select',
+    = partial 'partials/filter--option-select',
       locals: { field_name: 'region', label: 'UK Region', items: data.regions }
-    = partial 'filter--date'
+    = partial 'partials/filter--date'
   .filter-results
     p ng-show="loading" Loading...
     div ng-hide="loading"
@@ -38,8 +40,8 @@ h1 Events
             | {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
             strong  {{ region }}
           | {{ selectedOptions(formData.region).length == 1 ? ' region' : ' regions' }}
-      = partial 'search-feeds'
-      = partial 'search-results',
+      = partial 'partials/search-feeds'
+      = partial 'partials/search-results',
         locals: { url: '/events/' }
 javascript:
   window.SEARCH_DATA = 'events';

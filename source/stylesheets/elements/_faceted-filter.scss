@@ -1,3 +1,15 @@
+.filter-header {
+  margin-bottom: 30px;
+
+  h1 {
+    margin: 15px 0;
+
+    @include media('>tablet') {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}
 .filter-form {
   @include media('>tablet') {
     @include span(33.33%)
@@ -113,11 +125,13 @@
   margin: 0 0 30px;
 
   * {
-    padding-right: 10px;
+    padding-right: 15px;
   }
   a {
     font-weight: 700;
     text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: left center;
 
     &:hover {
       text-decoration: underline;
@@ -126,5 +140,34 @@
     &:last-child {
       padding-right: 0;
     }
+
+    &.email {
+      @include retina-image('../images/mail-icon', 20px 14px);
+      padding-left: 25px;
+    }
+    &.feed {
+      background-image: url(../images/feed-icon.png);
+      padding-left: 18px;
+    }
+  }
+}
+
+.subscribe {
+  font-size: em(19);
+  font-weight: 700;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &.subscribe--email a {
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    @include retina-image('../images/mail-icon', 20px 14px);
   }
 }
