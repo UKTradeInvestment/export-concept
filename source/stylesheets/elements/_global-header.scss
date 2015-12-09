@@ -29,16 +29,18 @@
     &:hover {
       text-decoration: underline;
     }
-    &:after {
+
+    &::after {
       display: inline-block;
       font-size: 8px;
       height: 8px;
       padding-left: 5px;
       vertical-align: middle;
-      content: " \25BC";
+      content: ' \25BC';
     }
-    &.js-hidden:after {
-      content: " \25B2";
+
+    &.js-hidden::after {
+      content: ' \25B2';
     }
   }
 }

@@ -86,8 +86,8 @@
           padding-right: 15px;
           padding-top: 5px;
 
-          &:before {
-            content: "-";
+          &::before {
+            content: '-';
             position: relative;
             float: left;
             width: 15px;
@@ -109,12 +109,15 @@
     }
   }
 
-  h3, h4, h5 {
+  h3,
+  h4,
+  h5 {
     font-size: em(19px);
     margin: 35px 0 0;
   }
 
-  ul, ol {
+  ul,
+  ol {
     padding-left: 1.5em;
   }
 

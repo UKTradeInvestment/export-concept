@@ -10,16 +10,19 @@
     }
   }
 }
+
 .filter-form {
   @include media('>tablet') {
     @include span(33.33%)
   }
 }
+
 .filter-results {
   @include media('>tablet') {
     @include span(66.66%)
   }
 }
+
 .filter {
   background-color: $grey-3;
   padding: 0 10px;
@@ -42,9 +45,11 @@
     padding: 5px 0;
   }
 }
+
 .option-select {
   margin-bottom: 30px;
 }
+
 .option-select-head {
   display: block;
   width: 100%;
@@ -66,6 +71,7 @@
     }
   }
 }
+
 .option-select-label {
   display: block;
   font-size: em(19);
@@ -73,10 +79,12 @@
   padding-top: 5px;
   margin-right: 40px;
 }
+
 .option-selected-count {
   display: block;
   font-size: em(14);
 }
+
 .options-container {
   border: 5px solid $grey-3;
   max-height: 200px;
@@ -98,7 +106,7 @@
     }
   }
 
-  input[type="checkbox"] {
+  [type="checkbox"] {
     float: left;
     margin: 2px 0 0 -27px;
     width: 20px;
@@ -114,6 +122,7 @@
   vertical-align: baseline;
   border-bottom: 1px solid $grey-2;
 }
+
 .result-count {
   font-size: em(48, 16);
   font-weight: 700;
@@ -127,6 +136,7 @@
   * {
     padding-right: 15px;
   }
+
   a {
     font-weight: 700;
     text-decoration: none;
@@ -145,8 +155,9 @@
       @include retina-image('../images/mail-icon', 20px 14px);
       padding-left: 25px;
     }
+
     &.feed {
-      background-image: url(../images/feed-icon.png);
+      background-image: url('../images/feed-icon.png');
       padding-left: 18px;
     }
   }
@@ -165,9 +176,9 @@
   }
 
   &.subscribe--email a {
+    @include retina-image('../images/mail-icon', 20px 14px);
     padding-left: 30px;
     background-repeat: no-repeat;
     background-position: left center;
-    @include retina-image('../images/mail-icon', 20px 14px);
   }
 }

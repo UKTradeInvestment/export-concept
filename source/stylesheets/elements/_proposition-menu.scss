@@ -1,19 +1,19 @@
-.proposition-menu {
-  
-}
 #proposition-links {
+  @include clearfix;
   margin: 0;
   padding: 0;
-  @include clearfix;
+
   @include media('>=desktop') {
     padding-top: 5px;
   }
 
   .js-enabled & {
     display: none;
+
     @include media('>=desktop') {
       display: block;
     }
+
     &.js-visible {
       display: block;
     }
@@ -56,9 +56,11 @@
     &:hover {
       text-decoration: underline;
     }
+
     &.active {
       color: $proposition-active-nav;
     }
+
     &:focus {
       color: $black;
     }
