@@ -90,6 +90,14 @@ helpers do
   def date_format(dateStr)
     Date.parse(dateStr.to_s).strftime('%-d %B %Y')
   end
+
+  def opportunities_by_country(country)
+    data.opportunities.select { |e| e.meta.market == country }
+  end
+
+  def events_by_country(country)
+    data.events.select { |e| e.meta.market == country }
+  end
 end
 
 # Reload the browser automatically whenever files change
