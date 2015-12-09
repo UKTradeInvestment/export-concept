@@ -1,8 +1,8 @@
 .page-header {
-  padding: 15px 0 20px;
+  margin: 15px 0 20px;
 
   @include media('>tablet') {
-    padding: 35px 0 45px;
+    margin: 35px 0 45px;
     width: 80%;
   }
 
@@ -26,8 +26,7 @@
     font-weight: 400;
     color: $grey-1;
     margin: 0;
-  
-    
+
     @include media('>tablet') {
       font-size: em(36);
     }
@@ -42,8 +41,8 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 1;
-  
-    
+
+
     @include media('>tablet') {
       font-size: em(48);
     }
@@ -83,7 +82,7 @@
         @include span(66.66%);
       }
     }
-    
+
     aside {
       @include media('>tablet') {
         @include span(33.33%);
