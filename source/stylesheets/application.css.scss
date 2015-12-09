@@ -5,36 +5,15 @@
 @import '$colours';
 
 @import 'typography';
-
-@import 'global-header';
-@import 'proposition-menu';
-@import 'page-header';
-@import 'categories-list';
-@import 'featured-links';
-@import 'live-filter';
-@import 'unit';
-@import 'filtering';
-@import 'document';
-@import 'document-list';
 @import 'utilities';
 
-// Individual components
-// @import 'govuk/fonts';
-// @import 'govuk/base';
-// @import 'govuk/typography';
-// @import 'govuk/layout';
-//
-// @import 'govuk/elements/global-header';
-// @import 'govuk/elements/global-subheader';
-// @import 'govuk/elements/global-footer';
-// @import 'govuk/elements/phase-banner';
-// @import 'govuk/elements/table';
-// @import 'govuk/elements/data';
-// @import 'govuk/elements/breadcrumbs';
-// @import 'govuk/elements/panel-indent';
-// @import 'govuk/elements/details';
-// @import 'govuk/elements/buttons';
-// @import 'govuk/elements/global-cookie-message';
-// @import 'govuk/elements/forms/form-control';
-//
-// @import 'govuk/utilities';
+// local elements
+@import 'elements/global-header';
+@import 'elements/proposition-menu';
+@import 'elements/page-header';
+@import 'elements/categories-list';
+@import 'elements/featured-links';
+@import 'elements/live-filter';
+@import 'elements/faceted-filter';
+@import 'elements/document';
+@import 'elements/document-list';
