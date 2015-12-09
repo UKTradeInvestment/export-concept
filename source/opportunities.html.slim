@@ -5,16 +5,16 @@ section: opportunities
 h1 Opportunities
 .ng-filtering.grid-row ng-controller="FilteringCtrl"
   form.filter-form
-    = partial 'filter--search'
-    = partial 'filter--option-select',
+    = partial 'partials/filter--search'
+    = partial 'partials/filter--option-select',
       locals: { field_name: 'market', label: 'Country of interest', items: sort_countries(), expanded: true }
-    = partial 'filter--option-select',
+    = partial 'partials/filter--option-select',
       locals: { field_name: 'sector', label: 'Industry', items: data.sectors }
-    = partial 'filter--option-select',
+    = partial 'partials/filter--option-select',
       locals: { field_name: 'type', label: 'Contract sector', items: ["Aid Funded Business", "Private Sector", "Public Sector"] }
-    = partial 'filter--option-select',
+    = partial 'partials/filter--option-select',
       locals: { field_name: 'value', label: 'Contract value', items: ["More than £100k", "Less than £100k", "Unknown"] }
-    = partial 'filter--date'
+    = partial 'partials/filter--date'
   .filter-results
     p ng-show="loading" Loading...
     div ng-hide="loading"
@@ -44,8 +44,8 @@ h1 Opportunities
           span ng-repeat="value in selectedOptions(formData.value)"
             | {{ !$first && $last ?  ' or' : (!$first && !$last ? ', ' : '') }}
             strong  {{ value }}
-      = partial 'search-feeds'
-      = partial 'search-results',
+      = partial 'partials/search-feeds'
+      = partial 'partials/search-results',
         locals: { url: '/opportunities/' }
 javascript:
   window.SEARCH_DATA = 'opportunities';
