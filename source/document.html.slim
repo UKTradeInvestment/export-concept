@@ -1,16 +1,16 @@
 ---
-section: 
+section:
 ---
 
 header.document-header
   .grid-row
     .column-two-thirds
       h2.context
-        a href="/#{parent.downcase}.html"= parent
+        a href="/#{parent_url}.html"= parent
       h1= document.title
   dl.document-meta-data
     dt From:
-    dd 
+    dd
       a href="https://www.gov.uk/government/organisations/uk-trade-investment" UK Trade & Investment
     dt Published:
     dd= date_format(document.published_date)
@@ -19,7 +19,7 @@ header.document-header
       - if v.include? "date"
         dd= date_format(k)
       - else
-        dd= link_to k, "/#{parent.downcase}.html?#{v}=#{url_encode(k)}"
+        dd= link_to k, "/#{parent_url}.html?#{v}=#{url_encode(k)}"
   p.summary= document.summary
 .grid-row
   .column-third
@@ -32,7 +32,7 @@ footer.document-footer
   h2.u-hidden Information
   .grid-row
     .column-third.document-change-notes
-      p 
+      p
         ' Published:
         time.timestamp datetime=""= document.published_date
     .column-two-thirds.document-related-information
@@ -43,4 +43,4 @@ footer.document-footer
             - if v.include? "date"
               = date_format(k)
             - else
-              = link_to k, "/#{parent.downcase}.html?#{v}=#{url_encode(k)}"
+              = link_to k, "/#{parent_url}.html?#{v}=#{url_encode(k)}"

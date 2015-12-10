@@ -3,26 +3,22 @@
   url: /getting-started.html
   name: started
 -
-  title: Markets
+  title: Country of interest
   url: /markets.html
   name: markets
 -
-  title: Opportunities
+  title: Contracts, tenders and projects
   url: /opportunities.html
   name: opportunities
 -
-  title: Events
+  title: Events, workshops and visits
   url: /events.html
   name: events
+  classes: clear-child
 -
   title: Contacts
   url: /contacts.html
   name: contacts
-  classes: clear-child
--
-  title: Alerts
-  url: /alerts.html
-  name: alerts
 -
   title: UKTI partners
   url: /ukti-partners.html

@@ -39,13 +39,13 @@ end
 # opportunities
 data.opportunities.each do |opportunity|
   file_url = opportunity.title.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
-  proxy "/opportunities/#{file_url}.html", "/document.html", :locals => { :document => opportunity, parent: 'Opportunities' }, :ignore => true
+  proxy "/opportunities/#{file_url}.html", "/document.html", :locals => { :document => opportunity, :parent => "Contracts, tenders and projects", :parent_url => "opportunities" }, :ignore => true
 end
 
 # events
 data.events.each do |event|
   file_url = event.title.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
-  proxy "/events/#{file_url}.html", "/document.html", :locals => { :document => event, parent: 'Events' }, :ignore => true
+  proxy "/events/#{file_url}.html", "/document.html", :locals => { :document => event, :parent => "Events, workshops and visits", :parent_url => "events" }, :ignore => true
 end
 
 # proxy data to json files
