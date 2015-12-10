@@ -1,48 +1,3355 @@
--
-  title: Guadalajara international book fair
-  published_date: 2015-11-01
-  summary: 
-  content: |
-    ## Overview
-    
-    The Tradeshow Access Programme is supporting a UK group, led by the Publishers Association, to the most important publishing gathering in Ibero-America. Exhibiting grants may be available for eligible businesses. Please e-mail for more information.
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by British Educational
+    Suppliers Association, to this fair for the education and training sector. Exhibiting
+    grants may be available for eligible businesses. Please e-mail for more information.'
   meta:
-    market: Finland
-    sector: Mechanical Electrical & Process Engineering
-    region: London
-    location: Exhibition Center Expo Guadalajara, Mexico
+    event_date: '2015-12-10'
+    event_end_date: '2015-12-12'
+    location: Hong Kong Convention and Exhibition Centre, Hong Kong
+    market: Hong Kong
     pricing: Free
-    event_date: 2015-11-28
-    event_end_date: 2015-12-06
--
-  title: FI Europe 2015
-  published_date: 2015-11-03
-  summary: 
-  content: |
-    ## Overview
-    
-    The Tradeshow Access Programme is supporting a group, led by Birmingham Chamber of Commerce, to this fair for the food and drink sector. Exhibiting grants may be available for eligible businesses. Please e-mail for more information.
+    region: South East
+    sector: Education and Training
+  published_date: '2015-11-30'
+  summary: ''
+  title: Learning and Teaching Expo 2015
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Motorsport Industry
+    Association, to this fair for the advanced engineering sector. Exhibiting grants
+    may be available for eligible businesses. Please e-mail for more information.'
   meta:
+    event_date: '2015-12-10'
+    event_end_date: '2015-12-12'
+    location: Indiana Convention Center, United States
+    market: United States
+    pricing: Free
+    region: Northern Ireland
+    sector: Advanced Engineering
+  published_date: '2015-11-30'
+  summary: ''
+  title: Performance Racing Industry 2015
+- content: '##Overview
+
+
+    A group clinic for companies looking to make online exports part of their business
+    strategy. It covers the basics of e-Exporting and gives you the knowledge and
+    tools needed to implement an e-Exporting strategy.'
+  meta:
+    event_date: '2015-12-10'
+    event_end_date: '2015-12-10'
+    location: UK Trade & Investment South East
+    market: Multi-market
+    pricing: Free
+    region: Northern Ireland
+    sector: Multi-Sector
+  published_date: '2015-11-30'
+  summary: ''
+  title: Pre & Early Stage e-Exporter Group Clinic
+- content: '##Overview
+
+
+    This intensive and interactive one-day masterclass will give you with a thorough
+    understanding of export market research techniques, planning and practical solutions.'
+  meta:
+    event_date: '2015-12-10'
+    event_end_date: '2015-12-10'
+    location: Yew Lodge Hotel, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA350 / day"
+    region: South West
+    sector: Multi-Sector
+  published_date: '2015-11-30'
+  summary: ''
+  title: UKTI Researching Export Markets
+- content: '##Overview
+
+
+    Find out about the Digital France programme and associated business opportunities
+    for companies providing technologies in Smart Cities, Big Data and IoT. Learn
+    about the local digital business ecosystem and meet companies interested in collaboration.'
+  meta:
+    event_date: '2015-12-08'
+    event_end_date: '2015-12-10'
+    location: British Trade and Investment Office, France
     market: France
-    sector: Food & Drink
+    pricing: Free
+    region: East
+    sector: Communications
+  published_date: '2015-11-28'
+  summary: ''
+  title: Digital Roadshow Mission to France - Lyon and Grenoble
+- content: '##Overview
+
+
+    The UKTI London Creative Team will be hosting a full day of 1-2-1 matched meetings
+    between London-based production companies and buyers from key international broadcasters
+    from Europe, USA and Latin America. Apply now.'
+  meta:
+    event_date: '2015-12-10'
+    event_end_date: '2015-12-10'
+    location: UKTI London, United Kingdom
+    market: Brazil
+    pricing: "From: \xA325 / day"
+    region: East Midlands
+    sector: Creative and Media
+  published_date: '2015-11-30'
+  summary: ''
+  title: Meet the International Broadcaster
+- content: '##Overview
+
+
+    Attend this specialist workshop to learn the practical steps you can take to boost
+    your international business performance online, and use the web as a new channel
+    for international markets. '
+  meta:
+    event_date: '2015-12-10'
+    event_end_date: '2015-12-10'
+    location: Durham County Cricket Club , United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: South East
+    sector: Multi-Sector
+  published_date: '2015-11-30'
+  summary: ''
+  title: Web Optimisation for International Trade
+- content: '##Overview
+
+
+    This webinar for UK organic food & drink and cosmetics companies will help you
+    prepare for the Biofach and Vivaness shows.  It will discuss key do''s and dont''s,
+    the best ways to enter the market plus packaging and certification regulations. '
+  meta:
+    event_date: '2015-12-10'
+    event_end_date: '2015-12-10'
+    location: webinar
+    market: Germany
+    pricing: Free
+    region: East
+    sector: Biotechnology and Pharmaceuticals
+  published_date: '2015-11-30'
+  summary: ''
+  title: 'Webinar: The German Organics Market - Preparing for Biofach and Vivaness'
+- content: '##Overview
+
+
+    In partnership with China-Britain Business Council we''re providing free 1-2-1
+    advice clinics, helping develop your export strategy and giving you the confidence
+    and knowledge to explore or expand into the Chinese market.'
+  meta:
+    event_date: '2015-12-10'
+    event_end_date: '2015-12-10'
+    location: Jurys Inn, United Kingdom
+    market: China
+    pricing: Free
     region: London
+    sector: Multi-Sector
+  published_date: '2015-11-30'
+  summary: ''
+  title: China Export Clinic - Cheltenham
+- content: "##Overview\n\nAnyone with a business interest in this huge market will\
+    \ benefit from our day long German language and culture workshop.\r\n\r\n \r\n"
+  meta:
+    event_date: '2015-12-11'
+    event_end_date: '2015-12-11'
+    location: Newark Showground, United Kingdom
+    market: Germany
+    pricing: Free
+    region: Scotland
+    sector: Multi-Sector
+  published_date: '2015-12-01'
+  summary: ''
+  title: UKTI Business German for Beginners
+- content: '##Overview
+
+
+    Brazil''s insurance sector is one of the most attractive in the world due to its
+    potential and size, with over 30 M&A deals involving insurers, reinsurers and
+    brokers. Join this webinar to learn more about the opportunities in this market.'
+  meta:
+    event_date: '2015-12-11'
+    event_end_date: '2015-12-11'
+    location: Webinar, United Kingdom
+    market: Brazil
+    pricing: Free
+    region: Wales
+    sector: Financial Services (including Professional Services)
+  published_date: '2015-12-01'
+  summary: ''
+  title: 'Webinar: Double Digit Growth in Brazil''s Insurance Sector'
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a group led by Crafts Council to this
+    fair for the Household Goods sector. Exhibiting grants may be available for eligible
+    businesses. Use the e-mail address below for more information.'
+  meta:
+    event_date: '2015-12-15'
+    event_end_date: '2015-12-20'
+    location: Coex Exhibition Center, Korea, Republic of
+    market: South Korea
+    pricing: Free
+    region: South West
+    sector: Household Goods
+  published_date: '2015-12-05'
+  summary: ''
+  title: Craft Trend Fair 2015
+- content: '##Overview
+
+
+    North America is a dynamic, exciting place to showcase the UK''s expertise. Join
+    UKTI and InfraAmericas for a 2015 market review of Infrastructure & Public Private
+    Partnerships in the USA & Canada, including commercial opportunities and threats.'
+  meta:
+    event_date: '2015-12-15'
+    event_end_date: '2015-12-15'
+    location: Webinar, United Kingdom
+    market: Canada
+    pricing: Free
+    region: North East
+    sector: Airports
+  published_date: '2015-12-05'
+  summary: ''
+  title: 'Webinar: 2015 US Infrastructure Review - Private Sector Opportunities and
+    Threats'
+- content: '##Overview
+
+
+    Find out how cultural awareness and languages matter in export - no matter where
+    you export to and what language you use, there are cultural and language barriers
+    to overcome. '
+  meta:
+    event_date: '2015-12-15'
+    event_end_date: '2015-12-15'
+    location: Webinar, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: North East
+    sector: Multi-Sector
+  published_date: '2015-12-05'
+  summary: ''
+  title: 'Webinar: Common Etiquette and Language Mistakes'
+- content: '##Overview
+
+
+    This webinar will cover how important cultural awareness is for exporting, what
+    research needs to be done, what resources are available and how to avoid common
+    cultural mistakes.'
+  meta:
+    event_date: '2015-12-15'
+    event_end_date: '2015-12-15'
+    location: Webinar, United Kingdom
+    market: United Kingdom
+    pricing: Free
+    region: North West
+    sector: Business (and Consumer) Services
+  published_date: '2015-12-05'
+  summary: ''
+  title: 'Webinar: Language and Etiquette Blunders'
+- content: '##Overview
+
+
+    Join this webinar and hear about the development of Russian airports in FIFA host
+    cities, the procurement plans of major Russian airport management companies and
+    opportunities arising for UK businesses.'
+  meta:
+    event_date: '2015-12-15'
+    event_end_date: '2015-12-15'
+    location: Webinar, United Kingdom
+    market: Russian Federation
+    pricing: Free
+    region: Scotland
+    sector: Airports
+  published_date: '2015-12-05'
+  summary: ''
+  title: 'Webinar: Russian Airports Sector - Reconstruction Plans and Upgrade Opportunities'
+- content: '##Overview
+
+
+    An event for first time exporters or those expanding into new markets who need
+    to be supported by expert advice, reliable data and professional research.'
+  meta:
+    event_date: '2015-12-16'
+    event_end_date: '2015-12-16'
+    location: EMB Ltd, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: Scotland
+    sector: Multi-Sector
+  published_date: '2015-12-06'
+  summary: ''
+  title: 'UKTI Masterclass: Export Marketing Research Clinic'
+- content: '##Overview
+
+
+    This webinar for UK companies covers everything you will need to know.  You''ll
+    hear about GmbH and alternative structures, taxation, employment issues, setting
+    up banking facilities, timescales and repatriating profit to the UK.  '
+  meta:
+    event_date: '2015-12-17'
+    event_end_date: '2015-12-17'
+    location: Webinar, United Kingdom
+    market: Germany
+    pricing: Free
+    region: South East
+    sector: Advanced Engineering
+  published_date: '2015-12-07'
+  summary: ''
+  title: 'Webinar: Setting up a Business in Germany - Top Tax and Financial Tips'
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Birmingham Chamber
+    of Commerce, to this fair for the business and consumer goods sector. Exhibiting
+    grants may be available for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-11'
+    event_end_date: '2016-01-14'
+    location: Hong Kong Convention and Exhibition Centre, Hong Kong
+    market: Hong Kong
+    pricing: Free
+    region: West midlands
+    sector: Business (and Consumer) Services
+  published_date: '2016-01-01'
+  summary: ''
+  title: Hong Kong Toy Fair 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a group led by UKFT to this international
+    menswear event. Exhibiting grants may be available for eligible businesses. Use
+    the e-mail address below for more information.'
+  meta:
+    event_date: '2016-01-12'
+    event_end_date: '2016-01-15'
+    location: Firenze Fiera, Italy
+    market: Italy
+    pricing: Free
+    region: East
+    sector: Clothing
+  published_date: '2016-01-02'
+  summary: ''
+  title: Pitti Uomo 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a  group led by UKFT to this international  trade
+    fair for home & contract textiles. Exhibiting grants may be available for eligible
+    businesses. Use the e-mail address below for more information.'
+  meta:
+    event_date: '2016-01-12'
+    event_end_date: '2016-01-15'
+    location: Frankfurt Messe, Germany
+    market: Germany
+    pricing: Free
+    region: Northern Ireland
+    sector: Textiles
+  published_date: '2016-01-02'
+  summary: ''
+  title: Heimtextil 2016
+- content: '##Overview
+
+
+    This first time Roadshow in Vietnam will enhance the UKs offer in financial technology
+    to Vietnamese bankers and executives and technical officers from insurance and
+    security companies.'
+  meta:
+    event_date: '2016-01-12'
+    event_end_date: '2016-01-15'
+    location: British Embassy Hanoi
+    market: Vietnam
+    pricing: Free
+    region: North East
+    sector: Financial Services (including Professional Services)
+  published_date: '2016-01-02'
+  summary: ''
+  title: The UK Fintech Roadshow to Vietnam
+- content: '##Overview
+
+
+    This workshop is your opportunity to focus on your export objectives and is designed
+    to challenge you to think through your export development. It is only open to
+    companies based in the South East who participate in the Passport to Export programme.'
+  meta:
+    event_date: '2016-01-12'
+    event_end_date: '2016-01-13'
+    location: Holiday Inn Maidstone, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: Yorkshire and the Humberside
+    sector: Multi-Sector
+  published_date: '2016-01-02'
+  summary: ''
+  title: Winning & Delivering Business Overseas
+- content: '##Overview
+
+
+    Overseas delegates have been invited to participate in various business networking
+    activities with UK companies exhibiting and visiting the NEC in January. For more
+    information and to directly engage with these delegates please contact the MIA.'
+  meta:
+    event_date: '2016-01-13'
+    event_end_date: '2016-01-15'
+    location: NEC, Birmingham, United Kingdom
+    market: Multi-market
+    pricing: "\xA330 - \xA3200"
+    region: Northern Ireland
+    sector: Automotive
+  published_date: '2016-01-03'
+  summary: ''
+  title: Trade delegation & inward investors visit to the MIA Energy Efficient Motorsport
+    Conference and the Autosport International Show
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a group led by BPMA to a leading European
+    trade show of the promotional product industry. Exhibiting grants may be available
+    for eligible businesses.  Use the e-mail address below for information.'
+  meta:
+    event_date: '2016-01-13'
+    event_end_date: '2016-01-15'
+    location: Dusseldorf Exhibition Centre, Germany
+    market: Germany
+    pricing: Free
+    region: West midlands
+    sector: Giftware Jewellery and Tableware
+  published_date: '2016-01-03'
+  summary: ''
+  title: PSI 2016
+- content: '##Overview
+
+
+    Find out how to build and optimise a successful world-class website that will
+    generate a higher volume of web traffic and gain new business from international
+    customers.'
+  meta:
+    event_date: '2016-01-13'
+    event_end_date: '2016-01-13'
+    location: Yorkshire Sculpture Park, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA380 / day"
+    region: East Midlands
+    sector: Multi-Sector
+  published_date: '2016-01-03'
+  summary: ''
+  title: Web Optimisation for International Trade - UKTI Masterclass
+- content: '##Overview
+
+
+    This course will give you the skills and the knowledge to develop your own marketing
+    research projects with step by-step guidance through the entire process.'
+  meta:
+    event_date: '2016-01-14'
+    event_end_date: '2016-01-14'
+    location: Holiday Inn Reading South, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA3100 / day"
+    region: East
+    sector: Multi-Sector
+  published_date: '2016-01-04'
+  summary: ''
+  title: Researching Overseas Markets
+- content: '##Overview
+
+
+    Cambodia is keen to develop its education system with special focus on STEM. This
+    webinar will provide UK companies with an overview of Cambodian education system,
+    current situation, future trends and potential business opportunities.'
+  meta:
+    event_date: '2016-01-14'
+    event_end_date: '2016-01-14'
+    location: Webinar, United Kingdom
+    market: Cambodia
+    pricing: Free
+    region: East
+    sector: Education and Training
+  published_date: '2016-01-04'
+  summary: ''
+  title: 'Education System in Cambodia: STEM, Education Technologies and Opportunities'
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Birmingham Chamber
+    of Commerce, to this household goods fair. Exhibiting grants may be available
+    for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-16'
+    event_end_date: '2016-01-19'
+    location: Hannover Exhibition Grounds, Germany
+    market: Germany
+    pricing: Free
+    region: Yorkshire and the Humberside
+    sector: Household Goods
+  published_date: '2016-01-06'
+  summary: ''
+  title: Domotex 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by FDEA, to one of the
+    largest trade events devoted to specialty food in North America. . Exhibiting
+    grants may be available for eligible businesses.  Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-17'
+    event_end_date: '2016-01-19'
+    location: Moscone Convention Center
+    market: United States
+    pricing: Free
+    region: East
+    sector: Food and Drink
+  published_date: '2016-01-07'
+  summary: ''
+  title: Winter Fancy Food
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by British Security
+    Industry Association, to this security fair. Exhibiting grants may be available
+    for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-17'
+    event_end_date: '2016-01-19'
+    location: Dubai World Trade Centre, United Arab Emirates
+    market: UAE
+    pricing: Free
+    region: North East
+    sector: Defence and Security
+  published_date: '2016-01-07'
+  summary: ''
+  title: Intersec 2016 Funding via BSIA
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by British Safety Industry
+    Federation, to this security fair. Exhibiting grants may be available for eligible
+    businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-17'
+    event_end_date: '2016-01-19'
+    location: Dubai World Trade Centre, United Arab Emirates
+    market: UAE
+    pricing: Free
+    region: South West
+    sector: Defence and Security
+  published_date: '2016-01-07'
+  summary: ''
+  title: Intersec 2016 Funding via BSIF
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Energy Industries
+    Council, to this energy fair. Exhibiting grants may be available for eligible
+    businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-18'
+    event_end_date: '2016-01-21'
+    location: Abu Dhabi National Exhibition Centre, United Arab Emirates
+    market: UAE
+    pricing: Free
+    region: East Midlands
+    sector: Energy
+  published_date: '2016-01-08'
+  summary: ''
+  title: World Future Energy 2016
+- content: '##Overview
+
+
+    Explore the numerous opportunities for UK companies, across all sectors, to secure
+    business in Spain and Portugal.This all inclusive trip will broaden your business
+    horizons and give you a taste of new markets and help you find new business'
+  meta:
+    event_date: '2016-01-18'
+    event_end_date: '2016-01-20'
+    location: British Embassy Lisbon
+    market: Portugal
+    pricing: "From: \xA3200 / day"
+    region: Northern Ireland
+    sector: Multi-Sector
+  published_date: '2016-01-08'
+  summary: ''
+  title: Export Insight Visit to Iberia
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by British Water, to
+    this global event for promoting water sustainability in arid regions . Exhibiting
+    grants may be available for eligible businesses.  Please e-mail for information.'
+  meta:
+    event_date: '2016-01-18'
+    event_end_date: '2016-01-21'
+    location: Abu Dhabi National Exhibition Centre, United Arab Emirates
+    market: UAE
+    pricing: Free
+    region: South West
+    sector: Environment and Water
+  published_date: '2016-01-08'
+  summary: ''
+  title: International Water Summit
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a UK group led by UK Fashion Exports
+    to this international fashion event. Exhibiting grants may be available for eligible
+    businesses. Use the e-mail address below for more information.'
+  meta:
+    event_date: '2016-01-18'
+    event_end_date: '2016-01-22'
+    location: British Embassy Berlin, Germany
+    market: Germany
+    pricing: Free
+    region: South East
+    sector: Clothing
+  published_date: '2016-01-08'
+  summary: ''
+  title: Berlin Fashion Week 2016
+- content: '##Overview
+
+
+    The Civil Nuclear Showcase presents a unique opportunity to meet with senior international
+    decision makers from key overseas nuclear markets representing governments, utilities,
+    nuclear vendors and industry. Join UKTI at CNS to gain valuable insights and connect
+    with key stakeholders.'
+  meta:
+    event_date: '2016-01-19'
+    event_end_date: '2016-01-21'
+    location: The Russell Hotel, Russell Square, London, WC1B 5BE
+    market: Multi-market
+    pricing: "\xA3150"
+    region: Yorkshire and the Humberside
+    sector: Power
+  published_date: '2016-01-09'
+  summary: ''
+  title: Civil Nuclear Showcase 2016
+- content: '##Overview
+
+
+    At this event you will learn about technology systems, legal considerations, localisation,
+    sales and marketing.  The day is split into three sections and includes time for
+    exercises, discussion and networking.'
+  meta:
+    event_date: '2016-01-19'
+    event_end_date: '2016-01-19'
+    location: Bridge House, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA350 / day"
+    region: West midlands
+    sector: Multi-Sector
+  published_date: '2016-01-09'
+  summary: ''
+  title: 'UKTI Masterclass: E-commerce for International Trade'
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Gun Trade Association,
+    to this leisure and tourism fair. Exhibiting grants may be available for eligible
+    businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-19'
+    event_end_date: '2016-01-22'
+    location: Sands Expo & Convention Centre, United States
+    market: United States
+    pricing: Free
+    region: Scotland
+    sector: Leisure and Tourism
+  published_date: '2016-01-09'
+  summary: ''
+  title: ShotShow 2016
+- content: '##Overview
+
+
+    This mission includes a conference with Images Food & Grocery Forum, networking
+    reception and meetings with industry leaders, stakeholders, bespoke B2B meets,  and
+    visits to retail stores, breweries, food processing, packaging, ecommerce facilities.'
+  meta:
+    event_date: '2016-01-19'
+    event_end_date: '2016-01-22'
+    location: Bandra Kurla Complex
+    market: India
+    pricing: "From: \xA3425 / day"
+    region: East Midlands
+    sector: Food and Drink
+  published_date: '2016-01-09'
+  summary: ''
+  title: Trade Mission to India, January 2016
+- content: '##Overview
+
+
+    This event will test senior decision making executives attitude towards export
+    risk, and consider different ways of thinking. You will discover how the attitude
+    to dealing with risks can differ between decision makers within your organisation.'
+  meta:
+    event_date: '2016-01-19'
+    event_end_date: '2016-01-19'
+    location: Eastwell Manor
+    market: Multi-market
+    pricing: Free
+    region: West midlands
+    sector: Multi-Sector
+  published_date: '2016-01-09'
+  summary: ''
+  title: Grow Exports with Reduced Risks - Ashford
+- content: '##Overview
+
+
+    This event showcases the best in UK and international educational technology products,
+    resources and best practice and is seen as a focal point to tap-in to UK expertise
+    across all aspects of educational technology.'
+  meta:
+    event_date: '2016-01-20'
+    event_end_date: '2016-01-23'
+    location: Excel, London, United Kingdom
+    market: United Kingdom
+    pricing: Free
+    region: North East
+    sector: Education and Training
+  published_date: '2016-01-10'
+  summary: ''
+  title: BETT Show
+- content: '##Overview
+
+
+    This workshop is your opportunity to focus on your export objectives and is designed
+    to challenge you to think through your export development. It is only open to
+    companies based in the South East who participate in the Passport to Export programme.'
+  meta:
+    event_date: '2016-01-20'
+    event_end_date: '2016-01-21'
+    location: Holiday Inn Reading South, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: South West
+    sector: Multi-Sector
+  published_date: '2016-01-10'
+  summary: ''
+  title: Winning & Delivering Business Overseas
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by the MIA, to ''the
+    place to create a global network'' . Exhibiting grants may be available for eligible
+    businesses.  Please  e-mail for more information.'
+  meta:
+    event_date: '2016-01-21'
+    event_end_date: '2016-01-24'
+    location: Anaheim Convention Center, United States
+    market: United States
+    pricing: Free
+    region: North East
+    sector: Creative and Media
+  published_date: '2016-01-11'
+  summary: ''
+  title: NAMM International Music Market
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by ADS Group Ltd, to
+    this fair for advanced engineering. Exhibiting grants may be available for eligible
+    businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-21'
+    event_end_date: '2016-01-23'
+    location: Sakhir Air Base, Bahrain
+    market: Bahrain
+    pricing: Free
+    region: East
+    sector: Advanced Engineering
+  published_date: '2016-01-11'
+  summary: ''
+  title: Bahrain Airshow 2016
+- content: '##Overview
+
+
+    This invaluable one-day masterclass will introduce you to an inclusive approach
+    to motivation and management of agents and distributors and how to apply the course
+    material in yourr everyday business development.'
+  meta:
+    event_date: '2016-01-21'
+    event_end_date: '2016-01-21'
+    location: NSPCC National Training Centre
+    market: Multi-market
+    pricing: "From: \xA350 / day"
+    region: London
+    sector: Multi-Sector
+  published_date: '2016-01-11'
+  summary: ''
+  title: UKTI Building Successful Relationships with Agents & Distributors
+- content: '##Overview
+
+
+    Produced in partnership with AFINEF, this event provides UK and French education
+    suppliers with opportunities to network and explore business opportunities.  Register
+    to ensure your place which includes a listing in the networking brochure.  '
+  meta:
+    event_date: '2016-01-21'
+    event_end_date: '2016-01-21'
+    location: Excel London, United Kingdom
+    market: France
+    pricing: Free
+    region: North East
+    sector: Education and Training
+  published_date: '2016-01-11'
+  summary: ''
+  title: Franco-British Education Event at BETT 2016, London
+- content: '##Overview
+
+
+    This webinar will give you an overview of business markets in Eastern Europe signposting
+    the opportunities available, business culture and communication styles, and the
+    resources available to help you.'
+  meta:
+    event_date: '2016-01-21'
+    event_end_date: '2016-01-21'
+    location: Webinar, United Kingdom
+    market: Estonia
+    pricing: Free
+    region: Wales
+    sector: Business (and Consumer) Services
+  published_date: '2016-01-11'
+  summary: ''
+  title: 'Webinar: Doing Business in Eastern Europe'
+- content: '##Overview
+
+
+    The Trade Access Programme is supporting a UK group, led by BEDG, to this flagship
+    event for interior creative design attracting worldwide visitors. Exhibiting grants
+    may be available for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-22'
+    event_end_date: '2016-01-26'
     location: Paris Nord Villepinte, France
-    pricing: Free
-    event_date: 2015-12-01
-    event_end_date: 2015-12-01
--
-  title: Winning & delivering business overseas
-  published_date: 2015-11-10
-  summary: 
-  content: |
-    ## Overview
-    
-    This workshop is your opportunity to focus on your export objectives and is designed to challenge you to think through your export development. It is only open to companies based in the South East who participate in the Passport to Export programme.
-  meta:
     market: France
-    sector: Food & Drink
-    region: London
-    location: Holiday Inn Oxford, United Kingdom
     pricing: Free
-    event_date: 2015-12-02
-    event_end_date: 2015-12-03
+    region: North West
+    sector: Retail
+  published_date: '2016-01-12'
+  summary: ''
+  title: Maison Et Objet 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a group led by British European Design
+    Group to this fair for the Business and Creative and Media sector. Exhibiting
+    grants may be available for eligible businesses. Use the e-mail address below
+    for more information.'
+  meta:
+    event_date: '2016-01-22'
+    event_end_date: '2016-01-26'
+    location: Paris Nord Villepinte, France
+    market: France
+    pricing: Free
+    region: Scotland
+    sector: Creative and Media
+  published_date: '2016-01-12'
+  summary: ''
+  title: Maison et Objet January 2016
+- content: "##Overview\n\nThe Tradeshow Access Programme is supporting a group, led\
+    \ by BATF, to a only show where trends are revealed, meetings are held and deals\
+    \ are done.Exhibiting grants may be available for eligible businesses.   Please\
+    \ e-mail for more infomation\r\n "
+  meta:
+    event_date: '2016-01-22'
+    event_end_date: '2016-01-25'
+    location: 1 place de la Porte de Versailles, France
+    market: France
+    pricing: Free
+    region: Yorkshire and the Humberside
+    sector: Giftware Jewellery and Tableware
+  published_date: '2016-01-12'
+  summary: ''
+  title: Bijorhca
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a UK group led by UK Fashion Exports
+    to the international ready to wear show. Exhibiting grants may be available for
+    eligible businesses. Use the e-mail address below for more information.'
+  meta:
+    event_date: '2016-01-22'
+    event_end_date: '2016-01-25'
+    location: Parc des Expositions, France
+    market: France
+    pricing: Free
+    region: West midlands
+    sector: Clothing
+  published_date: '2016-01-12'
+  summary: ''
+  title: Who's Next 2016
+- content: '##Overview
+
+
+    UKTI are offering you a unique opportunity to join a group visit led by our experienced
+    trade advisers to Dubai, centred on this major healthcare exhibition for Middle
+    East markets. The visit programme is open to companies from all sectors.'
+  meta:
+    event_date: '2016-01-22'
+    event_end_date: '2016-01-29'
+    location: Dubai International Convention & Exhibition Centre, United Arab Emirates
+    market: UAE
+    pricing: "From: \xA3125 / day"
+    region: Scotland
+    sector: Healthcare
+  published_date: '2016-01-12'
+  summary: ''
+  title: Market Visit to Arab Health 2016 Exhibition & Congress
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by British Marine Federation,
+    to this marine fair. Exhibiting grants may be available for eligible businesses.
+    Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-23'
+    event_end_date: '2016-01-31'
+    location: "Messe D\xC3\xBCsseldorf, Germany"
+    market: Germany
+    pricing: Free
+    region: East
+    sector: Marine
+  published_date: '2016-01-13'
+  summary: ''
+  title: Dusseldorf Boatshow 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a UK group led by UKFT to this edition
+    of this premier  fashion event. Exhibiting grants may be available for eligible
+    businesses.  Use the e-mail address below for more information.'
+  meta:
+    event_date: '2016-01-23'
+    event_end_date: '2016-01-28'
+    location: Palais de la Bourse, France
+    market: France
+    pricing: Free
+    region: North East
+    sector: Clothing
+  published_date: '2016-01-13'
+  summary: ''
+  title: Paris Men's Fashion Week 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a UK group led by UK Fashion Exports
+    to this international lingerie and nightwear exhibition. Exhibiting grants may
+    be available for eligible businesses. Use the e-mail address below for more information.'
+  meta:
+    event_date: '2016-01-23'
+    event_end_date: '2016-01-25'
+    location: Paris expo, Porte de Versailles, France
+    market: France
+    pricing: Free
+    region: East Midlands
+    sector: Clothing
+  published_date: '2016-01-13'
+  summary: ''
+  title: Salon de la Lingerie 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by FSPA, to a leading
+    international event for the sport business elite. Exhibiting grants may be available
+    for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-24'
+    event_end_date: '2016-01-27'
+    location: "MesseM\xC3\xBCnchen, Germany"
+    market: Germany
+    pricing: Free
+    region: East Midlands
+    sector: Leisure and Tourism
+  published_date: '2016-01-14'
+  summary: ''
+  title: ISPO Munich
+- content: '##Overview
+
+
+    UKTI are offering an enhanced package of support to UK companies visiting or exhibiting
+    at this international healthcare exhibition, to help you get the most out of your
+    time in Dubai. '
+  meta:
+    event_date: '2016-01-24'
+    event_end_date: '2016-01-28'
+    location: Dubai World Trade Centre, United Arab Emirates
+    market: UAE
+    pricing: "From: \xA3210 / day"
+    region: North East
+    sector: Healthcare
+  published_date: '2016-01-14'
+  summary: ''
+  title: Arab Health 2016 - UKTI Enhanced Package
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a  group led by UKFT to this international
+    children''s & maternity trade fair. Exhibiting grants may be available for eligible
+    businesses. Use the e-mail address below for more information.'
+  meta:
+    event_date: '2016-01-24'
+    event_end_date: '2016-01-26'
+    location: Parc Floral De Paris, France
+    market: France
+    pricing: Free
+    region: Northern Ireland
+    sector: Clothing
+  published_date: '2016-01-14'
+  summary: ''
+  title: Playtime Paris 2016
+- content: '##Overview
+
+
+    Arab Health gathers international and regional medical practitioners together
+    with leading manufacturers, wholesalers, dealers and distributors to network and
+    exchange best practices.'
+  meta:
+    event_date: '2016-01-25'
+    event_end_date: '2016-01-28'
+    location: Dubai International Convention & Exhibition Centre, Dubai, United Arab
+      Emirates
+    market: Multi-market
+    pricing: Free
+    region: Wales
+    sector: Healthcare
+  published_date: '2016-01-15'
+  summary: ''
+  title: Arab Health 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by ABHI, to the largest
+    healthcare exhibition & medical congress in the Middle East  . Exhibiting grants
+    may be available for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-25'
+    event_end_date: '2016-01-28'
+    location: Dubai World Trade Centre, United Arab Emirates
+    market: UAE
+    pricing: Free
+    region: North East
+    sector: Life Sciences
+  published_date: '2016-01-15'
+  summary: ''
+  title: Arab Health, Funding via Association of British Health-Care Industries
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by  Gambica, to the
+    largest healthcare exhibition and medical congress in the Middle East.Exhibiting
+    grants may be available for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-25'
+    event_end_date: '2016-01-28'
+    location: Dubai World Trade Centre, United Arab Emirates
+    market: UAE
+    pricing: Free
+    region: South East
+    sector: Life Sciences
+  published_date: '2016-01-15'
+  summary: ''
+  title: Arab Health Medilab Funding via GAMBICA
+- content: "##Overview\n\nThe next edition of the International Cyber Security Forum\
+    \ FIC will take place in Lille on 25 & 26 January 2016. UKTI is proud to be hosting\
+    \ the UK pavilion to put the spotlight on GREAT British cyber security providers.\r\
+    \n \r\n"
+  meta:
+    event_date: '2016-01-25'
+    event_end_date: '2016-01-26'
+    location: Grand Palais, Lille
+    market: France
+    pricing: Free
+    region: East
+    sector: Defence and Security
+  published_date: '2016-01-15'
+  summary: ''
+  title: International Cyber Security Forum
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Commercial Horticultural
+    Association, to this horticultural fair. Exhibiting grants may be available for
+    eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-26'
+    event_end_date: '2016-01-29'
+    location: Essen Messe, Germany
+    market: Germany
+    pricing: Free
+    region: London
+    sector: Horticulture and Fisheries
+  published_date: '2016-01-16'
+  summary: ''
+  title: IPM Essen 2016
+- content: '##Overview
+
+
+    An opportunity for companies wishing to expand sales, find partners, set up representation,
+    deal with local suppliers or simply talk through any business issue with a China
+    market specialist.'
+  meta:
+    event_date: '2015-10-29'
+    event_end_date: '2015-10-29'
+    location: Sussex Chamber of Commerce, United Kingdom
+    market: China
+    pricing: Free
+    region: South East
+    sector: Multi-Sector
+  published_date: '2015-10-19'
+  summary: ''
+  title: China Business Clinic
+- content: '##Overview
+
+
+    This workshop is your opportunity to focus on your export objectives and is designed
+    to challenge you to think through your export development. It is only open to
+    companies based in the South East who participate in the Passport to Export programme.'
+  meta:
+    event_date: '2016-01-26'
+    event_end_date: '2016-01-27'
+    location: Holiday Inn Guildford, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: North West
+    sector: Multi-Sector
+  published_date: '2016-01-16'
+  summary: ''
+  title: Winning & Delivering Business Overseas
+- content: '##Overview
+
+
+    This UKTI masterclass workshop will explain how you can find the right overseas
+    partners, keep them motivated, and manage potential problems that may arise.'
+  meta:
+    event_date: '2016-01-26'
+    event_end_date: '2016-01-26'
+    location: Village Hotel Leeds South, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA380 / day"
+    region: East
+    sector: Multi-Sector
+  published_date: '2016-01-16'
+  summary: ''
+  title: Managing Agents and Distributors
+- content: '##Overview
+
+
+    Opportunities exist for UK companies to supply services and equipment to PV and
+    CSP projects in Brazil. During this webinar the Brazilian Association of Photovoltaic
+    Solar Energy will signpost future opportunities for the UK supply chain.'
+  meta:
+    event_date: '2016-01-26'
+    event_end_date: '2016-01-26'
+    location: Webinar, United Kingdom
+    market: Brazil
+    pricing: Free
+    region: South West
+    sector: Power
+  published_date: '2016-01-16'
+  summary: ''
+  title: 'Webinar: Brazil - Opportunities In the Solar Energy Sector'
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by FSPA,  to the
+    premier golf merchandise show. Exhibiting grants may be available for eligible
+    businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-01-27'
+    event_end_date: '2016-01-29'
+    location: Orange County Convention Center , United States
+    market: United States
+    pricing: Free
+    region: East Midlands
+    sector: Leisure and Tourism
+  published_date: '2016-01-17'
+  summary: ''
+  title: PGA USA
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a group led by Birmingham Chamber
+    of Commerce to this fair for the Business and Consumer Goods sector. Exhibiting
+    grants may be available for eligible businesses. Use the e-mail address below
+    for more information.'
+  meta:
+    event_date: '2016-01-27'
+    event_end_date: '2016-01-31'
+    location: Nurnberg Messe GmbH, Germany
+    market: Germany
+    pricing: Free
+    region: North East
+    sector: Business (and Consumer) Services
+  published_date: '2016-01-17'
+  summary: ''
+  title: Spielwarenmesse 2016
+- content: '##Overview
+
+
+    This course introduces you to an inclusive approach to motivation and management,
+    and how to apply this to working with international partners effectively and becoming
+    more efficient and profitable.'
+  meta:
+    event_date: '2016-01-28'
+    event_end_date: '2016-01-28'
+    location: Holiday Inn Gatwick, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA3100 / day"
+    region: South West
+    sector: Multi-Sector
+  published_date: '2016-01-18'
+  summary: ''
+  title: Building Business with Agents & Distributors
+- content: "##Overview\n\nThe Tradeshow Access Programme will support a UK group led\
+    \ by UKFT to this edition of this premier New York fashion event. Exhibiting grants\
+    \ may be available for eligible businesses.\xC2\_Use the e-mail address below\
+    \ for more information."
+  meta:
+    event_date: '2016-01-28'
+    event_end_date: '2016-01-31'
+    location: Javitts Center and Pier 94 New York, United States
+    market: United States
+    pricing: Free
+    region: Wales
+    sector: Clothing
+  published_date: '2016-01-18'
+  summary: ''
+  title: New York Men's Fashion Week 2016
+- content: '##Overview
+
+
+    A practical 1-day masterclass on the best strategies to adopt on social media
+    platforms to create better leads from overseas market. Learn how to engage an
+    online audience and avoid outdated practices and penalties from the social media.'
+  meta:
+    event_date: '2016-01-28'
+    event_end_date: '2016-01-28'
+    location: Wynyard Park House
+    market: Multi-market
+    pricing: Free
+    region: Scotland
+    sector: Multi-Sector
+  published_date: '2016-01-18'
+  summary: ''
+  title: Social Media Marketing for Lead Generation
+- content: "##Overview\n\nThis Summit provides a timely and strategic opportunity\
+    \ for mining and renewable energy leaders to network and discuss affordable and\
+    \ reliable power solutions for global mining operations.\r\n\r\n"
+  meta:
+    event_date: '2016-01-28'
+    event_end_date: '2016-01-29'
+    location: Hilton Tower Bridge
+    market: Ghana
+    pricing: Free
+    region: Wales
+    sector: Mining
+  published_date: '2016-01-18'
+  summary: ''
+  title: Energy and Mines London Summit
+- content: '##Overview
+
+
+    This workshop will help map China''s digital landscape, providing advice on the
+    leading B2B and B2C platforms and exploring how digital marketing and social media
+    can be utilised for customer engagement and sales growth.'
+  meta:
+    event_date: '2016-01-28'
+    event_end_date: '2016-01-28'
+    location: St Austell Conference Centre, United Kingdom
+    market: China
+    pricing: Free
+    region: Yorkshire and the Humberside
+    sector: Clothing
+  published_date: '2016-01-18'
+  summary: ''
+  title: China Digital Workshop
+- content: '##Overview
+
+
+    Take part in 40 minute appointments giving you an opportunity to meet with a market
+    specialist. They are open to companies wishing to expand sales, find partners
+    or simply talk through any business issue related to trading with Poland'
+  meta:
+    event_date: '2016-01-28'
+    event_end_date: '2016-01-28'
+    location: Bridge House, United Kingdom
+    market: Poland
+    pricing: Free
+    region: North East
+    sector: Multi-Sector
+  published_date: '2016-01-18'
+  summary: ''
+  title: Meet the Expert - Poland
+- content: "##Overview\n\nAnyone with a business interest in this huge market will\
+    \ benefit from our day long Japanese language and culture workshop.\r\n\r\n \r\
+    \n"
+  meta:
+    event_date: '2016-01-29'
+    event_end_date: '2016-01-29'
+    location: Leicester Hilton Hotel, United Kingdom
+    market: Japan
+    pricing: Free
+    region: Scotland
+    sector: Multi-Sector
+  published_date: '2016-01-19'
+  summary: ''
+  title: UKTI Business Japanese for Beginners
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a UK group led by  BATF to this International
+    Trade Fair for Stationery, Office Supplies and Writing Instruments.Exhibiting
+    grants may be available for eligible businesses. Use the e-mail address below
+    for more information.'
+  meta:
+    event_date: '2016-01-30'
+    event_end_date: '2016-02-02'
+    location: Messe Frankfurt
+    market: Germany
+    pricing: Free
+    region: West midlands
+    sector: Giftware Jewellery and Tableware
+  published_date: '2016-01-20'
+  summary: ''
+  title: Paperworld
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by BATF, to NY NOW
+    - an unparalleled opportunity for  trade and consumer brand exposure. Exhibiting
+    grants may be available for eligible businesses. Please e-mail for information.'
+  meta:
+    event_date: '2016-01-30'
+    event_end_date: '2016-02-03'
+    location: Jacob K. Javits Convention Center , United States
+    market: United States
+    pricing: Free
+    region: London
+    sector: Giftware Jewellery and Tableware
+  published_date: '2016-01-20'
+  summary: ''
+  title: NY Now - New York International Gift Fair
+- content: "##Overview\n\nThe Tradeshow Access Programme is supporting a UK group,\
+    \ led by FDEA, to the world's largest trade fair for sweets and snacks. Exhibiting\
+    \ grants may be available for eligible businesses. Please email for more \r\n\
+    information.\r\n"
+  meta:
+    event_date: '2016-01-31'
+    event_end_date: '2016-02-03'
+    location: Salon ISM Messplate, Germany
+    market: Germany
+    pricing: Free
+    region: West midlands
+    sector: Food and Drink
+  published_date: '2016-01-21'
+  summary: ''
+  title: ISM
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by BFA, to this event
+    for businesses looking to expand into US markets. Exhibiting grants may be available
+    for eligible businesses. Please email for more information.'
+  meta:
+    event_date: '2016-02-01'
+    event_end_date: '2016-02-01'
+    location: Jacob K. Javits Convention Center, United States
+    market: United States
+    pricing: Free
+    region: West midlands
+    sector: Clothing
+  published_date: '2016-01-22'
+  summary: ''
+  title: Sole Commerce
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by BFA, to this global
+    showcase for branded footwear. Exhibiting grants may be available for eligible
+    businesses.  Please email for more information.'
+  meta:
+    event_date: '2016-02-01'
+    event_end_date: '2016-02-01'
+    location: Las Vegas Convention Centre, United States
+    market: United States
+    pricing: Free
+    region: South West
+    sector: Clothing
+  published_date: '2016-01-22'
+  summary: ''
+  title: Magic/Platform Feb
+- content: '##Overview
+
+
+    Mexico is welcoming numerous UK companies to do business. Join this visit to explore
+    the opportunities, research the market, meet with potential customers and develop
+    relationships for long term growth and success.'
+  meta:
+    event_date: '2016-02-01'
+    event_end_date: '2016-02-05'
+    location: British Embassy Mexico City, Mexico
+    market: Mexico
+    pricing: Free
+    region: Wales
+    sector: Advanced Engineering
+  published_date: '2016-01-22'
+  summary: ''
+  title: Market visit to Mexico
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by CIA, to the leading
+    global sourcing event for the pharmaceutical industry. Exhibiting grants may be
+    available for eligible businesses. Please email for more information.'
+  meta:
+    event_date: '2016-02-02'
+    event_end_date: '2016-02-04'
+    location: Morial Convention Centr, United States
+    market: United States
+    pricing: Free
+    region: Scotland
+    sector: Chemicals
+  published_date: '2016-01-23'
+  summary: ''
+  title: Informex
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by the BDIA, to showcase
+    medical and pharmaceutical products at this event.Exhibiting grants may be available
+    for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-02-02'
+    event_end_date: '2016-02-04'
+    location: Dubai International Convention & Exhibition Centre, United Arab Emirates
+    market: UAE
+    pricing: Free
+    region: North West
+    sector: Life Sciences
+  published_date: '2016-01-23'
+  summary: ''
+  title: International Dental Conference & Arab Dental Exhibition
+- content: '##Overview
+
+
+    Learn how to develop a marketing strategy at this masterclass for strategic decision
+    makers. The course will focus on using tried and tested marketing techniques to
+    enhance export success and is suitable both for product and service exporters.'
+  meta:
+    event_date: '2016-02-02'
+    event_end_date: '2016-02-02'
+    location: Village Nottingham , United Kingdom
+    market: Multi-market
+    pricing: "From: \xA350 / day"
+    region: Northern Ireland
+    sector: Multi-Sector
+  published_date: '2016-01-23'
+  summary: ''
+  title: UKTI International Marketing
+- content: '##Overview
+
+
+    Is your business missing out on valuable enquiries and sales from overseas customers
+    because of fear or lack of understanding of language and cultural differences?
+    If so, this workshop is just the thing for you!'
+  meta:
+    event_date: '2016-02-02'
+    event_end_date: '2016-02-02'
+    location: Quality Inn Hotel Boldon
+    market: Multi-market
+    pricing: Free
+    region: South West
+    sector: Multi-Sector
+  published_date: '2016-01-23'
+  summary: ''
+  title: Export Communications - February 2016
+- content: '##Overview
+
+
+    This interactive workshop explores social media''s potential for your business
+    and how to use it as part of your export strategy. Using various research techniques
+    can help your business analyse data about you, your business or your products.'
+  meta:
+    event_date: '2016-02-02'
+    event_end_date: '2016-02-02'
+    location: Village Hotel Leeds South, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA380 / day"
+    region: East Midlands
+    sector: Multi-Sector
+  published_date: '2016-01-23'
+  summary: ''
+  title: Social Media - Tell the World
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Commercial Horticultural
+    Association, to this Horticultural fair. Exhibiting grants may be available for
+    eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-02-03'
+    event_end_date: '2016-02-05'
+    location: Messe Berlin, Germany
+    market: Germany
+    pricing: Free
+    region: Scotland
+    sector: Horticulture and Fisheries
+  published_date: '2016-01-24'
+  summary: ''
+  title: Fruit Logistica 2016
+- content: '##Overview
+
+
+    This workshop is your opportunity to focus on your export objectives and is designed
+    to challenge you to think through your export development. It is only open to
+    companies based in the South East who participate in the Passport to Export programme.'
+  meta:
+    event_date: '2016-02-03'
+    event_end_date: '2016-02-04'
+    location: Holiday Inn Gatwick, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: Wales
+    sector: Multi-Sector
+  published_date: '2016-01-24'
+  summary: ''
+  title: Winning & Delivering Business Overseas
+- content: '##Overview
+
+
+    Subsea Expo is Europe''s largest annual Subsea Oil and Gas conference and exhibition.
+    Run by Subsea UK, the trade association for the subsea oil and gas sector, Subsea
+    Expo 2016, is a great opportunity to meet some of UK Trade & Investment''s Subsea
+    specialists and others involved in the industry.'
+  meta:
+    event_date: '2016-02-03'
+    event_end_date: '2016-02-05'
+    location: Aberdeen Exhibition & Conference Centre, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: South West
+    sector: Oil and Gas
+  published_date: '2016-01-24'
+  summary: ''
+  title: UKTI at SUBSEA Expo 2016
+- content: '##Overview
+
+
+    Opportunities exist in Canada for UK companies supplying innovative solutions.  Hear
+    a market overview and learn how UK companies can establish the right representation
+    and connect with procurement organisations.  '
+  meta:
+    event_date: '2016-02-03'
+    event_end_date: '2016-02-03'
+    location: Webinar, United Kingdom
+    market: Canada
+    pricing: Free
+    region: North West
+    sector: Environment
+  published_date: '2016-01-24'
+  summary: ''
+  title: 'Webinar: Supplying Canada''s Water & Wastewater Market'
+- content: '##Overview
+
+
+    This half-day workshop will help decision-makers responsible for setting export
+    prices to understand the different pricing strategies available to them.   External
+    and internal factors will be explored that play a part in determining export prices.'
+  meta:
+    event_date: '2016-02-04'
+    event_end_date: '2016-02-04'
+    location: North East Business and Innovation Centre
+    market: Multi-market
+    pricing: Free
+    region: East Midlands
+    sector: Multi-Sector
+  published_date: '2016-01-25'
+  summary: ''
+  title: Export Pricing
+- content: '##Overview
+
+
+    This course is designed to train individuals in the important discipline and practice
+    of market research, whether their organisations are considering exporting for
+    the first time or determining a strategy for new or existing overseas markets.'
+  meta:
+    event_date: '2016-02-04'
+    event_end_date: '2016-02-04'
+    location: North East Business and Innovation Centre
+    market: United Kingdom
+    pricing: Free
+    region: Northern Ireland
+    sector: Multi-Sector
+  published_date: '2016-01-25'
+  summary: ''
+  title: Researching Export Markets
+- content: '##Overview
+
+
+    Led by an expert in international websites, this workshop will help you discover
+    how to build and optimise a successful world-class website that generates a higher
+    volume of web traffic and wins new business from international customers.'
+  meta:
+    event_date: '2016-02-04'
+    event_end_date: '2016-02-04'
+    location: Hazelwood Castle, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA380 / day"
+    region: London
+    sector: Multi-Sector
+  published_date: '2016-01-25'
+  summary: ''
+  title: Web Optimisation for International Trade - Hazlewood Castle
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Society of Motor
+    Manufacturers and Traders, to this automotive fair. Exhibiting grants may be available
+    for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-02-05'
+    event_end_date: '2016-02-07'
+    location: India Expo Mart, India
+    market: India
+    pricing: Free
+    region: North West
+    sector: Advanced Engineering
+  published_date: '2016-01-26'
+  summary: ''
+  title: Auto Expo India 2016
+- content: '##Overview
+
+
+    An informative and interactive workshop specifically designed to help you get
+    the most out of your international exhibition. The course will include practical
+    activities to ensure you get the most from your international exhibition. '
+  meta:
+    event_date: '2016-02-05'
+    event_end_date: '2016-02-05'
+    location: Quality Inn Hotel Boldon
+    market: United Kingdom
+    pricing: Free
+    region: East Midlands
+    sector: Multi-Sector
+  published_date: '2016-01-26'
+  summary: ''
+  title: Getting the Most Out Of Your International Exhibition
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Agricultural Engineers
+    Association, to this leisure and tourism fair. Exhibiting grants may be available
+    for eligible businesses. Please email for more information.'
+  meta:
+    event_date: '2016-02-06'
+    event_end_date: '2016-02-11'
+    location: San Diego Convention Center, United States
+    market: United States
+    pricing: Free
+    region: South West
+    sector: Leisure and Tourism
+  published_date: '2016-01-27'
+  summary: ''
+  title: Golf Industry Show 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by The Children''s
+    Media Conference, to  this kids entertainment industry event. Exhibiting grants
+    may be available for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-02-08'
+    event_end_date: '2016-02-11'
+    location: InterContinental Hotel, United States
+    market: United States
+    pricing: Free
+    region: North East
+    sector: Creative and Media
+  published_date: '2016-01-29'
+  summary: ''
+  title: Kidscreen Summit 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is support a group, led by TechUK, to this popular
+    professional AV and electronic systems show. Exhibiting grants may be available
+    for eligible businesses.  Please e-mail for more information.'
+  meta:
+    event_date: '2016-02-09'
+    event_end_date: '2016-02-12'
+    location: Amsterdam RAI, Netherlands
+    market: Netherlands
+    pricing: Free
+    region: Northern Ireland
+    sector: ICT
+  published_date: '2016-01-30'
+  summary: ''
+  title: Integrated Systems Europe
+- content: '##Overview
+
+
+    Showcasing internationally requires a significant commitment in time and budget
+    resources. Attend this event to understand how to develop an effective strategy
+    whilst avoiding common pitfalls and maximising return on investment.'
+  meta:
+    event_date: '2016-02-10'
+    event_end_date: '2016-02-10'
+    location: Holiday Inn Gatwick, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA350 / day"
+    region: South East
+    sector: Multi-Sector
+  published_date: '2016-01-31'
+  summary: ''
+  title: 'UKTI Masterclass: Exhibiting Effectively Overseas'
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by the BFA,  to this
+    premier shoe event . Exhibiting grants may be available for eligible businesses.
+    Please email for more information.'
+  meta:
+    event_date: '2016-02-10'
+    event_end_date: '2016-02-12'
+    location: Dusseldorf Exhibition Centre, Germany
+    market: Germany
+    pricing: Free
+    region: North West
+    sector: Clothing
+  published_date: '2016-01-31'
+  summary: ''
+  title: GDS
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by FDEA, to one of the
+    leading trade fairs for organic food. Exhibiting grants may be available for eligible
+    businesses.  Please email for more information.'
+  meta:
+    event_date: '2016-02-10'
+    event_end_date: '2016-02-13'
+    location: Nurnberg Messe GmbH, Germany
+    market: Germany
+    pricing: Free
+    region: Wales
+    sector: Food and Drink
+  published_date: '2016-01-31'
+  summary: ''
+  title: Biofach
+- content: '##Overview
+
+
+    This workshop is your opportunity to focus on your export objectives and is designed
+    to challenge you to think through your export development. It is only open to
+    companies based in the South East who participate in the Passport to Export programme.'
+  meta:
+    event_date: '2016-02-10'
+    event_end_date: '2016-02-11'
+    location: Holiday Inn Maidstone, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: South East
+    sector: Multi-Sector
+  published_date: '2016-01-31'
+  summary: ''
+  title: Winning & Delivering Business Overseas
+- content: "##Overview\n\nUKTI Ukraine invites you to join the UK stand at this leading\
+    \ agricultural business to business trade fair.  There are various options for\
+    \ participation available - from a free catalogue entry to tailored stand space.\r\
+    \n"
+  meta:
+    event_date: '2016-02-10'
+    event_end_date: '2016-02-12'
+    location: Kyiv Expo Plaza, Ukraine
+    market: Ukraine
+    pricing: Free
+    region: West midlands
+    sector: Agriculture
+  published_date: '2016-01-31'
+  summary: ''
+  title: Ukraine - UK National Stand at agricultural B2B exhibition in Kyiv
+- content: '##Overview
+
+
+    Attend this event to meet with key decision makers from International and National
+    Oil Companies and other stakeholders operating in Azerbaijan, Kazakhstan and Turkey
+    to discuss current and future development plans and opportunities.'
+  meta:
+    event_date: '2016-02-10'
+    event_end_date: '2016-02-10'
+    location: Ciragan Palace
+    market: Azerbaijan
+    pricing: Free
+    region: Northern Ireland
+    sector: Oil and Gas
+  published_date: '2016-01-31'
+  summary: ''
+  title: GREAT Regional Oil and Gas Summit
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by British Marine Federation,
+    to this marine fair. Exhibiting grants may be available for eligible businesses.
+    Please e-mail for more information.'
+  meta:
+    event_date: '2016-02-11'
+    event_end_date: '2016-02-15'
+    location: Miami Marine Stadium Park and Basin, United States
+    market: United States
+    pricing: Free
+    region: East
+    sector: Marine
+  published_date: '2016-02-01'
+  summary: ''
+  title: Miami International Boatshow 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Film Export UK, to
+    this creative and media fair. Exhibiting grants may be available for eligible
+    businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-02-11'
+    event_end_date: '2016-02-19'
+    location: Martin-Gropius-Bau, Germany
+    market: Germany
+    pricing: Free
+    region: Northern Ireland
+    sector: Creative and Media
+  published_date: '2016-02-01'
+  summary: ''
+  title: European Film Market 2016
+- content: "##Overview\n\nThe Tradeshow Access Programme will support a UK group led\
+    \ by UKFT to this premier New York fashion event. Exhibiting grants may be available\
+    \ for eligible businesses.\xC2\_ Use the e-mail address below for more information."
+  meta:
+    event_date: '2016-02-11'
+    event_end_date: '2016-02-18'
+    location: Javitts Center and Pier 94 New York, United States
+    market: France
+    pricing: Free
+    region: Wales
+    sector: Clothing
+  published_date: '2016-02-01'
+  summary: ''
+  title: New York Women's Fashion Week 2016
+- content: '##Overview
+
+
+    This one day workshop takes exporters through the journey from selling directly
+    to customers in a foreign market to having an in-country presence. Includes case
+    studies and interactive exercises to help delegates apply new information.'
+  meta:
+    event_date: '2016-02-11'
+    event_end_date: '2016-02-11'
+    location: RTC North Ltd, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: East
+    sector: Multi-Sector
+  published_date: '2016-02-01'
+  summary: ''
+  title: Routes to Global Markets - February 2016
+- content: '##Overview
+
+
+    Attend this seminar and benefit from tailored bilateral meetings with potential
+    customers and partners, giving you access to business opportunities in Portugal
+    and other Portuguese speaking markets.'
+  meta:
+    event_date: '2016-02-11'
+    event_end_date: '2016-02-11'
+    location: "Centro Cultural de Bel\xC3\xA9m"
+    market: Brazil
+    pricing: "From: \xA3420 / day"
+    region: East Midlands
+    sector: Multi-Sector
+  published_date: '2016-02-01'
+  summary: ''
+  title: 'Portugal: A Platform to Portuguese Speaking Countries'
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a UK group led by BATF to this international
+    trade fair for consumer goods . Exhibiting grants may be available for eligible
+    businesses. Use the email address below for more information.'
+  meta:
+    event_date: '2016-02-12'
+    event_end_date: '2016-02-16'
+    location: Messe Frankfurt, Germany
+    market: Germany
+    pricing: Free
+    region: Wales
+    sector: Giftware Jewellery and Tableware
+  published_date: '2016-02-02'
+  summary: ''
+  title: Ambiente funding via BATF
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by BATF, to one of
+    the leading European trade exhibitions for fine and designer jewellery. Exhibiting
+    grants may be available for eligible businesses. Please email for more information.'
+  meta:
+    event_date: '2016-02-12'
+    event_end_date: '2016-02-15'
+    location: Messe Munich, Germany
+    market: Germany
+    pricing: Free
+    region: West midlands
+    sector: Giftware Jewellery and Tableware
+  published_date: '2016-02-02'
+  summary: ''
+  title: Inhorgenta
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a UK group led by BHETA to the leading
+    trade fair for consumer goods. Exhibiting grants may be available for eligible
+    businesses. Use the e-mail address below for information.'
+  meta:
+    event_date: '2016-02-12'
+    event_end_date: '2016-02-16'
+    location: Messe Frankfurt, Germany
+    market: Germany
+    pricing: Free
+    region: Scotland
+    sector: Household Goods
+  published_date: '2016-02-02'
+  summary: ''
+  title: Ambiente 2016 funding via BHETA
+- content: "##Overview\n\nCommunicate with confidence. Giving you an insight into\
+    \ the cultural attitudes and behaviours of France.\r\n"
+  meta:
+    event_date: '2016-02-12'
+    event_end_date: '2016-02-12'
+    location: The Derbyshire Hotel, United Kingdom
+    market: France
+    pricing: Free
+    region: Yorkshire and the Humberside
+    sector: Multi-Sector
+  published_date: '2016-02-02'
+  summary: ''
+  title: UKTI Business French for Beginners
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Electronic Exporters
+    Group, to this ICT fair. Exhibiting grants may be available for eligible businesses.
+    Please e-mail for more information.'
+  meta:
+    event_date: '2016-02-13'
+    event_end_date: '2016-02-18'
+    location: The Moscone Center, United States
+    market: United States
+    pricing: Free
+    region: West midlands
+    sector: ICT
+  published_date: '2016-02-03'
+  summary: ''
+  title: Photonics West 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is support a UK group, led by BFA, to this international
+    footwear exhibition. Exhibiting grants may be available for eligible businesses.
+    Please e-mail for more information.'
+  meta:
+    event_date: '2016-02-14'
+    event_end_date: '2016-02-17'
+    location: Fiera Milano Rho , Italy
+    market: Italy
+    pricing: Free
+    region: Yorkshire and the Humberside
+    sector: Clothing
+  published_date: '2016-02-04'
+  summary: ''
+  title: Micam 2016
+- content: '##Overview
+
+
+    This workshop is your opportunity to focus on your export objectives and is designed
+    to challenge you to think through your export development. It is only open to
+    companies based in the South East who participate in the Passport to Export programme.'
+  meta:
+    event_date: '2016-02-16'
+    event_end_date: '2016-02-17'
+    location: Holiday Inn Guildford, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: North West
+    sector: Multi-Sector
+  published_date: '2016-02-06'
+  summary: ''
+  title: Winning & Delivering Business Overseas
+- content: '##Overview
+
+
+    A short overseas business trip for First-Time Exporters from UK Trade & Investment,
+    designed to increase your understanding of how to sell your goods or services
+    in Benelux. This all inclusive trip will give you a taste of a new market.'
+  meta:
+    event_date: '2016-02-16'
+    event_end_date: '2016-02-18'
+    location: British Ambassadors Residence, The Hague, Netherlands
+    market: Belgium
+    pricing: "From: \xA3200 / day"
+    region: North West
+    sector: Multi-Sector
+  published_date: '2016-02-06'
+  summary: ''
+  title: Export Insight Visit to The Hague
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by ADS Group Ltd, to
+    this aerospace fair. Exhibiting grants may be available for eligible businesses.
+    Please e-mail for more information.'
+  meta:
+    event_date: '2016-02-16'
+    event_end_date: '2016-02-21'
+    location: Changi Exhibition Centre, Singapore
+    market: Singapore
+    pricing: Free
+    region: Yorkshire and the Humberside
+    sector: Advanced Engineering
+  published_date: '2016-02-06'
+  summary: ''
+  title: Singapore Airshow 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a UK group led by UKFT to this international
+    exibition for clothing/textiles. Exhibiting grants may be available for eligible
+    businesses. Use the e-mail address below for more information.'
+  meta:
+    event_date: '2016-02-16'
+    event_end_date: '2016-02-18'
+    location: Paris Nord Villepinte, France
+    market: France
+    pricing: Free
+    region: Northern Ireland
+    sector: Textiles
+  published_date: '2016-02-06'
+  summary: ''
+  title: Premiere Vision 2016
+- content: '##Overview
+
+
+    This workshop is your opportunity to focus on your export objectives and is designed
+    to challenge you to think through your export development. It is only open to
+    companies based in the South East who participate in the Passport to Export programme.'
+  meta:
+    event_date: '2016-02-17'
+    event_end_date: '2016-02-18'
+    location: Holiday Inn Winchester, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: Wales
+    sector: Multi-Sector
+  published_date: '2016-02-07'
+  summary: ''
+  title: Winning & Delivering Business Overseas
+- content: '##Overview
+
+
+    Is it enough to just showcase your products and services online? Your customers
+    might know how to contact you, but are you doing this as effectively as you could
+    be and could you make more sales online? Join UKTI at this masterclass to find
+    out more.'
+  meta:
+    event_date: '2016-02-17'
+    event_end_date: '2016-02-17'
+    location: Holiday Inn Doncaster, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA380 / day"
+    region: South West
+    sector: Multi-Sector
+  published_date: '2016-02-07'
+  summary: ''
+  title: E-Commerce for International Trade - Doncaster
+- content: '##Overview
+
+
+    On this trade mission to Australia and New Zealand, you will have a tailor made
+    travel package and valuable assistance from UKTI in Australia and New Zealand
+    and the British Business Network. Visiting a market is crucial to your export
+    success there.'
+  meta:
+    event_date: '2016-02-20'
+    event_end_date: '2016-03-01'
+    location: The Swanston Hotel, Australia
+    market: Australia
+    pricing: Free
+    region: South East
+    sector: Multi-Sector
+  published_date: '2016-02-10'
+  summary: ''
+  title: Trade Mission to Australia & New Zealand
+- content: '##Overview
+
+
+    Join UK Trade & Investment and a group of likeminded local companies on a mission
+    to Brazil. Explore Sao Paulo, the capital of Brazil''s wealthiest and most populous
+    state, and Rio de Janeiro, widely regarded as the country''s financial capital.'
+  meta:
+    event_date: '2016-02-20'
+    event_end_date: '2016-02-27'
+    location: "British Consulate General S\xC3\xA3o Paulo, Brazil"
+    market: Brazil
+    pricing: "From: \xA3150 / day"
+    region: West midlands
+    sector: Multi-Sector
+  published_date: '2016-02-10'
+  summary: ''
+  title: Market visit to Brazil
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a group led by  CESA to the world''s
+    biggest annual food & hospitality show. Exhibiting grants may be available for
+    eligible businesses. Use the e-mail address below for information.'
+  meta:
+    event_date: '2016-02-21'
+    event_end_date: '2016-02-25'
+    location: Dubai World Trade Centre, United Arab Emirates
+    market: UAE
+    pricing: Free
+    region: South East
+    sector: Food and Drink
+  published_date: '2016-02-11'
+  summary: ''
+  title: Gulfood 2016 funding via CESA
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a group led by FDEA to the world''s
+    biggest annual food & hopitality show . Exhibiting grants may be available for
+    eligible businesses.  Use the e-mail address below for information.'
+  meta:
+    event_date: '2016-02-21'
+    event_end_date: '2016-02-25'
+    location: Dubai World Trade Centre, United Arab Emirates
+    market: UAE
+    pricing: Free
+    region: East Midlands
+    sector: Food and Drink
+  published_date: '2016-02-11'
+  summary: ''
+  title: Gulfood 2016 funding via FDEA-represented by PS8
+- content: '##Overview
+
+
+    UKTI London are arranging a series of speed dating and networking events for accountants,
+    lawyers and related business services at the Central and Eastern Europe Professional
+    Services Road Show.'
+  meta:
+    event_date: '2016-02-21'
+    event_end_date: '2016-02-26'
+    location: British Embassy Prague, Czech Republic
+    market: Czech Republic
+    pricing: "From: \xA3250 / day"
+    region: Northern Ireland
+    sector: Financial Services (including Professional Services)
+  published_date: '2016-02-11'
+  summary: ''
+  title: Market Visit to the Czech Republic, Poland and Slovakia
+- content: "##Overview\n\nMobile World Congress is considered to be the world\u2019\
+    s largest mobile industry exhibition with over 1,500 companies showcasing the\
+    \ most innovative mobile products and services."
+  meta:
+    event_date: '2016-02-22'
+    event_end_date: '2016-02-25'
+    location: Gran Via Exhibition Centre, Barcelona, Spain
+    market: Spain
+    pricing: Free
+    region: Yorkshire and the Humberside
+    sector: Multi-Sector
+  published_date: '2016-02-12'
+  summary: ''
+  title: UKTI at Mobile World Congress 2016
+- content: '##Overview
+
+
+    Trinidad & Tobago and Jamaica are the two largest buyers of goods and services
+    in the Caribbean. Join UKTI on their Market Visit and discover the secrets of
+    the security sector in these unique markets.'
+  meta:
+    event_date: '2016-02-22'
+    event_end_date: '2016-02-26'
+    location: British High Comission, Trinidad and Tobago
+    market: Jamaica
+    pricing: "From: \xA3250 / day"
+    region: East Midlands
+    sector: Security
+  published_date: '2016-02-12'
+  summary: ''
+  title: Market Visit to Trinidad & Tobago and Jamaica
+- content: '##Overview
+
+
+    UK Trade & Investment are offering you an exciting opportunity to join a group
+    visit to Southern Africa in February 2016. The destinations for this ten day mission
+    will be Johannesburg and Durban, followed by Mozambique.'
+  meta:
+    event_date: '2016-02-22'
+    event_end_date: '2016-03-02'
+    location: UKTI North East, NECC
+    market: Mozambique
+    pricing: "From: \xA3125 / day"
+    region: North West
+    sector: Multi-Sector
+  published_date: '2016-02-12'
+  summary: ''
+  title: Market Visit to Southern Africa
+- content: '##Overview
+
+
+    UKTI South East are running a market visit that will help experienced exporters
+    generate more business, and companies new to the region understand the cultural
+    and business challenges in these dynamic markets. '
+  meta:
+    event_date: '2016-02-22'
+    event_end_date: '2016-02-26'
+    location: British High Commission Singapore, Singapore
+    market: Indonesia
+    pricing: "From: \xA3100 / day"
+    region: Wales
+    sector: Multi-Sector
+  published_date: '2016-02-12'
+  summary: ''
+  title: Market Visit to Singapore, Malaysia and Indonesia
+- content: '##Overview
+
+
+    4YFN is part of GSMA Mobile World Congress, the premier event for the global mobile
+    industry. Launched in 2014, 4YFN attracted over 2,000 attendees. This event is
+    devoted to innovation in the mobile ecosystem and provides a business platform
+    focused on building and forging lasting relationships.'
+  meta:
+    event_date: '2016-02-22'
+    event_end_date: '2016-02-25'
+    location: Fira Barcelona, Barcelona, Spain
+    market: Spain
+    pricing: "\xA31000 + 20 &percnt; VAT"
+    region: East
+    sector: Multi-Sector
+  published_date: '2016-02-12'
+  summary: ''
+  title: Four Years from Now -4YFN-
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a UK group, led by techUK, to this
+    leading trade fair for the embedded sector. Exhibiting grants may be available
+    for eligible businesses. Use the e-mail address below for more information.'
+  meta:
+    event_date: '2016-02-23'
+    event_end_date: '2016-02-25'
+    location: "N\xC3\xBCrnbergMesse, Germany"
+    market: Germany
+    pricing: Free
+    region: West midlands
+    sector: ICT
+  published_date: '2016-02-13'
+  summary: ''
+  title: Embedded World 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a UK group led by UKFT to this fashion
+    fair women/men & childrenswear. Exhibiting grants may be available for eligible
+    businesses. Use the e-mail address below for more information.'
+  meta:
+    event_date: '2016-02-23'
+    event_end_date: '2016-02-26'
+    location: Expocentre Fair Grounds, Russian Federation
+    market: Russian Federation
+    pricing: Free
+    region: North West
+    sector: Clothing
+  published_date: '2016-02-13'
+  summary: ''
+  title: CPM Moscow 2016
+- content: '##Overview
+
+
+    This half day course will provide all the tools, techniques and knowledge to allow
+    you to implement a positive international search marketing strategy for your company.'
+  meta:
+    event_date: '2016-02-23'
+    event_end_date: '2016-02-23'
+    location: Village Urban Resort, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA380 / day"
+    region: East Midlands
+    sector: Multi-Sector
+  published_date: '2016-02-13'
+  summary: ''
+  title: 'Searching for Success: Drive International Traffic Through SEO and PPC'
+- content: '##Overview
+
+
+    This half-day workshop will help decision-makers to understand and exploit the
+    different export pricing strategies available and look at the internal and external
+    influences that affect export prices.'
+  meta:
+    event_date: '2016-02-24'
+    event_end_date: '2016-02-24'
+    location: Urban Hotel Grantham, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA350 / day"
+    region: South East
+    sector: Multi-Sector
+  published_date: '2016-02-14'
+  summary: ''
+  title: UKTI Export Pricing
+- content: '##Overview
+
+
+    This half day masterclass puts international trade shows into context, considers
+    the reasons for participating, the types of events available and how to selecting
+    the most appropriate event and set SMART objectives.'
+  meta:
+    event_date: '2016-02-24'
+    event_end_date: '2016-02-24'
+    location: Urban Hotel Grantham, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA350 / day"
+    region: North East
+    sector: Multi-Sector
+  published_date: '2016-02-14'
+  summary: ''
+  title: UKTI International Exhibitions
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by British Pig Association,
+    to this agritech fair. Exhibiting grants may be available for eligible businesses.
+    Please e-mail for more information.'
+  meta:
+    event_date: '2016-02-24'
+    event_end_date: '2016-02-26'
+    location: SMX Convention Center, Philippines
+    market: Philippines
+    pricing: Free
+    region: North West
+    sector: Agriculture
+  published_date: '2016-02-14'
+  summary: ''
+  title: Inahgen 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Energy Industries
+    Council, to this energy fair. Exhibiting grants may be available for eligible
+    businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-02-24'
+    event_end_date: '2016-02-26'
+    location: Perth Convention Centre, Australia
+    market: Australia
+    pricing: Free
+    region: London
+    sector: Energy
+  published_date: '2016-02-14'
+  summary: ''
+  title: Australasian Oil and Gas 2016
+- content: '##Overview
+
+
+    This webinar will provide an overview of the market for learning resources, outline
+    how UK companies can establish the right form of representation and connect with
+    procurement organisations.'
+  meta:
+    event_date: '2016-02-24'
+    event_end_date: '2016-02-24'
+    location: Webinar, United Kingdom
+    market: Canada
+    pricing: Free
+    region: East Midlands
+    sector: Education and Training
+  published_date: '2016-02-14'
+  summary: ''
+  title: 'Webinar: Supplying the Children''s Learning Resource Market'
+- content: '##Overview
+
+
+    This workshop will guide you through the process of participating in overseas
+    exhibitions including how to select the appropriate show for you, logistical challenges,
+    stand behaviour and measuring success post-event.'
+  meta:
+    event_date: '2016-02-25'
+    event_end_date: '2016-02-25'
+    location: The Source Skills Academy, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA380 / day"
+    region: East Midlands
+    sector: Multi-Sector
+  published_date: '2016-02-15'
+  summary: ''
+  title: Making Your International Exhibition a Success
+- content: "##Overview\n\nThis interactive course will provide you with a thorough\
+    \ understanding of market research techniques, giving you practical solutions.\
+    \ You'll look at conducting research in-house, using external agencies and also\
+    \ UKTI's research services.\r\n"
+  meta:
+    event_date: '2016-02-25'
+    event_end_date: '2016-02-25'
+    location: The Source Skills Academy, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA380 / day"
+    region: East Midlands
+    sector: Multi-Sector
+  published_date: '2016-02-15'
+  summary: ''
+  title: Effective Ways to Research Export Markets
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a group led by SMMT Ltd to this fair
+    for the Automotive sector. Exhibiting grants may be available for eligible businesses.
+    Use the e-mail address below for more information.'
+  meta:
+    event_date: '2016-02-26'
+    event_end_date: '2016-02-28'
+    location: Shenzhen Convention and Exhibition Center, China
+    market: China
+    pricing: Free
+    region: Northern Ireland
+    sector: Automotive
+  published_date: '2016-02-16'
+  summary: ''
+  title: AAITF 2016
+- content: '##Overview
+
+
+    Could Turkey be your next lucrative market? Turkey is a large, rapidly developing
+    country forecast to be a Top Ten world economy by 2023.  Join us and discover
+    how best to engage this market and develop new business.'
+  meta:
+    event_date: '2016-02-28'
+    event_end_date: '2016-03-04'
+    location: British Consulate in Istanbul, Turkey
+    market: Turkey
+    pricing: "From: \xA3100 / day"
+    region: North West
+    sector: Multi-Sector
+  published_date: '2016-02-18'
+  summary: ''
+  title: Market Visit to Turkey
+- content: '##Overview
+
+
+    During this mission you can arrange up to 10 meetings with prospective business
+    partners. You will be able to invite guests to networking receptions and dinners,
+    and hear a briefing from local market experts.  Registration closes on 10 February.'
+  meta:
+    event_date: '2016-02-29'
+    event_end_date: '2016-03-02'
+    location: British Embassy Romania
+    market: Romania
+    pricing: "From: \xA3200 / day"
+    region: South East
+    sector: Multi-Sector
+  published_date: '2016-02-19'
+  summary: ''
+  title: Trade Mission to Romania
+- content: '##Overview
+
+
+    This workshop is your opportunity to focus on your export objectives and is designed
+    to challenge you to think through your export development. It is only open to
+    companies based in the South East who participate in the Passport to Export programme.'
+  meta:
+    event_date: '2016-03-01'
+    event_end_date: '2016-03-02'
+    location: Holiday Inn Oxford, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: Scotland
+    sector: Multi-Sector
+  published_date: '2016-02-20'
+  summary: ''
+  title: Winning & Delivering Business Overseas
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by BEAMA Ltd, to this
+    fair for the Power sector. Exhibiting grants may be available for eligible businesses.
+    Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-01'
+    event_end_date: '2016-03-03'
+    location: Dubai World Trade Centre, United Arab Emirates
+    market: UAE
+    pricing: Free
+    region: North West
+    sector: Energy
+  published_date: '2016-02-20'
+  summary: ''
+  title: Middle East Electricity 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by British Educational
+    Suppliers Association, to this education fair. Exhibiting grants may be available
+    for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-01'
+    event_end_date: '2016-03-03'
+    location: Dubai World Trade Centre, United Arab Emirates
+    market: UAE
+    pricing: Free
+    region: South West
+    sector: Education and Training
+  published_date: '2016-02-20'
+  summary: ''
+  title: GESS 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by British Plastics
+    Federation, to this advanced engineering fair. Exhibiting grants may be available
+    for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-01'
+    event_end_date: '2016-03-03'
+    location: Saigon Exhibition & Conference Center, Vietnam
+    market: Vietnam
+    pricing: Free
+    region: Wales
+    sector: Advanced Engineering
+  published_date: '2016-02-20'
+  summary: ''
+  title: Plastics and Rubber Vietnam 2016
+- content: "##Overview\n\nThe Tradeshow Access Programme will support a UK group led\
+    \ by UKFT to this premier Paris fashion event. Exhibiting grants may be available\
+    \ for eligible businesses.\xC2\_ Use the e-mail address below for more information."
+  meta:
+    event_date: '2016-03-01'
+    event_end_date: '2016-03-09'
+    location: Palais de la Bourse, France
+    market: France
+    pricing: Free
+    region: South East
+    sector: Clothing
+  published_date: '2016-02-20'
+  summary: ''
+  title: Paris Fashion Week 2016
+- content: "##Overview\n\nRegister your interest for a mission to Sweden, presenting\
+    \ UK companies an opportunity to supply to Skanska, worth up to 120million pounds.\
+    \ A PQQ is being issued for contracts including process piping, pumps, tanks and\
+    \ other specialist building work.\r\n"
+  meta:
+    event_date: '2016-03-02'
+    event_end_date: '2016-03-02'
+    location: Skanska Office
+    market: Sweden
+    pricing: "From: \xA3200 / day"
+    region: London
+    sector: Construction
+  published_date: '2016-02-21'
+  summary: ''
+  title: Building and Construction Mission to Sweden
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by BATF, to this
+    jewellery sector event. Exhibiting grants may be available for eligible businesses.  Please
+    e-mail for more information.'
+  meta:
+    event_date: '2016-03-03'
+    event_end_date: '2016-03-07'
+    location: Hong Kong Convention and Exhibition Centre, Hong Kong
+    market: Hong Kong
+    pricing: Free
+    region: South West
+    sector: Giftware Jewellery and Tableware
+  published_date: '2016-02-22'
+  summary: ''
+  title: Hong Kong Jewellery Show 2016
+- content: '##Overview
+
+
+    The Intellectual Property Office helps businesses, innovators and entrepreneurs
+    understand how IP can create value from their ideas, turning inspiration into
+    sustainable business success.'
+  meta:
+    event_date: '2016-03-03'
+    event_end_date: '2016-03-03'
+    location: Holiday Inn Maidstone, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA350 / day"
+    region: West midlands
+    sector: Multi-Sector
+  published_date: '2016-02-22'
+  summary: ''
+  title: Intellectual Property Rights
+- content: "##Overview\n\nThis half-day workshop provides an introduction to export\
+    \ communications planning, with guidance on how to communicate your offer to international\
+    \ customers and partners.\r\n    "
+  meta:
+    event_date: '2016-03-03'
+    event_end_date: '2016-03-03'
+    location: Redcar and Cleveland House
+    market: Multi-market
+    pricing: Free
+    region: Yorkshire and the Humberside
+    sector: Multi-Sector
+  published_date: '2016-02-22'
+  summary: ''
+  title: Export Communications - March 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Gun Trade Association,
+    to this leisure and tourism fair. Exhibiting grants may be available for eligible
+    businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-04'
+    event_end_date: '2016-03-07'
+    location: Nurnberg Messe GmbH, Germany
+    market: Germany
+    pricing: Free
+    region: Yorkshire and the Humberside
+    sector: Leisure and Tourism
+  published_date: '2016-02-23'
+  summary: ''
+  title: IWA and Outdoor Classics 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a UK group led by BHETA to this housewares-only
+    fair. Exhibiting grants may be available for eligible businesses. Use the e-mail
+    address below for more information.'
+  meta:
+    event_date: '2016-03-05'
+    event_end_date: '2016-03-08'
+    location: McCormick Place, United States
+    market: United States
+    pricing: Free
+    region: London
+    sector: Household Goods
+  published_date: '2016-02-24'
+  summary: ''
+  title: IHA Chicago 2016
+- content: '##Overview
+
+
+    South Africa is a sophisticated, promising market with a well developed economic
+    infrastructure & good opportunities. This trade mission will focus on sectors
+    such as finance, business service, retail, wholesale, manufacturing & advanced
+    engineering.'
+  meta:
+    event_date: '2016-03-05'
+    event_end_date: '2016-03-11'
+    location: UKTI, South Africa
+    market: South Africa
+    pricing: "From: \xA3316 / day"
+    region: South East
+    sector: Retail and Luxury
+  published_date: '2016-02-24'
+  summary: ''
+  title: Trade Delegation to South Africa
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a UK group led by BHETA to a leading
+    trade fair. Exhibiting grants may be available for eligible businesses. Use the
+    e-mail address below for information.'
+  meta:
+    event_date: '2016-03-06'
+    event_end_date: '2016-03-08'
+    location: Koelnmesse, Germany
+    market: Germany
+    pricing: Free
+    region: London
+    sector: Household Goods
+  published_date: '2016-02-25'
+  summary: ''
+  title: Eisenwarenmesse International Hardware Fair  2016 funding via BHETA
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by GAMBICA,  to this
+    major conference and expo for laboratory science. Exhibiting grants may be available
+    for eligible businesses. Please e-mail for information.'
+  meta:
+    event_date: '2016-03-06'
+    event_end_date: '2016-03-10'
+    location: Georgia World Congress Centre, United States
+    market: United States
+    pricing: Free
+    region: Yorkshire and the Humberside
+    sector: Healthcare
+  published_date: '2016-02-25'
+  summary: ''
+  title: Pittcon 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Manufacturing Technologies
+    Association, to this advanced engineering fair. Exhibiting grants may be available
+    for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-06'
+    event_end_date: '2016-03-09'
+    location: Koelnmesse GmbH, Germany
+    market: Germany
+    pricing: Free
+    region: North East
+    sector: Advanced Engineering
+  published_date: '2016-02-25'
+  summary: ''
+  title: Practical World 2016 funding via MTA
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Composites UK,  to
+    this major global composites event . Exhibiting grants may be available for eligible
+    businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-08'
+    event_end_date: '2016-03-10'
+    location: Paris Nord Villepinte, France
+    market: France
+    pricing: Free
+    region: South East
+    sector: Advanced Engineering
+  published_date: '2016-02-27'
+  summary: ''
+  title: JEC Europe 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme isl supporting a UK group, led by techUK,  to this
+    major digital media and satellite event. Exhibiting grants may be available for
+    eligible businesses. Please e-mail for information.'
+  meta:
+    event_date: '2016-03-08'
+    event_end_date: '2016-03-10'
+    location: Dubai International Convention & Exhibition Centre, United Arab Emirates
+    market: UAE
+    pricing: Free
+    region: East Midlands
+    sector: ICT
+  published_date: '2016-02-27'
+  summary: ''
+  title: Cabsat 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group led, by RIA, to this premier
+    rail conference and exhibition in the region. Exhibiting grants may be available
+    for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-08'
+    event_end_date: '2016-03-09'
+    location: Dubai International Convention & Exhibition Centre, United Arab Emirates
+    market: UAE
+    pricing: Free
+    region: North West
+    sector: Mass Transport
+  published_date: '2016-02-27'
+  summary: ''
+  title: Middle East Rail 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by FDEA, to this
+    premier event for the food and drink industries.  Exhibiting grants may be available
+    for eligible businesses. Please e-mail for information.'
+  meta:
+    event_date: '2016-03-08'
+    event_end_date: '2016-03-11'
+    location: Makuhari Messe, Japan
+    market: Japan
+    pricing: Free
+    region: North East
+    sector: Food and Drink
+  published_date: '2016-02-27'
+  summary: ''
+  title: Foodex 2016
+- content: '##Overview
+
+
+    This workshop is your opportunity to focus on your export objectives and is designed
+    to challenge you to think through your export development. It is only open to
+    companies based in the South East who participate in the Passport to Export programme.'
+  meta:
+    event_date: '2016-03-08'
+    event_end_date: '2016-03-09'
+    location: Holiday Inn Winchester, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: London
+    sector: Multi-Sector
+  published_date: '2016-02-27'
+  summary: ''
+  title: Winning & Delivering Business Overseas
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Society of Maritime
+    Industries, to this oil and gas fair. Exhibiting grants may be available for eligible
+    businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-08'
+    event_end_date: '2016-03-10'
+    location: Bahrain International Exhibition and Conference Centre, Bahrain
+    market: Bahrain
+    pricing: Free
+    region: London
+    sector: Oil and Gas
+  published_date: '2016-02-27'
+  summary: ''
+  title: GEO 2016
+- content: "##Overview\n\nVisit the Export Zone at Ecobuild 2016 and see how UKTI\
+    \ can help you sell overseas, with international buyer and market expert meetings\
+    \ with representatives from 15 countries.\r\n"
+  meta:
+    event_date: '2016-03-08'
+    event_end_date: '2016-03-10'
+    location: Excel London, United Kingdom
+    market: Denmark
+    pricing: Free
+    region: Wales
+    sector: Construction
+  published_date: '2016-02-27'
+  summary: ''
+  title: Ecobuild 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by PACT, to this event
+    for audiovisual content. Exhibiting grants may be available for eligible businesses.
+    Please e-mail for information.'
+  meta:
+    event_date: '2016-03-09'
+    event_end_date: '2016-03-11'
+    location: Hotel Windsor, Brazil
+    market: Brazil
+    pricing: Free
+    region: East Midlands
+    sector: Creative and Media
+  published_date: '2016-02-28'
+  summary: ''
+  title: Rio Content Market 2016
+- content: '##Overview
+
+
+    This intensive and interactive one-day masterclass will give you with a thorough
+    understanding of export market research techniques, planning and practical solutions.'
+  meta:
+    event_date: '2016-03-09'
+    event_end_date: '2016-03-09'
+    location: Hothorpe Hall
+    market: Multi-market
+    pricing: "From: \xA350 / day"
+    region: East Midlands
+    sector: Multi-Sector
+  published_date: '2016-02-28'
+  summary: ''
+  title: UKTI Researching Export Markets
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by BCFA, to one of China''s
+    leading international design events. Exhibiting grants may be available for eligible
+    businesses.  Please e-mail for information.'
+  meta:
+    event_date: '2016-03-09'
+    event_end_date: '2016-03-12'
+    location: Shanghai World Expo Exhibition Centre, China
+    market: China
+    pricing: Free
+    region: East
+    sector: Household Goods
+  published_date: '2016-02-28'
+  summary: ''
+  title: Design Shanghai 2016
+- content: "##Overview\n\nJoin the UK at\_South by South West\_(SXSW) from 11-20 March\
+    \ 2016, and be part of one of the world\u2019s foremost events covering music,\
+    \ technology and film. Help us showcase the best of British.\r\nApply now."
+  meta:
+    event_date: '2016-03-11'
+    event_end_date: '2016-03-11'
+    location: Austin Convention Centre, Austin, United States
+    market: United States
+    pricing: "\xA3195+VAT"
+    region: Northern Ireland
+    sector: Creative and Media
+  published_date: '2016-03-01'
+  summary: ''
+  title: SXSW 2016
+- content: "##Overview\n\nThe Tradeshow Access Programme is supporting a UK group,\
+    \ led by LIA, to this leading trade fair for lighting and building services technology.\
+    \ Exhibiting grants may be available for eligible businesses.\xC2\_ Please e-mail\
+    \ for more information."
+  meta:
+    event_date: '2016-03-13'
+    event_end_date: '2016-03-18'
+    location: Messe Frankfurt, Germany
+    market: Germany
+    pricing: Free
+    region: East Midlands
+    sector: Construction
+  published_date: '2016-03-03'
+  summary: ''
+  title: Light and Build 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group ,led by UKInteractive Entertainment
+    Association, to this creative and media fair. Exhibiting grants may be available
+    for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-14'
+    event_end_date: '2016-03-18'
+    location: Moscone Convention Center, United States
+    market: United States
+    pricing: Free
+    region: London
+    sector: Creative and Media
+  published_date: '2016-03-04'
+  summary: ''
+  title: GDC / Game Connection 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Film Export UK, to
+    this creative and media fair. Exhibiting grants may be available for eligible
+    businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-14'
+    event_end_date: '2016-03-17'
+    location: Hong Kong Convention and Exhibition Centre, Hong Kong
+    market: Hong Kong
+    pricing: Free
+    region: Northern Ireland
+    sector: Creative and Media
+  published_date: '2016-03-04'
+  summary: ''
+  title: Entertainment Expo / Filmart 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Crafts Council, to
+    this household goods fair. Exhibiting grants may be available for eligible businesses.
+    Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-14'
+    event_end_date: '2016-03-18'
+    location: The Venue, United Arab Emirates
+    market: UAE
+    pricing: Free
+    region: North East
+    sector: Household Goods
+  published_date: '2016-03-04'
+  summary: ''
+  title: Design Days Dubai 2016
+- content: '##Overview
+
+
+    UKTI South Korea welcomes applications from brands and products used for outdoors
+    pursuits and activities for the GREAT Outdoors showcase and campaign in Korea,
+    March 2015'
+  meta:
+    event_date: '2016-03-14'
+    event_end_date: '2016-03-16'
+    location: UKTI Seoul
+    market: South Korea
+    pricing: "From: \xA3504 / day"
+    region: Northern Ireland
+    sector: Leisure and Tourism
+  published_date: '2016-03-04'
+  summary: ''
+  title: GREAT Outdoors Trade Mission to South Korea
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by The Building Centre,
+    to this leading property market event. Exhibiting grants may be available for
+    eligible businesses.  Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-15'
+    event_end_date: '2016-03-18'
+    location: Palais des Festivales et des congres de Cannes, France
+    market: France
+    pricing: Free
+    region: London
+    sector: Construction
+  published_date: '2016-03-05'
+  summary: ''
+  title: Mipim 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by FETA, to this
+    showcase  for heating, air conditioning and refrigeration . Exhibiting grants
+    may be available for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-15'
+    event_end_date: '2016-03-18'
+    location: Fiera Milano Rho , Italy
+    market: Italy
+    pricing: Free
+    region: South West
+    sector: Construction
+  published_date: '2016-03-05'
+  summary: ''
+  title: Mostra Convegno Expocomfort 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Circuit Equipment
+    & Materials Association, to this ICT fair. Exhibiting grants may be available
+    for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-15'
+    event_end_date: '2016-03-17'
+    location: Las Vegas Convention Center, United States
+    market: United States
+    pricing: Free
+    region: East Midlands
+    sector: ICT
+  published_date: '2016-03-05'
+  summary: ''
+  title: APEX / IPC 2016
+- content: '##Overview
+
+
+    The relationship with your international business partner can make a considerable
+    difference to the growth and profit of your export business. '
+  meta:
+    event_date: '2016-03-15'
+    event_end_date: '2016-03-15'
+    location: Holiday Inn Guildford, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA3100 / day"
+    region: South East
+    sector: Multi-Sector
+  published_date: '2016-03-05'
+  summary: ''
+  title: Building Business with Agents & Distributors
+- content: '##Overview
+
+
+    This workshop is your opportunity to focus on your export objectives and is designed
+    to challenge you to think through your export development. It is only open to
+    companies based in the South East who participate in the Passport to Export programme.'
+  meta:
+    event_date: '2016-03-16'
+    event_end_date: '2016-03-17'
+    location: Holiday Inn Guildford, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: London
+    sector: Multi-Sector
+  published_date: '2016-03-06'
+  summary: ''
+  title: Winning & Delivering Business Overseas
+- content: '##Overview
+
+
+    This workshop gives an overview of what constitutes intellectual property, the
+    legal frameworks in place, the threats from international markets and how you
+    can protect your IPR overseas.'
+  meta:
+    event_date: '2016-03-16'
+    event_end_date: '2016-03-16'
+    location: Penta Hotel, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA350 / day"
+    region: South West
+    sector: Multi-Sector
+  published_date: '2016-03-06'
+  summary: ''
+  title: UKTI Intellectual Property Rights
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Society of Maritime
+    Industries, to this marine fair. Exhibiting grants may be available for eligible
+    businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-16'
+    event_end_date: '2016-03-18'
+    location: Sands Expo & Convention Centre, Singapore
+    market: Singapore
+    pricing: Free
+    region: South East
+    sector: Marine
+  published_date: '2016-03-06'
+  summary: ''
+  title: Asia Pacific Maritime 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a UK group led by UK Fashion Exports
+    to this international clothing and accessories fair. Exhibiting grants may be
+    available for eligible businesses. Use the e-mail address below for more information.'
+  meta:
+    event_date: '2016-03-16'
+    event_end_date: '2016-03-18'
+    location: Shanghai Convention & Exhibition Center, China
+    market: China
+    pricing: Free
+    region: East Midlands
+    sector: Clothing
+  published_date: '2016-03-06'
+  summary: ''
+  title: Shanghai Fashion Week 2016
+- content: '##Overview
+
+
+    More than 70 hours of free workshops and seminars were available for 2015 each
+    led by sector experts and leading practitioners. There are also opportunities
+    for companies to exhibit.'
+  meta:
+    event_date: '2016-03-17'
+    event_end_date: '2016-03-19'
+    location: NEC, Birmingham, United Kingdom
+    market: United Kingdom
+    pricing: Free
+    region: Wales
+    sector: Education and Training
+  published_date: '2016-03-07'
+  summary: ''
+  title: EducationShow
+- content: '##Overview
+
+
+    A practical and fast-paced one-day masterclass on the best strategies to adopt
+    on social media platforms, to create better leads from prospects in overseas markets.'
+  meta:
+    event_date: '2016-03-17'
+    event_end_date: '2016-03-17'
+    location: Quality Inn Hotel Boldon
+    market: Multi-market
+    pricing: Free
+    region: West midlands
+    sector: Multi-Sector
+  published_date: '2016-03-07'
+  summary: ''
+  title: Social Media Marketing for Lead Generation - March 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by Birmingham Chamber
+    of Commerce, to this giftware and jewellery fair. Exhibiting grants may be available
+    for eligible businesses. Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-18'
+    event_end_date: '2016-03-21'
+    location: BolognaFiere , Italy
+    market: Italy
+    pricing: Free
+    region: Scotland
+    sector: Giftware Jewellery and Tableware
+  published_date: '2016-03-08'
+  summary: ''
+  title: Cosmoprof Bologna 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme will support a UK group led by UKFT to this international
+    trade fair for creative handicraft & hobby. Exhibiting grants may be available
+    for eligible businesses. Use the e-mail address below for more information.'
+  meta:
+    event_date: '2016-03-18'
+    event_end_date: '2016-03-20'
+    location: Koelnmesse, Germany
+    market: Germany
+    pricing: Free
+    region: East Midlands
+    sector: Textiles
+  published_date: '2016-03-08'
+  summary: ''
+  title: h+h Cologne 2016
+- content: '##Overview
+
+
+    A special offer to present your technology to 12,000+ professional visitors at
+    this key b2b exhibition including accommodation, a speaking slot, site visits
+    and meetings with local companies.  Places are limited so you must respond before
+    15 January.'
+  meta:
+    event_date: '2016-03-22'
+    event_end_date: '2016-03-25'
+    location: Nangang Exhibition Hall, Taiwan
+    market: Taiwan
+    pricing: "From: \xA3840 / day"
+    region: Wales
+    sector: ICT
+  published_date: '2016-03-12'
+  summary: ''
+  title: UK Pavilion at Smart City Summit & Expo 2016
+- content: '##Overview
+
+
+    This event will challenge your thinking relating to opportunities and threats
+    facing your company through globalisation, help you discover new ways of thinking,
+    and show how dealing with risks can differ between decision makers within your
+    organisation.'
+  meta:
+    event_date: '2016-03-22'
+    event_end_date: '2016-03-22'
+    location: Holiday Inn Reading South, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: North West
+    sector: Multi-Sector
+  published_date: '2016-03-12'
+  summary: ''
+  title: Grow Exports with Reduced Risks - Reading
+- content: '##Overview
+
+
+    This master class will provide you with practical tools to create an effective
+    online strategy, boosting your overseas sales and increasing your international
+    business performance online.'
+  meta:
+    event_date: '2016-03-22'
+    event_end_date: '2016-03-22'
+    location: Bridge House, United Kingdom
+    market: Multi-market
+    pricing: "From: \xA350 / day"
+    region: North East
+    sector: Multi-Sector
+  published_date: '2016-03-12'
+  summary: ''
+  title: Website Optimisation for International Trade - Guildford
+- content: '##Overview
+
+
+    This workshop is your opportunity to focus on your export objectives and is designed
+    to challenge you to think through your export development. It is only open to
+    companies based in the South East who participate in the Passport to Export programme.'
+  meta:
+    event_date: '2016-03-23'
+    event_end_date: '2016-03-24'
+    location: Holiday Inn Reading South, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: South East
+    sector: Multi-Sector
+  published_date: '2016-03-13'
+  summary: ''
+  title: Winning & Delivering Business Overseas
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by British Pig Association,
+    to this agri-tech fair. Exhibiting grants may be available for eligible businesses.
+    Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-23'
+    event_end_date: '2016-03-25'
+    location: Saigon Exhibition & Conference Center, Vietnam
+    market: Vietnam
+    pricing: Free
+    region: Wales
+    sector: Agriculture
+  published_date: '2016-03-13'
+  summary: ''
+  title: ILDEX Vietnam 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a group, led by ADS Group Ltd, to
+    this defence fair. Exhibiting grants may be available for eligible businesses.
+    Please e-mail for more information.'
+  meta:
+    event_date: '2016-03-28'
+    event_end_date: '2016-03-31'
+    location: Naqueri Betul Quepem, , India
+    market: India
+    pricing: Free
+    region: Wales
+    sector: Defence
+  published_date: '2016-03-18'
+  summary: ''
+  title: Defexpo 2016
+- content: '##Overview
+
+
+    The Tradeshow Access Programme is supporting a UK group, led by ABMEC,  to this
+    international trade fair for mining. Exhibiting grants may be available for eligible
+    businesses. Please address for more information.'
+  meta:
+    event_date: '2016-03-29'
+    event_end_date: '2016-03-31'
+    location: International Centre for Exhibition, Vietnam
+    market: Vietnam
+    pricing: Free
+    region: North West
+    sector: Mining
+  published_date: '2016-03-19'
+  summary: ''
+  title: Mining Vietnam 2016
+- content: '##Overview
+
+
+    This workshop is your opportunity to focus on your export objectives and is designed
+    to challenge you to think through your export development. It is only open to
+    companies based in the South East who participate in the Passport to Export programme.'
+  meta:
+    event_date: '2016-03-30'
+    event_end_date: '2016-03-31'
+    location: Holiday Inn Gatwick, United Kingdom
+    market: Multi-market
+    pricing: Free
+    region: South West
+    sector: Multi-Sector
+  published_date: '2016-03-20'
+  summary: ''
+  title: Winning & Delivering Business Overseas
+- content: "##Overview\n\nThis beginners' course is designed to introduce you to the\
+    \ basics of business Arabic and gain an insight into the cultural attitudes and\
+    \ behaviours. \r\n"
+  meta:
+    event_date: '2016-03-31'
+    event_end_date: '2016-03-31'
+    location: Yew Lodge Hotel, United Kingdom
+    market: Iran
+    pricing: Free
+    region: South East
+    sector: Multi-Sector
+  published_date: '2016-03-21'
+  summary: ''
+  title: UKTI Business Arabic for Beginners
+- content: '##Overview
+
+
+    This invaluable one-day masterclass will introduce you to an inclusive approach
+    to motivation and management of agents and distributors and how to apply the course
+    material in yourr everyday business development.'
+  meta:
+    event_date: '2016-04-28'
+    event_end_date: '2016-04-28'
+    location: BG Futures Business & Enterprise Centre
+    market: Multi-market
+    pricing: "From: \xA350 / day"
+    region: East Midlands
+    sector: Multi-Sector
+  published_date: '2016-04-18'
+  summary: ''
+  title: UKTI Building Successful Relationships with Agents & Distributors
+- content: '##Overview
+
+
+    Dedicated to the nuclear energy sector, this event allows international companies
+    to share, to research, and to do business on a global scale. There will be technical
+    workshops, networking receptions, conferences sessions and site visits.'
+  meta:
+    event_date: '2016-06-28'
+    event_end_date: '2016-06-30'
+    location: Le Bourget, Hall 2B, Paris, France
+    market: France
+    pricing: Free
+    region: South East
+    sector: Power
+  published_date: '2016-06-18'
+  summary: ''
+  title: World Nuclear Exhibition
