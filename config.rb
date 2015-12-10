@@ -21,6 +21,18 @@ page '/partials/*', layout: false
 
 data.countries.each do |country|
   file_url = country.name.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
+  country[:data] = country[:data] || {
+    :gdp => "39,189",
+    :population => "63m",
+    :exchange_rate => 0.67,
+    :currency => "Euro",
+    :inflation => 3,
+    :growth => 0.6,
+    :deficit => -4.6,
+    :imports => "639b",
+    :imports_uk => "700m",
+  }
+
   proxy "/markets/#{file_url}.html", "/market.html", :locals => { :country => country }, :ignore => true
 end
 
