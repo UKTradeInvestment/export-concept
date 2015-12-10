@@ -1,163 +1,163 @@
-- 
+-
   name: Algeria
   area: Africa
-- 
+-
   name: Angola
   area: Africa
-- 
+-
   name: Cameroon
   area: Africa
-- 
+-
   name: Cote d’Ivoire
   area: Africa
-- 
+-
   name: Egypt
   area: Africa
-- 
+-
   name: Ethiopia
   area: Africa
-- 
+-
   name: Ghana
   area: Africa
-- 
+-
   name: Kenya
   area: Africa
-- 
+-
   name: Libya
   area: Africa
-- 
+-
   name: Nigeria
   area: Africa
-- 
+-
   name: Morocco
   area: Africa
-- 
+-
   name: Rwanda
   area: Africa
-- 
+-
   name: South Africa
   area: Africa
-- 
+-
   name: Tanzania
   area: Africa
-- 
+-
   name: Tunisia
   area: Africa
-- 
+-
   name: Uganda
   area: Africa
-- 
+-
   name: Argentina
   area: Americas
-- 
+-
   name: Barbados
   area: Americas
-- 
+-
   name: Brazil
   area: Americas
-- 
+-
   name: Canada
   area: Americas
-- 
+-
   name: Chile
   area: Americas
-- 
+-
   name: Colombia
   area: Americas
-- 
+-
   name: Costa Rica
   area: Americas
-- 
+-
   name: Cuba
   area: Americas
-- 
+-
   name: Dominican Republic, the
   area: Americas
-- 
+-
   name: Ecuador
   area: Americas
-- 
+-
   name: Jamaica
   area: Americas
-- 
+-
   name: Mexico
   area: Americas
-- 
+-
   name: Panama
   area: Americas
-- 
+-
   name: Peru
   area: Americas
-- 
+-
   name: Trinidad and Tobago
   area: Americas
-- 
+-
   name: USA, the
   area: Americas
-- 
+-
   name: Venezuela
   area: Americas
-- 
+-
   name: Afghanistan
   area: Asia
-- 
+-
   name: Bangladesh
   area: Asia
-- 
+-
   name: Brunei
   area: Asia
-- 
+-
   name: Burma (also known as Myanmar)
   area: Asia
-- 
+-
   name: China
   area: Asia
-- 
+-
   name: Hong Kong
   area: Asia
-- 
+-
   name: India
   area: Asia
-- 
+-
   name: Indonesia
   area: Asia
-- 
+-
   name: Japan
   area: Asia
-- 
+-
   name: South Korea
   area: Asia
-- 
+-
   name: Kazakhstan
   area: Asia
-- 
+-
   name: Macao
   area: Asia
-- 
+-
   name: Malaysia
   area: Asia
-- 
+-
   name: Mongolia
   area: Asia
-- 
+-
   name: Pakistan
   area: Asia
-- 
+-
   name: Philippines, the
   area: Asia
-- 
+-
   name: Singapore
   area: Asia
-- 
+-
   name: Sri Lanka
   area: Asia
-- 
+-
   name: Taiwan
   area: Asia
-- 
+-
   name: Thailand
   area: Asia
-- 
+-
   name: Vietnam
   area: Asia
 -
@@ -196,6 +196,20 @@
 -
   name: France
   area: Europe
+  summary: |
+    * France is a member of the EU and World Trade Organisation (WTO)
+    * It is the 2nd largest consumer market in Europe
+    * UK exports of goods and services to France totalled £13.9 billion in 2014
+  data:
+    gdp: '41,141'
+    population: 78m
+    exchange_rate: 0.72
+    currency: Euro
+    inflation: 2
+    growth: 1.7
+    deficit: 4.4
+    imports: 526b
+    imports_uk: 227b
 -
   name: Germany
   area: Europe
@@ -301,9 +315,9 @@
 -
   name: United Arab Emirates, the
   area: Middle east
-- 
+-
   name: Australia
   area: Oceania
-- 
+-
   name: New Zealand
   area: Oceania

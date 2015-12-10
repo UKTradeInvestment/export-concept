@@ -8,43 +8,52 @@ section: markets
 header.page-header.with-extra
   .grid-row
     .column-two-thirds
-      p.type Export market
+      p.type Country of interest
       h1= country.name
-      p.lede= lorem.sentences 2
+      - if country.summary
+        == markdown country.summary
+      - else
+        p.lede= lorem.sentences 2
     .aside.column-third
       ul.featured-links
         li= link_to "The UK Government in #{country.name}", "https://www.gov.uk/government/world/#{str_to_url(country.name)}"
+        li= link_to "UK Trade & Investment in #{country.name}", "https://www.gov.uk/government/world/organisations/uk-trade-investment-#{str_to_url(country.name)}"
 h2.u-keyline-heading Overview
 .grid-row
   section.column-two-thirds
     .grid-row
       .column-third
         .data.data-smaller
-          .data-title $41,141
-          .data-subtitle GDP per capita
+          .data-title $#{country.data.gdp}
+          .data-subtitle
+            abbr> title="Gross domestic product" GDP
+            | per capita
       .column-third
         .data.data-smaller
-          .data-title 78m
+          .data-title= country.data.population
           .data-subtitle Population
       .column-third
         .data.data-smaller
-          .data-title 1.01
-          .data-subtitle Exchange rate
+          .data-title £#{country.data.exchange_rate}
+          .data-subtitle Exchange rate (#{country.data.currency})
     .grid-row
       .column-third
         .data.data-smaller
-          .data-title 2%
+          .data-title #{country.data.inflation}%
           .data-subtitle Inflation rate
       .column-third
         .data.data-smaller
-          .data-title £227b
-          .data-subtitle Imported from the UK (2014)
+          .data-title #{country.data.growth}%
+          .data-subtitle Growth prediction for 2016
       .column-third
         .data.data-smaller
-          .data-title £526b
-          .data-subtitle Imported worldwide (2014)
+          .data-title #{country.data.deficit}%
+          .data-subtitle
+            ' Government deficit by
+            abbr> title="Gross domestic product" GDP
+            | (2014)
   section.column-third
-    h3 Top UK imports by industry
+    h3 UK exports to #{country.name} by industry
     ul.document-list.document-list--compact
       li
         h3= link_to "Food and drink", "#"
@@ -60,11 +69,11 @@ h2.u-keyline-heading Overview
           dd £500m from the UK
     p.u-see-all= link_to "See all industries", "#"
 - if opportunties.length > 0 && events.length > 0
-  h2.u-keyline-heading Discover
+  h2.u-keyline-heading Opportunities
   .grid-row
     - if opportunties.length > 0
       .column-half
-        h3 Opportunities for export
+        h3 Contracts, tenders and projects
         ul.document-list
           - opportunties.each do |item|
             li
@@ -76,7 +85,7 @@ h2.u-keyline-heading Overview
         p.u-see-all= link_to "See all opportunities in #{country.name}", "/opportunities.html?market=#{country.name}"
     - if events.length > 0
       .column-half
-        h3 Events
+        h3 Events, workshops and visits
         ul.document-list
           - events.each do |item|
             li
@@ -89,32 +98,46 @@ h2.u-keyline-heading Overview
 h2.u-keyline-heading Understand
 .grid-row
   .column-third
-    h3 Comply
+    h3 Tax and customs
   .column-two-thirds
-    p= lorem.sentences 2
-    p= lorem.sentences 2
+    h4 VAT
+    p Exports are normally zero rated if both British and French businesses are VAT registered. VAT is known as Taxe sur la Valeur Ajoutée (TVA) in France.
+    h4 Import duties
+    p Goods manufactured in the UK are exempt.
+    h4 Regulations
+    p Products and packaging should meet #{link_to "EU standards", "#"}. Labelling should be translated into French. Products, like food and textiles, have #{link_to "specific labelling requirements", "#"}.
+    h4 Certificates
+    p Most goods can be shipped within the EU #{link_to "without special customs documentation", "#"}. There are exceptions, eg sales to international organisations, which are treated as exports.
     ul
-      li= link_to "import legislation", "#"
-      li= link_to "packaging requirements for #{country.name}", "#"
+      li= link_to "find your tariff code", "https://www.gov.uk/finding-commodity-codes"
     p.u-see-all= link_to "Narrow down by industry", "#"
 hr.compact
 .grid-row
   .column-third
-    h3 Deliver
+    h3 Routes to market
   .column-two-thirds
-    p= lorem.sentences 2
+    p Before approaching a partner you will need to have a good understanding of how your product or service will be priced. That way you can be sure you will meet their margin, and other costs.
+    p
+      = link_to "Use our pricing calculator", "#"
+      br
+      = link_to "Use our shipping calculator", "#"
     ul
       li= link_to "find a distributor", "#"
+      li= link_to "find a consolidator", "#"
+      li= link_to "see how an online marketplace could help", "#"
     p.u-see-all= link_to "Narrow down by industry", "#"
 hr.compact
 .grid-row
   .column-third
-    h3 Protect
+    h3 Protect your business
   .column-two-thirds
-    p= lorem.sentences 2
-    p= lorem.sentences 2
-    p= lorem.sentences 2
+    h4 Intellectual property
+    p You should check your intellectual property is protected through the French Patent Office (INPI). That includes trademarks, designs, patents and copyright.
+    h4 Insurance
+    p An Export Insurance Policy insures you against the risk of not being paid under an export contract. Or of not being able to recover the costs of meeting that contract because of events that are out of your control.
+    h4 Payment terms
+    p These can range from immediate payment on receipt of goods (often with a negotiated small discount) to a negotiated 60 day payment.
+    p Standard payments terms with public authorities in Europe are now 30 days maximum.
     ul
-      li= link_to "protecting your intellectual property", "#"
-      li= link_to "insurance required for #{country.name}", "#"
+      li= link_to "see when risks and charges are transferred to the buyer", "https://www.gov.uk/incoterms-international-commercial-terms/overview"
     p.u-see-all= link_to "Narrow down by industry", "#"

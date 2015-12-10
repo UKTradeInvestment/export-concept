@@ -4,7 +4,7 @@ section: markets
 
 div.ng-live-filter ng-controller="LiveFilterCtrl"
   header.page-header
-    h1.title Markets
+    h1.title Country of interest
     form.js-filter-form
       label.label for="what-is-uk-government-doing-in"
         | I am interested in
@@ -15,7 +15,7 @@ div.ng-live-filter ng-controller="LiveFilterCtrl"
   section.live-filter.grid-row
     header.type-heading
       h1 World location
-      p 
+      p
         span {{ getCount() }}
         span.u-hidden locations
     countries data="countries"
