@@ -6,7 +6,7 @@ header.document-header
   .grid-row
     .column-two-thirds
       h2.context
-        a href="/#{parent_url}.html"= parent
+        a href="#{parent_url}.html"= type.capitalize
       h1= document.title
   dl.document-meta-data
     dt From:
@@ -19,7 +19,7 @@ header.document-header
       - if v.include? "date"
         dd= date_format(k)
       - else
-        dd= link_to k, "/#{parent_url}.html?#{v}=#{url_encode(k)}"
+        dd= link_to k, "#{parent_url}.html?#{v}=#{url_encode(k)}"
   p.summary= document.summary
 .grid-row
   .column-third
@@ -28,6 +28,13 @@ header.document-header
         li= link_to "Overview", "#doc-content"
   #doc-content.column-two-thirds.document-content
     == markdown document.content
+    - if type
+      .register
+        a.button.button-get-started href="/register/index.html"
+          - if type == 'opportunity'
+            | Register interest
+          - else
+            | Register for event
 footer.document-footer
   h2.u-hidden Information
   .grid-row
@@ -43,4 +50,4 @@ footer.document-footer
             - if v.include? "date"
               = date_format(k)
             - else
-              = link_to k, "/#{parent_url}.html?#{v}=#{url_encode(k)}"
+              = link_to k, "#{parent_url}.html?#{v}=#{url_encode(k)}"
