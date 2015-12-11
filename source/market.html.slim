@@ -123,21 +123,21 @@ hr.compact
         ul.document-list
           - opportunties.each do |item|
             li
-              h3= link_to item.title, "/opportunities/#{str_to_url(item.title)}.html"
+              h3= link_to item.title, "#"
               dl
                 dd= date_format(item.published_date)
                 dt.date Response date:
                 dd= date_format(item.meta.response_date)
-        p.u-see-all= link_to "See all opportunities in #{country.name}", "/opportunities.html?market=#{country.name}"
+        p.u-see-all= link_to "See all opportunities in #{country.name}", "#"
     - if events.length > 0
       .column-half
         h3 Events, workshops and visits
         ul.document-list
           - events.each do |item|
             li
-              h3= link_to item.title, "/events/#{str_to_url(item.title)}.html"
+              h3= link_to item.title, "#"
               dl
                 dd= date_format(item.published_date)
                 dt.date Event date:
                 dd= date_format(item.meta.event_date)
-        p.u-see-all= link_to "See all events for #{country.name}", "/events.html?market=#{country.name}"
+        p.u-see-all= link_to "See all events for #{country.name}", "#"
