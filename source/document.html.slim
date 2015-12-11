@@ -6,7 +6,7 @@ header.document-header
   .grid-row
     .column-two-thirds
       h2.context
-        a href="#{parent_url}.html"= type.capitalize
+        a href="/#{parent_url}.html"= type.capitalize
       h1= document.title
   dl.document-meta-data
     dt From:
@@ -19,7 +19,7 @@ header.document-header
       - if v.include? "date"
         dd= date_format(k)
       - else
-        dd= link_to k, "#{parent_url}.html?#{v}=#{url_encode(k)}"
+        dd= link_to k, "/#{parent_url}.html?#{v}=#{url_encode(k)}"
   p.summary= document.summary
 .grid-row
   .column-third
@@ -50,4 +50,4 @@ footer.document-footer
             - if v.include? "date"
               = date_format(k)
             - else
-              = link_to k, "#{parent_url}.html?#{v}=#{url_encode(k)}"
+              = link_to k, "/#{parent_url}.html?#{v}=#{url_encode(k)}"
