@@ -68,33 +68,6 @@ h2.u-keyline-heading Overview
         dl
           dd £500m from the UK
     p.u-see-all= link_to "See all industries", "#"
-- if opportunties.length > 0 && events.length > 0
-  h2.u-keyline-heading Opportunities
-  .grid-row
-    - if opportunties.length > 0
-      .column-half
-        h3 Contracts, tenders and projects
-        ul.document-list
-          - opportunties.each do |item|
-            li
-              h3= link_to item.title, "/opportunities/#{str_to_url(item.title)}.html"
-              dl
-                dd= date_format(item.published_date)
-                dt.date Response date:
-                dd= date_format(item.meta.response_date)
-        p.u-see-all= link_to "See all opportunities in #{country.name}", "/opportunities.html?market=#{country.name}"
-    - if events.length > 0
-      .column-half
-        h3 Events, workshops and visits
-        ul.document-list
-          - events.each do |item|
-            li
-              h3= link_to item.title, "/events/#{str_to_url(item.title)}.html"
-              dl
-                dd= date_format(item.published_date)
-                dt.date Event date:
-                dd= date_format(item.meta.event_date)
-        p.u-see-all= link_to "See all events for #{country.name}", "/events.html?market=#{country.name}"
 h2.u-keyline-heading Understand
 .grid-row
   .column-third
@@ -141,3 +114,30 @@ hr.compact
     ul
       li= link_to "See when risks and charges are transferred to the buyer", "https://www.gov.uk/incoterms-international-commercial-terms/overview"
     p.u-see-all= link_to "Narrow down by industry", "#"
+- if opportunties.length > 0 && events.length > 0
+  h2.u-keyline-heading Opportunities
+  .grid-row
+  - if opportunties.length > 0
+    .column-half
+      h3 Contracts, tenders and projects
+      ul.document-list
+        - opportunties.each do |item|
+          li
+            h3= link_to item.title, "/opportunities/#{str_to_url(item.title)}.html"
+            dl
+              dd= date_format(item.published_date)
+              dt.date Response date:
+              dd= date_format(item.meta.response_date)
+      p.u-see-all= link_to "See all opportunities in #{country.name}", "/opportunities.html?market=#{country.name}"
+  - if events.length > 0
+    .column-half
+      h3 Events, workshops and visits
+      ul.document-list
+        - events.each do |item|
+          li
+            h3= link_to item.title, "/events/#{str_to_url(item.title)}.html"
+            dl
+              dd= date_format(item.published_date)
+              dt.date Event date:
+              dd= date_format(item.meta.event_date)
+      p.u-see-all= link_to "See all events for #{country.name}", "/events.html?market=#{country.name}"
