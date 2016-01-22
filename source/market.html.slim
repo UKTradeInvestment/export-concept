@@ -2,9 +2,6 @@
 section: markets
 ---
 
-- opportunties = opportunities_by_country(country.name).first(2)
-- events = events_by_country(country.name).first(2)
-
 header.page-header.with-extra
   .grid-row
     .column-two-thirds
@@ -18,126 +15,59 @@ header.page-header.with-extra
       ul.featured-links
         li= link_to "The UK Government in #{country.name}", "https://www.gov.uk/government/world/#{str_to_url(country.name)}"
         li= link_to "UK Trade & Investment in #{country.name}", "https://www.gov.uk/government/world/organisations/uk-trade-investment-#{str_to_url(country.name)}"
-h2.u-keyline-heading Overview
+  .grid-row
+    .column-quarter
+      .data.data-smaller
+        .data-title.u-decrease #{country.data.inflation}%
+        .data-subtitle inflation rate
+    .column-quarter
+      .data.data-smaller
+        .data-title.u-increase #{country.data.growth}%
+        .data-subtitle predicted growth for 2016
+    .column-quarter
+      .data.data-smaller
+        .data-title.u-decrease #{country.data.deficit}%
+        .data-subtitle
+          ' Goverment deficit by
+          abbr> title="Gross domestic product" GDP
+          | (2014)
+    .column-quarter
+      .data.data-smaller
+        .data-title.u-increase #{country.data.unemployment}%
+        .data-subtitle unemployment rate (December 2015)
+h2.u-keyline-heading View export information for your industry
 .grid-row
-  section.column-two-thirds
-    .grid-row
-      .column-third
-        .data.data-smaller
-          .data-title $#{country.data.gdp}
-          .data-subtitle
-            abbr> title="Gross domestic product" GDP
-            | per capita
-      .column-third
-        .data.data-smaller
-          .data-title= country.data.population
-          .data-subtitle Population
-      .column-third
-        .data.data-smaller
-          .data-title £#{country.data.exchange_rate}
-          .data-subtitle Exchange rate (#{country.data.currency})
-    .grid-row
-      .column-third
-        .data.data-smaller
-          .data-title #{country.data.inflation}%
-          .data-subtitle Inflation rate
-      .column-third
-        .data.data-smaller
-          .data-title #{country.data.growth}%
-          .data-subtitle Growth prediction for 2016
-      .column-third
-        .data.data-smaller
-          .data-title #{country.data.deficit}%
-          .data-subtitle
-            ' Government deficit by
-            abbr> title="Gross domestic product" GDP
-            | (2014)
-  section.column-third
-    h3 UK exports to #{country.name} by industry
-    ul.document-list.document-list--compact
-      li
-        h3= link_to "Food and drink", "#"
-        dl
-          dd £3b from the UK
-      li
-        h3= link_to "Engineering", "#"
-        dl
-          dd £2b from the UK
-      li
-        h3= link_to "Technology", "#"
-        dl
-          dd £500m from the UK
-    p.u-see-all= link_to "See all industries", "#"
+  .column-two-thirds
+    p Find out about prices, regulations and useful contacts.
+    p= link_to "Choose your industry", "#"
 h2.u-keyline-heading Understand
 .grid-row
   .column-third
     h3 Tax and customs
   .column-two-thirds
     h4 VAT
-    p Exports are normally zero rated if both British and French businesses are VAT registered. VAT is known as Taxe sur la Valeur Ajoutée (TVA) in France.
+    p Exports are normally zero rated, if both British and French businesses are VAT registered. VAT is known as Taxe sur la Valeur Ajoutée (TVA) in France and is charged at 20% on most purchases.
+    p= link_to "Find out about accounting and record keeping", "https://www.gov.uk/starting-to-export/sending-goods-to-eu-countries"
     h4 Import duties
-    p Goods manufactured in the UK are exempt.
+    p Goods manufactured in the EU are exempt.
+    p You normally have to pay duty on #{link_to "goods from non-EU countries", "https://www.gov.uk/starting-to-import/importing-from-noneu-countries"} when you first bring them into the UK.
     h4 Regulations
-    p Products and packaging should meet #{link_to "EU standards", "#"}. Labelling should be translated into French. Products, like food and textiles, have #{link_to "specific labelling requirements", "#"}.
+    p Products and packaging should meet EU standards. Some, like food and textiles, have specific labelling requirements.
     h4 Certificates
-    p Most goods can be shipped within the EU #{link_to "without special customs documentation", "#"}. There are exceptions, eg sales to international organisations, which are treated as exports.
-    ul
-      li= link_to "Find your tariff code", "https://www.gov.uk/finding-commodity-codes"
-    p.u-see-all= link_to "Narrow down by industry", "#"
-hr.compact
-.grid-row
-  .column-third
-    h3 Routes to market
-  .column-two-thirds
-    p Before approaching a partner you will need to have a good understanding of how your product or service will be priced. That way you can be sure you will meet their margin, and other costs.
-    p
-      = link_to "Use our pricing calculator", "#"
-      br
-      = link_to "Use our shipping calculator", "#"
-    ul
-      li= link_to "Find a distributor", "#"
-      li= link_to "Find a consolidator", "#"
-      li= link_to "See how an online marketplace could help", "#"
-    p.u-see-all= link_to "Narrow down by industry", "#"
+    p Most goods can be shipped within the EU without special customs documentation. There are exceptions, e.g. sales to international organisations.
+    p #{link_to "Find your tariff code", "https://www.gov.uk/finding-commodity-codes"} code and see what tax, duties and regulations apply to your product.
 hr.compact
 .grid-row
   .column-third
     h3 Protecting your business
   .column-two-thirds
     h4 Intellectual property
-    p You should check your intellectual property is protected through the French Patent Office (INPI). That includes trademarks, designs, patents and copyright.
+    p #{link_to "European and international application systems exist", "https://www.gov.uk/government/publications/protecting-your-uk-intellectual-property-abroad"} to cover trademarks, patents, designs and copyright.
+    p You can also check your intellectual property is protected through the French Patent Office (INPI).
     h4 Insurance
-    p An Export Insurance Policy insures you against the risk of not being paid under an export contract. Or of not being able to recover the costs of meeting that contract because of events that are out of your control.
+    p Export insurance covers you against the risk of not being paid under an export contract. Or of not recovering the costs of meeting that contract because of events that are out of your control.
+    p This and other export credit guarantees are available through #{link_to "UK Export Finance", "https://www.gov.uk/government/organisations/uk-export-finance"}.
     h4 Payment terms
-    p These can range from immediate payment on receipt of goods (often with a negotiated small discount) to a negotiated 60 day payment.
-    p Standard payments terms with public authorities in Europe are now 30 days maximum.
-    ul
-      li= link_to "See when risks and charges are transferred to the buyer", "https://www.gov.uk/incoterms-international-commercial-terms/overview"
-    p.u-see-all= link_to "Narrow down by industry", "#"
-- if opportunties.length > 0 && events.length > 0
-  h2.u-keyline-heading Opportunities
-  .grid-row
-    - if opportunties.length > 0
-      .column-half
-        h3 Contracts, tenders and projects
-        ul.document-list
-          - opportunties.each do |item|
-            li
-              h3= link_to item.title, "/opportunities/#{str_to_url(item.title)}.html"
-              dl
-                dd= date_format(item.published_date)
-                dt.date Response date:
-                dd= date_format(item.meta.response_date)
-        p.u-see-all= link_to "See all opportunities in #{country.name}", "/opportunities.html?market=#{country.name}"
-    - if events.length > 0
-      .column-half
-        h3 Events, workshops and visits
-        ul.document-list
-          - events.each do |item|
-            li
-              h3= link_to item.title, "/events/#{str_to_url(item.title)}.html"
-              dl
-                dd= date_format(item.published_date)
-                dt.date Event date:
-                dd= date_format(item.meta.event_date)
-        p.u-see-all= link_to "See all events for #{country.name}", "/events.html?market=#{country.name}"
+    p These range from immediate payment on receipt of goods (often with a negotiated small discount) to 60-day payment.
+    p Standard payment terms with public authorities in Europe are now 30 days maximum.
+    p= link_to "See when risks and charges are transferred to the buyer", "https://www.gov.uk/incoterms-international-commercial-terms/overview"
