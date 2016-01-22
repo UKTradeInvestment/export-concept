@@ -19,42 +19,55 @@ page '/partials/*', layout: false
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
-data.countries.each do |country|
-  file_url = country.name.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
-  country[:data] = country[:data] || {
-    :gdp => "39,189",
-    :population => "63m",
-    :exchange_rate => 0.67,
-    :currency => "Euro",
-    :inflation => 3,
-    :growth => 0.6,
-    :deficit => -4.6,
-    :imports => "639b",
-    :imports_uk => "700m",
-  }
+ready do
+  app.data.countries.each do |country|
+    country[:stub] = country.name.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
+    country[:url] = "/markets/#{country[:stub]}/index.html"
+    country[:data] = country[:data] || {
+      gdp: "39,189",
+      population: "63m",
+      exchange_rate: 0.67,
+      currency: "Euro",
+      inflation: 3,
+      growth: 0.6,
+      deficit: -4.6,
+      imports: "639b",
+      imports_uk: "700m",
+      unemployment: 5,
+    }
 
-  proxy "/markets/#{file_url}.html", "/market.html", :locals => { :country => country }, :ignore => true
-end
+    app.data.industries.each do |industry|
+      industry[:stub] = industry.name.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
+      industry[:url] = "markets/#{country[:stub]}/#{industry[:stub]}.html"
+      proxy industry[:url], "/industry.html", :locals => { :industry => industry, :country => country }, :ignore => true
+    end
 
-# opportunities
-data.opportunities.each do |opportunity|
-  file_url = opportunity.title.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
-  proxy "/opportunities/#{file_url}.html", "/document.html", :locals => { :document => opportunity, :parent => "Contracts, tenders and projects", :parent_url => "opportunities", type: "opportunity" }, :ignore => true
-end
+    proxy "markets/#{country[:stub]}/industries.html", "/industries.html", :locals => { :country => country }, :ignore => true
+    proxy country[:url], "/market.html", :locals => { :country => country }, :ignore => true
+  end
 
-# events
-data.events.each do |event|
-  file_url = event.title.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
-  proxy "/events/#{file_url}.html", "/document.html", :locals => { :document => event, :parent => "Events, workshops and visits", :parent_url => "events", type: "event" }, :ignore => true
-end
+  # opportunities
+  data.opportunities.each do |opportunity|
+    file_url = opportunity.title.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
+    proxy "/opportunities/#{file_url}.html", "/document.html", :locals => { :document => opportunity, :parent => "Contracts, tenders and projects", :parent_url => "opportunities", type: "opportunity" }, :ignore => true
+  end
 
-# proxy data to json files
-["countries", "sectors", "regions", "opportunities", "events"].each do |source|
-  proxy "/data/#{source}.json", "/data.json", :locals => { :source => source }, :ignore => true
+  # events
+  data.events.each do |event|
+    file_url = event.title.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
+    proxy "/events/#{file_url}.html", "/document.html", :locals => { :document => event, :parent => "Events, workshops and visits", :parent_url => "events", type: "event" }, :ignore => true
+  end
+
+  # proxy data to json files
+  ["countries", "industries", "regions", "opportunities", "events"].each do |source|
+    proxy "/data/#{source}.json", "/data.json", :locals => { :source => source }, :ignore => true
+  end
 end
 
 # ignore proxy templates
 ignore "/market.html"
+ignore "/industry.html"
+ignore "/industries.html"
 ignore "/document.html"
 ignore "/data.json"
 
@@ -87,6 +100,22 @@ helpers do
     countries.sort
   end
 
+  def get_industries_by_letter()
+    industries = data.industries.map do |i|
+      i.name
+    end
+
+    industries.sort.group_by {|word| word[0].upcase }
+  end
+
+  def sort_industries()
+    industries = data.industries.map do |i|
+      i.name
+    end
+
+    industries.sort
+  end
+
   def str_to_url(str)
     str.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
   end
@@ -109,6 +138,14 @@ helpers do
 
   def events_by_country(country)
     data.events.select { |e| e.meta.market == country }
+  end
+
+  def opportunities_by_country_and_industry(country, industry)
+    data.opportunities.select { |e| e.meta.market == country && e.meta.sector == industry }
+  end
+
+  def events_by_country_and_industry(country, industry)
+    data.events.select { |e| e.meta.market == country && e.meta.sector == industry }
   end
 end
 

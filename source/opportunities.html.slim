@@ -11,7 +11,7 @@ header.filter-header
     = partial 'partials/filter--option-select',
       locals: { field_name: 'market', label: 'Country of interest', items: sort_countries(), expanded: true }
     = partial 'partials/filter--option-select',
-      locals: { field_name: 'sector', label: 'Industry', items: data.sectors }
+      locals: { field_name: 'sector', label: 'Industry', items: sort_industries() }
     = partial 'partials/filter--option-select',
       locals: { field_name: 'type', label: 'Contract sector', items: ["Aid Funded Business", "Private Sector", "Public Sector"] }
     = partial 'partials/filter--option-select',

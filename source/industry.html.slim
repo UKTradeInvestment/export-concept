@@ -1,0 +1,42 @@
+---
+section: markets
+---
+
+- opportunties = opportunities_by_country_and_industry(country.name, industry.name).first(2)
+- events = events_by_country_and_industry(country.name, industry.name).first(2)
+
+header.page-header.with-extra
+  .grid-row
+    .column-two-thirds
+      p.type= link_to country.name, country.url
+      h1= industry.name
+      - if industry.summary
+        == markdown industry.summary
+      - else
+        p.lede= lorem.sentences 2
+- if opportunties.length > 0 && events.length > 0
+  .grid-row
+    - if events.length > 0
+      .column-half
+        h3.top-keyline-heading Events, workshops and visits
+        ul.document-list
+          - events.each do |item|
+            li
+              h3= link_to item.title, "/events/#{str_to_url(item.title)}.html"
+              dl
+                dd= date_format(item.published_date)
+                dt.date Event date:
+                dd= date_format(item.meta.event_date)
+        p.u-see-all= link_to "See all events for #{country.name}", "/events.html?market=#{country.name}"
+    - if opportunties.length > 0
+      .column-half
+        h3.top-keyline-heading Contracts, tenders and projects
+        ul.document-list
+          - opportunties.each do |item|
+            li
+              h3= link_to item.title, "/opportunities/#{str_to_url(item.title)}.html"
+              dl
+                dd= date_format(item.published_date)
+                dt.date Response date:
+                dd= date_format(item.meta.response_date)
+        p.u-see-all= link_to "See all opportunities in #{country.name}", "/opportunities.html?market=#{country.name}"
