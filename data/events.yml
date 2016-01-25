@@ -129,7 +129,7 @@
     market: Germany
     pricing: Free
     region: East
-    sector: Biotechnology and Pharmaceuticals
+    sector: Food & Drink
   published_date: '2015-11-30'
   summary: ''
   title: 'Webinar: The German Organics Market - Preparing for Biofach and Vivaness'
@@ -3353,3 +3353,67 @@
   published_date: '2016-06-18'
   summary: ''
   title: World Nuclear Exhibition
+-
+  title: Pop-up advice clinic
+  content: |
+    ##Overview
+
+    1-2-1 business advice clinics to give you the opportunity to discuss routes to successful exporting.
+  meta:
+    event_date: '2016-12-27'
+    event_end_date: '2016-12-27'
+    location: Bristol, England
+    market: France
+    pricing: Free
+    region: South East
+    sector: Food & Drink
+  published_date: '2016-12-27'
+  summary: ''
+-
+  title: GULFOOD 2016
+  content: |
+    ##Overview
+
+    Meetings with buyers, UKTI Trade Advisers and store visits.
+  meta:
+    event_date: '2016-02-21'
+    event_end_date: '2016-02-26'
+    location: Dubai World Trade Centre, United Arab Emirates
+    market: France
+    pricing: £350
+    region: South East
+    sector: Food & Drink
+  published_date: '2016-01-18'
+  summary: ''
+-
+  title: Pop-up advice clinic
+  content: |
+    ##Overview
+
+    1-2-1 business advice clinics to give you the opportunity to discuss routes to successful exporting.
+  meta:
+    event_date: '2016-12-27'
+    event_end_date: '2016-12-27'
+    location: Bristol, England
+    market: France
+    pricing: Free
+    region: South East
+    sector: Retail & Luxury
+  published_date: '2016-12-27'
+  summary: ''
+-
+  title: INNOVATE 2016
+  content: |
+    ##Overview
+
+    Meetings with buyers, UKTI Trade Advisers and store visits.
+  meta:
+    event_date: '2016-02-21'
+    event_end_date: '2016-02-22'
+    location: Manchester, England
+    market: France
+    pricing: £35
+    region: North West
+    sector: Retail & Luxury
+  published_date: '2016-01-18'
+  summary: ''
