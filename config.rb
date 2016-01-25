@@ -147,6 +147,14 @@ helpers do
   def events_by_country_and_industry(country, industry)
     data.events.select { |e| e.meta.market == country && e.meta.sector == industry }
   end
+
+  def copy(key)
+    if key
+      markdown key
+    else
+      markdown lorem.paragraphs 2
+    end
+  end
 end
 
 # Reload the browser automatically whenever files change

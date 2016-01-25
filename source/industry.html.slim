@@ -10,15 +10,36 @@ header.page-header.with-extra
     .column-two-thirds
       p.type= link_to country.name, country.url
       h1= industry.name
-      - if industry.summary
-        == markdown industry.summary
-      - else
-        p.lede= lorem.sentences 2
-- if opportunties.length > 0 && events.length > 0
+h2.u-keyline-heading Selling your product
+.grid-row
+  .column-third
+    h3 Retail structure
+  .column-two-thirds= copy(industry.structure)
+hr.compact
+.grid-row
+  .column-third
+    h3 Typical margins
+  .column-two-thirds= copy(industry.margins)
+hr.compact
+.grid-row
+  .column-third
+    h3 Pricing
+  .column-two-thirds= copy(industry.pricing)
+h2.u-keyline-heading Following regulations
+.grid-row
+  .column-third
+    h3 Labelling and packaging
+  .column-two-thirds= copy(industry.labelling_packaging)
+hr.compact
+.grid-row
+  .column-third
+    h3 Shipping
+  .column-two-thirds= copy(industry.shipping)
+- if opportunties.length > 0 || events.length > 0
   .grid-row
     - if events.length > 0
       .column-half
-        h3.top-keyline-heading Events, workshops and visits
+        h3.top-keyline-heading Export events and workshops
         ul.document-list
           - events.each do |item|
             li
@@ -30,7 +51,7 @@ header.page-header.with-extra
         p.u-see-all= link_to "See all events for #{country.name}", "/events.html?market=#{country.name}"
     - if opportunties.length > 0
       .column-half
-        h3.top-keyline-heading Contracts, tenders and projects
+        h3.top-keyline-heading Opportunities to sell food & drink abroad
         ul.document-list
           - opportunties.each do |item|
             li
