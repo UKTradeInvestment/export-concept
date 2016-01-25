@@ -13,7 +13,6 @@ header.page-header.with-extra
     .aside.column-third
       ul.featured-links
         li= link_to "Compare " + country.name + " with other countries", "#"
-        li= link_to "Find the documents and taxes required to export your product to France", "#"
 h2.u-keyline-heading Selling your product
 .grid-row
   .column-third
@@ -45,7 +44,9 @@ hr.compact
 .grid-row
   .column-third
     h3 Shipping
-  .column-two-thirds= copy(industry.shipping)
+  .column-two-thirds
+    = copy(industry.shipping)
+    p= link_to "Find the documents and taxes required to export your product to France", "#"
 - if opportunties.length > 0 || events.length > 0
   .grid-row
     - if events.length > 0
