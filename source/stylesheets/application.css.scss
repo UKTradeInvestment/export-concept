@@ -17,3 +17,9 @@
 @import 'elements/faceted-filter';
 @import 'elements/document';
 @import 'elements/document-list';
+
+.main-content {
+  @include media('>tablet') {
+    padding-bottom: 100px;
+  }
+}

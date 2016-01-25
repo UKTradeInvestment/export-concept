@@ -1,0 +1,6 @@
+.type-content
+  div ng-repeat="(letter, group) in industries"
+    h2.letter ng-if="group.length > 0" {{ letter }}
+    ul.list-block
+      li ng-repeat="industry in group"
+        a href="/markets/{{ countryStub }}/{{ industry|cleanUrl }}.html" {{ industry }}

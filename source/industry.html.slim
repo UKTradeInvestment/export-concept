@@ -1,0 +1,75 @@
+---
+section: markets
+---
+
+- opportunties = opportunities_by_country_and_industry(country.name, industry.name).first(2)
+- events = events_by_country_and_industry(country.name, industry.name).first(2)
+
+header.page-header.with-extra
+  .grid-row
+    .column-two-thirds
+      p.type= link_to country.name, country.url
+      h1= industry.name
+    .aside.column-third
+      ul.featured-links
+        li= link_to "Compare " + country.name + " with other countries", "#"
+h2.u-keyline-heading Selling your product
+.grid-row
+  .column-third
+    h3 Retail structure
+  .column-two-thirds= copy(industry.structure)
+hr.compact
+.grid-row
+  .column-third
+    h3 Typical margins
+  .column-two-thirds= copy(industry.margins)
+hr.compact
+.grid-row
+  .column-third
+    h3 Pricing
+  .column-two-thirds= copy(industry.pricing)
+hr.compact
+.grid-row
+  .column-third
+    h3 Making the right contacts
+  .column-two-thirds
+    p UK Trade & Industry can put you in touch with the people who can help you do business abroad, from lawyers to distributors to buyers.
+    p= link_to "Tell us what help you need", "#"
+h2.u-keyline-heading Following regulations
+.grid-row
+  .column-third
+    h3 Labelling and packaging
+  .column-two-thirds= copy(industry.labelling_packaging)
+hr.compact
+.grid-row
+  .column-third
+    h3 Shipping
+  .column-two-thirds
+    = copy(industry.shipping)
+    p= link_to "Find the documents and taxes required to export your product to France", "#"
+- if opportunties.length > 0 || events.length > 0
+  .grid-row
+    - if events.length > 0
+      .column-half
+        h3.top-keyline-heading Export events and workshops
+        ul.document-list
+          - events.each do |item|
+            li
+              h3= link_to item.title, "/events/#{str_to_url(item.title)}.html"
+              dl
+                dd= date_format(item.published_date)
+                dt.date Event date:
+                dd= date_format(item.meta.event_date)
+        p.u-see-all= link_to "See all #{industry.name.downcase} events", "/events.html?sector=#{url_encode(industry.name)}"
+    - if opportunties.length > 0
+      .column-half
+        h3.top-keyline-heading Opportunities to sell #{industry.name.downcase} in #{country.name}
+        ul.document-list
+          - opportunties.each do |item|
+            li
+              h3= link_to item.title, "/opportunities/#{str_to_url(item.title)}.html"
+              dl
+                dd= date_format(item.published_date)
+                dt.date Response date:
+                dd= date_format(item.meta.response_date)
+        p.u-see-all= link_to "See all #{industry.name.downcase} opportunities", "/opportunities.html?sector=#{url_encode(industry.name)}"

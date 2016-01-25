@@ -1,5 +1,0 @@
----
-section: sectors
----
-
-# Industry

@@ -3,7 +3,7 @@ section: opportunities
 ---
 
 header.filter-header
-  h1 Contracts, tenders and projects
+  h1 Opportunities to sell abroad
   p.subscribe.subscribe--email= link_to "Subscribe to email alerts", "#"
 .ng-filtering.grid-row ng-controller="FilteringCtrl"
   form.filter-form
@@ -11,7 +11,7 @@ header.filter-header
     = partial 'partials/filter--option-select',
       locals: { field_name: 'market', label: 'Country of interest', items: sort_countries(), expanded: true }
     = partial 'partials/filter--option-select',
-      locals: { field_name: 'sector', label: 'Industry', items: data.sectors }
+      locals: { field_name: 'sector', label: 'Industry', items: sort_industries() }
     = partial 'partials/filter--option-select',
       locals: { field_name: 'type', label: 'Contract sector', items: ["Aid Funded Business", "Private Sector", "Public Sector"] }
     = partial 'partials/filter--option-select',

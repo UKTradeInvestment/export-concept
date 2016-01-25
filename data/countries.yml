@@ -205,11 +205,12 @@
     population: 78m
     exchange_rate: 0.72
     currency: Euro
-    inflation: 2
-    growth: 1.7
+    inflation: 0.17
+    growth: 1.6
     deficit: 4.4
     imports: 526b
     imports_uk: 227b
+    unemployment: 10.5
 -
   name: Germany
   area: Europe

@@ -14,6 +14,27 @@
   }
 }
 
+.top-keyline-heading {
+  font-size: em(24);
+  font-weight: 700;
+  border-top: 5px solid $black;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-top: 40px;
+
+  &:first-child {
+    margin-top: 40px;
+  }
+
+  @include media('>tablet') {
+    margin-top: 60px;
+
+    &:first-child {
+      margin-top: 60px;
+    }
+  }
+}
+
 .u-see-all {
   font-size: em(16);
   font-weight: 700;
@@ -24,5 +45,23 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+.u-increase,
+.u-decrease {
+  &::after {
+    font-size: .8em;
+    color: $grey-2;
+    content: '\2B06';
+    display: inline-block;
+    position: relative;
+    top: -2px;
+  }
+}
+
+.u-decrease {
+  &::after {
+    content: '\2B07';
   }
 }
