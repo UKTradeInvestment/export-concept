@@ -10,6 +10,10 @@ header.page-header.with-extra
     .column-two-thirds
       p.type= link_to country.name, country.url
       h1= industry.name
+    .aside.column-third
+      ul.featured-links
+        li= link_to "Compare " + country.name + " with other countries", "#"
+        li= link_to "Find the documents and taxes required to export your product to France", "#"
 h2.u-keyline-heading Selling your product
 .grid-row
   .column-third
@@ -25,6 +29,13 @@ hr.compact
   .column-third
     h3 Pricing
   .column-two-thirds= copy(industry.pricing)
+hr.compact
+.grid-row
+  .column-third
+    h3 Making the right contacts
+  .column-two-thirds
+    p UK Trade & Industry can put you in touch with the people who can help you do business abroad, from lawyers to distributors to buyers.
+    p= link_to "Tell us what help you need", "#"
 h2.u-keyline-heading Following regulations
 .grid-row
   .column-third
@@ -48,10 +59,10 @@ hr.compact
                 dd= date_format(item.published_date)
                 dt.date Event date:
                 dd= date_format(item.meta.event_date)
-        p.u-see-all= link_to "See all events for #{country.name}", "/events.html?market=#{country.name}"
+        p.u-see-all= link_to "See all #{industry.name.downcase} events", "/events.html?sector=#{url_encode(industry.name)}"
     - if opportunties.length > 0
       .column-half
-        h3.top-keyline-heading Opportunities to sell food & drink abroad
+        h3.top-keyline-heading Opportunities to sell #{industry.name.downcase} in #{country.name}
         ul.document-list
           - opportunties.each do |item|
             li
@@ -60,4 +71,4 @@ hr.compact
                 dd= date_format(item.published_date)
                 dt.date Response date:
                 dd= date_format(item.meta.response_date)
-        p.u-see-all= link_to "See all opportunities in #{country.name}", "/opportunities.html?market=#{country.name}"
+        p.u-see-all= link_to "See all #{industry.name.downcase} opportunities", "/opportunities.html?sector=#{url_encode(industry.name)}"
