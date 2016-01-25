@@ -36,7 +36,7 @@ ready do
       unemployment: 5,
     }
 
-    app.data.industries.each do |industry|
+    app.data.industries.each do |k,industry|
       industry[:stub] = industry.name.downcase.gsub(' ', '-').gsub(/[^a-z0-9-]/,'')
       industry[:url] = "markets/#{country[:stub]}/#{industry[:stub]}.html"
       proxy industry[:url], "/industry.html", :locals => { :industry => industry, :country => country }, :ignore => true
@@ -101,16 +101,16 @@ helpers do
   end
 
   def get_industries_by_letter()
-    industries = data.industries.map do |i|
-      i.name
+    industries = data.industries.map do |k,v|
+      v.name
     end
 
     industries.sort.group_by {|word| word[0].upcase }
   end
 
   def sort_industries()
-    industries = data.industries.map do |i|
-      i.name
+    industries = data.industries.map do |k,v|
+      v.name
     end
 
     industries.sort
